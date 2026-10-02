@@ -1,0 +1,5285 @@
+[
+  {
+    "id": "0473a7fd-d410-4cc9-bb27-4c90eadaf38a",
+    "name": "Apps",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/0473a7fd-d410-4cc9-bb27-4c90eadaf38a",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "b5c916b9-6f46-4d28-a35b-d627c981bc12",
+        "image_url": "https://mobbin.com/api/mcp/short/53atPohm",
+        "position": 1
+      },
+      {
+        "screen_id": "272acb57-6daf-4070-a64e-59207ecf0ebb",
+        "image_url": "https://mobbin.com/api/mcp/short/SyIFT7gC",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "08b5e423-7c2f-4ba1-a639-705d70585e18",
+    "name": "Mixed media",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/08b5e423-7c2f-4ba1-a639-705d70585e18",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "0e8b8614-164b-4da0-bd36-1f801b6e4553",
+        "image_url": "https://mobbin.com/api/mcp/short/FmSjBIAd",
+        "position": 1
+      },
+      {
+        "screen_id": "96055850-dfbc-4d05-a443-4d7ad853c898",
+        "image_url": "https://mobbin.com/api/mcp/short/ajVzcONt",
+        "position": 2
+      },
+      {
+        "screen_id": "167ea544-bcd7-4676-8c55-c5c328170248",
+        "image_url": "https://mobbin.com/api/mcp/short/GRp6fq3x",
+        "position": 3
+      },
+      {
+        "screen_id": "b1f69ade-e487-4e9d-b941-b9d6091f7948",
+        "image_url": "https://mobbin.com/api/mcp/short/jVHXveqA",
+        "position": 4
+      },
+      {
+        "screen_id": "94ae0b71-937e-4f76-8f20-6285100ea0e2",
+        "image_url": "https://mobbin.com/api/mcp/short/Com8IQ04",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "0abe24ce-0bf2-4700-af65-a1d5e96005f3",
+    "name": "Compare",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/0abe24ce-0bf2-4700-af65-a1d5e96005f3",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "821a9772-edfd-40f1-a9b5-e5848d9e4fff",
+        "image_url": "https://mobbin.com/api/mcp/short/kmHDYqBh",
+        "position": 1
+      },
+      {
+        "screen_id": "e856550c-454e-47d3-9d4e-730d071fbb3d",
+        "image_url": "https://mobbin.com/api/mcp/short/lu8tD6bu",
+        "position": 2
+      },
+      {
+        "screen_id": "e0c2afc9-611d-4367-8bba-514a42ea4987",
+        "image_url": "https://mobbin.com/api/mcp/short/HkBeaxpz",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "0bd10291-76f4-49c2-8be3-17e6cd61cbc3",
+    "name": "Profile",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/0bd10291-76f4-49c2-8be3-17e6cd61cbc3",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "e4b24d35-c3d6-4271-bb28-5e68813520f9",
+        "image_url": "https://mobbin.com/api/mcp/short/cfPEusS8",
+        "position": 1
+      },
+      {
+        "screen_id": "a243ff1a-c629-49c0-9b12-d4d3e9fd1906",
+        "image_url": "https://mobbin.com/api/mcp/short/2Z7s1hxD",
+        "position": 2
+      },
+      {
+        "screen_id": "76c77002-8ef9-4c51-b6bd-ef590d1190b9",
+        "image_url": "https://mobbin.com/api/mcp/short/GhLHL2rw",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "0c72e990-e26c-4f25-a056-4a396cb3385b",
+    "name": "Uploading an image",
+    "actions": [
+      "Uploading & Downloading"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/0c72e990-e26c-4f25-a056-4a396cb3385b",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "3540a978-996f-4491-b637-c792bcaacbf8",
+        "image_url": "https://mobbin.com/api/mcp/short/h6irzvqi",
+        "position": 1
+      },
+      {
+        "screen_id": "c1721ea9-e95b-4687-b349-72ed18d84213",
+        "image_url": "https://mobbin.com/api/mcp/short/KSIN042R",
+        "position": 2
+      },
+      {
+        "screen_id": "db7d1413-a8ec-4a80-9176-d9b695e03396",
+        "image_url": "https://mobbin.com/api/mcp/short/XluHRJ3C",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "127c8d72-8164-49b7-96e6-0683f4175da3",
+    "name": "Using a skill",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/127c8d72-8164-49b7-96e6-0683f4175da3",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "f4431a10-6229-4cd4-a60f-3b71f7b49c76",
+        "image_url": "https://mobbin.com/api/mcp/short/VDAstE6O",
+        "position": 1
+      },
+      {
+        "screen_id": "1395b054-1249-4c40-8a98-9e0c4aaa7aae",
+        "image_url": "https://mobbin.com/api/mcp/short/FrScTAuA",
+        "position": 2
+      },
+      {
+        "screen_id": "370d26c6-645b-4b7f-b36e-eac1ded5b79d",
+        "image_url": "https://mobbin.com/api/mcp/short/YzsK34n1",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "13e730a8-dfd3-456f-9dba-51836cbf051b",
+    "name": "Marketplace",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/13e730a8-dfd3-456f-9dba-51836cbf051b",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "9c19f257-4de4-4428-8801-0ca07b191506",
+        "image_url": "https://mobbin.com/api/mcp/short/98YDJqfg",
+        "position": 1
+      },
+      {
+        "screen_id": "1ec7d103-6a2e-4a2b-aebb-c0bd12f5e675",
+        "image_url": "https://mobbin.com/api/mcp/short/jeGbbgUC",
+        "position": 2
+      },
+      {
+        "screen_id": "4e6a0862-ac9c-4bae-8b04-a812a401d7a7",
+        "image_url": "https://mobbin.com/api/mcp/short/yY6v4mtp",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "19fd47f6-31bb-44a4-95c1-f5a2ac9e396e",
+    "name": "Commenting on a post",
+    "actions": [
+      "Commenting & Replying"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/19fd47f6-31bb-44a4-95c1-f5a2ac9e396e",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "44bc6c89-85fd-45d2-bb60-918c2f6313a1",
+        "image_url": "https://mobbin.com/api/mcp/short/xTYUt2nb",
+        "position": 1
+      },
+      {
+        "screen_id": "7ed44876-b8b9-42f2-9908-be744cfd2766",
+        "image_url": "https://mobbin.com/api/mcp/short/WCJqsm1j",
+        "position": 2
+      },
+      {
+        "screen_id": "628ef138-2813-4a40-8f4c-9164785898a9",
+        "image_url": "https://mobbin.com/api/mcp/short/fAFCVoOn",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "1da11375-d21e-4238-a28b-5f0213a3563a",
+    "name": "Deleting a project",
+    "actions": [
+      "Deleting & Removing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/1da11375-d21e-4238-a28b-5f0213a3563a",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "2974bbfa-23ef-4f4b-9f8f-582a8195c2d8",
+        "image_url": "https://mobbin.com/api/mcp/short/3bk6frmT",
+        "position": 1
+      },
+      {
+        "screen_id": "2ef85cd8-9a96-4091-8b8a-7a12d0b73e3d",
+        "image_url": "https://mobbin.com/api/mcp/short/1nVjKPaA",
+        "position": 2
+      },
+      {
+        "screen_id": "23ae30ad-ed30-4089-a7e2-ac7b91f445d2",
+        "image_url": "https://mobbin.com/api/mcp/short/bN8t2N72",
+        "position": 3
+      },
+      {
+        "screen_id": "f9d3607c-e9c6-4fce-b5cf-75f31e4765e1",
+        "image_url": "https://mobbin.com/api/mcp/short/gl51CdHF",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "1e437d7f-c3e6-4d8b-8a7e-cd0c2d9067bc",
+    "name": "Element details",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/1e437d7f-c3e6-4d8b-8a7e-cd0c2d9067bc",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "58f1d5dc-7427-4ecf-b482-6e1e11355125",
+        "image_url": "https://mobbin.com/api/mcp/short/ViyedrDA",
+        "position": 1
+      },
+      {
+        "screen_id": "28503a79-cf63-47a8-b961-8dab4c47fdf2",
+        "image_url": "https://mobbin.com/api/mcp/short/U0NRQdrj",
+        "position": 2
+      },
+      {
+        "screen_id": "28fa1b37-3bb0-4acc-b668-526501fcf66c",
+        "image_url": "https://mobbin.com/api/mcp/short/IzXiByb2",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "1ecbda14-734e-43f7-8391-7266fae1761d",
+    "name": "Following an author",
+    "actions": [
+      "Following & Subscribing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/1ecbda14-734e-43f7-8391-7266fae1761d",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "5bb6f5b0-5062-4b3e-b097-f3eac6c7684c",
+        "image_url": "https://mobbin.com/api/mcp/short/eW2Wc3m7",
+        "position": 1
+      },
+      {
+        "screen_id": "1a97b769-5d92-4145-8431-fdc058695012",
+        "image_url": "https://mobbin.com/api/mcp/short/CD6FOp2M",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "1f07c646-f251-4e31-bf7f-14413a6e3709",
+    "name": "Editing a video",
+    "actions": [
+      "Adding & Creating",
+      "Uploading & Downloading"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/1f07c646-f251-4e31-bf7f-14413a6e3709",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 14,
+    "screens": [
+      {
+        "screen_id": "167ea544-bcd7-4676-8c55-c5c328170248",
+        "image_url": "https://mobbin.com/api/mcp/short/8AE1282r",
+        "position": 1
+      },
+      {
+        "screen_id": "01d6a35e-b062-4609-b3b5-f12d4f8b89fc",
+        "image_url": "https://mobbin.com/api/mcp/short/JKbeQDHZ",
+        "position": 2
+      },
+      {
+        "screen_id": "1fc2434c-7a30-4f02-9ac9-44246836e052",
+        "image_url": "https://mobbin.com/api/mcp/short/bGASW7DQ",
+        "position": 3
+      },
+      {
+        "screen_id": "53a62107-8de0-42da-8248-3ed00b820235",
+        "image_url": "https://mobbin.com/api/mcp/short/GRYQ38Dc",
+        "position": 4
+      },
+      {
+        "screen_id": "b4d46884-57af-4686-bf57-c7680df54c6b",
+        "image_url": "https://mobbin.com/api/mcp/short/55D2hayF",
+        "position": 5
+      },
+      {
+        "screen_id": "f8427028-714c-4311-a348-cc2c2a2c4003",
+        "image_url": "https://mobbin.com/api/mcp/short/PeTu7JRB",
+        "position": 6
+      },
+      {
+        "screen_id": "bdc5ce1a-cc13-4d54-9aff-3fff66f9b93c",
+        "image_url": "https://mobbin.com/api/mcp/short/dcMvDnaF",
+        "position": 7
+      },
+      {
+        "screen_id": "a435764b-852a-4c95-9e6b-a4d696fdca5d",
+        "image_url": "https://mobbin.com/api/mcp/short/Uh34miKh",
+        "position": 8
+      },
+      {
+        "screen_id": "b6522d21-8568-4948-9dca-ffb2ff636691",
+        "image_url": "https://mobbin.com/api/mcp/short/n0nRAToz",
+        "position": 9
+      },
+      {
+        "screen_id": "21eed3cd-a2cc-4631-8b36-93ce0347efe9",
+        "image_url": "https://mobbin.com/api/mcp/short/3GywfPKe",
+        "position": 10
+      },
+      {
+        "screen_id": "8e439fbe-51fd-44fd-94b6-c6e519d780c7",
+        "image_url": "https://mobbin.com/api/mcp/short/QCQ9u6Wv",
+        "position": 11
+      },
+      {
+        "screen_id": "e0394f84-c2d6-4893-9b6a-7af0f2b84010",
+        "image_url": "https://mobbin.com/api/mcp/short/SyUXc16R",
+        "position": 12
+      },
+      {
+        "screen_id": "2a38665b-3b11-4db2-a116-a0c846dc830b",
+        "image_url": "https://mobbin.com/api/mcp/short/dpiYE6QK",
+        "position": 13
+      },
+      {
+        "screen_id": "e5f17e4b-30a7-4ee5-9d5d-6a9454da870b",
+        "image_url": "https://mobbin.com/api/mcp/short/P6OyJXUm",
+        "position": 14
+      }
+    ]
+  },
+  {
+    "id": "20aaeafb-7714-413b-8f46-478cbe65df90",
+    "name": "Creating an employee",
+    "actions": [
+      "Adding & Creating",
+      "Chatting & Sending Messages"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/20aaeafb-7714-413b-8f46-478cbe65df90",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 7,
+    "screens": [
+      {
+        "screen_id": "e7f485b6-fcbd-46af-839a-1f91ae536bf0",
+        "image_url": "https://mobbin.com/api/mcp/short/hsJjmAzl",
+        "position": 1
+      },
+      {
+        "screen_id": "5645e868-324d-4ade-8a5c-89bbc3fc22ec",
+        "image_url": "https://mobbin.com/api/mcp/short/K8BUntR6",
+        "position": 2
+      },
+      {
+        "screen_id": "7a8f2209-9db2-4cbe-bd7b-018bf8c76912",
+        "image_url": "https://mobbin.com/api/mcp/short/73A2HWrl",
+        "position": 3
+      },
+      {
+        "screen_id": "c5dcd398-fdfa-4ea0-9ad9-03826b242c37",
+        "image_url": "https://mobbin.com/api/mcp/short/OqjIaftF",
+        "position": 4
+      },
+      {
+        "screen_id": "f0ee7046-b34e-415a-a830-564baf6f902d",
+        "image_url": "https://mobbin.com/api/mcp/short/adlciHy6",
+        "position": 5
+      },
+      {
+        "screen_id": "14dcbe33-a67e-4a8c-82a8-ae13d84bf464",
+        "image_url": "https://mobbin.com/api/mcp/short/iZT3VBgc",
+        "position": 6
+      },
+      {
+        "screen_id": "965bbfa9-157c-479c-95dd-ed1ecdf697d8",
+        "image_url": "https://mobbin.com/api/mcp/short/YWXCgpYJ",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "216cfbe5-9208-4ad0-acb2-04174b41a64f",
+    "name": "Commenting a character",
+    "actions": [
+      "Commenting & Replying"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/216cfbe5-9208-4ad0-acb2-04174b41a64f",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "732fecaa-2127-41a8-b00d-db95e900e948",
+        "image_url": "https://mobbin.com/api/mcp/short/iaAeeXhG",
+        "position": 1
+      },
+      {
+        "screen_id": "3426735b-6c5c-45ba-a0e5-a7577b8c248b",
+        "image_url": "https://mobbin.com/api/mcp/short/P1CuW2oF",
+        "position": 2
+      },
+      {
+        "screen_id": "ce861b55-1645-4413-8942-6f627d73b953",
+        "image_url": "https://mobbin.com/api/mcp/short/C1Dzxomn",
+        "position": 3
+      },
+      {
+        "screen_id": "67832033-257e-498d-abc4-6de61c5240ef",
+        "image_url": "https://mobbin.com/api/mcp/short/20WtTHST",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "21e3a5b7-506a-48b1-b06b-32317f8847e9",
+    "name": "Liking a post",
+    "actions": [
+      "Liking & Upvoting"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/21e3a5b7-506a-48b1-b06b-32317f8847e9",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "44bc6c89-85fd-45d2-bb60-918c2f6313a1",
+        "image_url": "https://mobbin.com/api/mcp/short/lgt83i7W",
+        "position": 1
+      },
+      {
+        "screen_id": "91cc827b-9ce9-49d6-bf7b-3e9db4def11a",
+        "image_url": "https://mobbin.com/api/mcp/short/Jew1imhS",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "24ca23f6-b702-4850-986b-b01b9e42772e",
+    "name": "Renaming a folder",
+    "actions": [
+      "Editing & Updating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/24ca23f6-b702-4850-986b-b01b9e42772e",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "19c923b8-36df-42d7-a861-1ad933d6b36e",
+        "image_url": "https://mobbin.com/api/mcp/short/mttNW4Yk",
+        "position": 1
+      },
+      {
+        "screen_id": "ae0b2719-7b4d-4a68-9465-c069238097b2",
+        "image_url": "https://mobbin.com/api/mcp/short/VcZdsbZi",
+        "position": 2
+      },
+      {
+        "screen_id": "1747a2c1-ee57-4581-a33d-0d1b58a81fb3",
+        "image_url": "https://mobbin.com/api/mcp/short/hJK8jbhy",
+        "position": 3
+      },
+      {
+        "screen_id": "dd3a10d8-a943-4bef-a2ca-74ce410a8b6a",
+        "image_url": "https://mobbin.com/api/mcp/short/xTL9l81d",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "2654189f-4d52-47cd-b9cb-4dfc7e917c91",
+    "name": "Hiding sidebar",
+    "actions": [
+      "Showing & Hiding"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/2654189f-4d52-47cd-b9cb-4dfc7e917c91",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "d56a3a36-b7d8-40a3-90f5-c1222d5bd7ea",
+        "image_url": "https://mobbin.com/api/mcp/short/cgg3dD1w",
+        "position": 1
+      },
+      {
+        "screen_id": "27800d8f-6f83-4731-bb09-7743f1ca3100",
+        "image_url": "https://mobbin.com/api/mcp/short/b1Io20Xk",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "26e734a8-302a-4061-8d92-f60622207f3e",
+    "name": "Publishing a project",
+    "actions": [
+      "Publishing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/26e734a8-302a-4061-8d92-f60622207f3e",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "d20e0c3e-39ba-40d6-a2eb-4750cefa2f9e",
+        "image_url": "https://mobbin.com/api/mcp/short/1GgQ4DCB",
+        "position": 1
+      },
+      {
+        "screen_id": "d1d2eea4-92c9-47bb-bec7-2e75b9e85934",
+        "image_url": "https://mobbin.com/api/mcp/short/nUQfZnTL",
+        "position": 2
+      },
+      {
+        "screen_id": "263d0743-0258-4b54-ba3a-8580f3c1f458",
+        "image_url": "https://mobbin.com/api/mcp/short/Mhpk909U",
+        "position": 3
+      },
+      {
+        "screen_id": "dcc563e8-f5cc-4442-af44-7a1db2c728a9",
+        "image_url": "https://mobbin.com/api/mcp/short/BzqpKtJ6",
+        "position": 4
+      },
+      {
+        "screen_id": "6a92bae7-1d98-47fe-b859-ccd455d1ee0c",
+        "image_url": "https://mobbin.com/api/mcp/short/qmcA9fkl",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "26f95f88-4ee0-4c6a-880b-5a71b08f5957",
+    "name": "Face swap",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/26f95f88-4ee0-4c6a-880b-5a71b08f5957",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "11ff41bd-ad25-4092-8fee-f7b52955a67d",
+        "image_url": "https://mobbin.com/api/mcp/short/s5oCGeMn",
+        "position": 1
+      },
+      {
+        "screen_id": "63ba3e12-d1b2-42de-97de-fe4373e01734",
+        "image_url": "https://mobbin.com/api/mcp/short/BenWIs9z",
+        "position": 2
+      },
+      {
+        "screen_id": "12a4eae7-a5a6-4818-a448-16b3eab85075",
+        "image_url": "https://mobbin.com/api/mcp/short/L1vofbfk",
+        "position": 3
+      },
+      {
+        "screen_id": "03ac9af0-73aa-4468-a95f-85fc05c6ca56",
+        "image_url": "https://mobbin.com/api/mcp/short/bIbmjhWQ",
+        "position": 4
+      },
+      {
+        "screen_id": "09d48811-0c95-420b-a0f5-794469412dbd",
+        "image_url": "https://mobbin.com/api/mcp/short/k3s147WA",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "279bff32-3a23-4a09-ab55-4da38bd42166",
+    "name": "Cinema studio",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/279bff32-3a23-4a09-ab55-4da38bd42166",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 8,
+    "screens": [
+      {
+        "screen_id": "e4b24d35-c3d6-4271-bb28-5e68813520f9",
+        "image_url": "https://mobbin.com/api/mcp/short/FBoc1Qn6",
+        "position": 1
+      },
+      {
+        "screen_id": "4f9bf6e8-b81e-4d3b-8547-763160488647",
+        "image_url": "https://mobbin.com/api/mcp/short/8xwubIXc",
+        "position": 2
+      },
+      {
+        "screen_id": "e9047055-6a7a-45a5-a4ff-2f133b2f0548",
+        "image_url": "https://mobbin.com/api/mcp/short/exLterjV",
+        "position": 3
+      },
+      {
+        "screen_id": "58f1d5dc-7427-4ecf-b482-6e1e11355125",
+        "image_url": "https://mobbin.com/api/mcp/short/akOECDYk",
+        "position": 4
+      },
+      {
+        "screen_id": "36fce6f2-7773-4392-b218-a0a77684b975",
+        "image_url": "https://mobbin.com/api/mcp/short/9kTjR4sr",
+        "position": 5
+      },
+      {
+        "screen_id": "a441fc2d-2ab9-40eb-beff-55aba4a39199",
+        "image_url": "https://mobbin.com/api/mcp/short/R5P2BXN2",
+        "position": 6
+      },
+      {
+        "screen_id": "2974bbfa-23ef-4f4b-9f8f-582a8195c2d8",
+        "image_url": "https://mobbin.com/api/mcp/short/RqwIntNC",
+        "position": 7
+      },
+      {
+        "screen_id": "b848b6ee-774e-4d1c-b0c1-4610b90841ca",
+        "image_url": "https://mobbin.com/api/mcp/short/gjP6TGLL",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "2d2de6c7-0b37-468f-882d-2d6057c7820c",
+    "name": "Editing color",
+    "actions": [
+      "Editing & Updating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/2d2de6c7-0b37-468f-882d-2d6057c7820c",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "30f0ebff-91a8-4c11-bc28-543927bcf945",
+        "image_url": "https://mobbin.com/api/mcp/short/IO3qDUNK",
+        "position": 1
+      },
+      {
+        "screen_id": "974ef91a-b28e-47fa-b8a3-e9a4f1f0f2f5",
+        "image_url": "https://mobbin.com/api/mcp/short/bOxzHG88",
+        "position": 2
+      },
+      {
+        "screen_id": "343c9c0e-bf8f-4193-b50f-bd0403b61f1e",
+        "image_url": "https://mobbin.com/api/mcp/short/n1zDsj5Y",
+        "position": 3
+      },
+      {
+        "screen_id": "0db62c86-63ce-4493-98e2-15ed348a3178",
+        "image_url": "https://mobbin.com/api/mcp/short/Rfsx11So",
+        "position": 4
+      },
+      {
+        "screen_id": "f9db9b4b-c8e4-4345-98b4-c334c0181b6b",
+        "image_url": "https://mobbin.com/api/mcp/short/v4IfucNT",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "312eb4a1-09f8-49eb-a071-93909f143870",
+    "name": "Onboarding",
+    "actions": [
+      "Creating Account",
+      "Onboarding",
+      "Selecting & Choosing",
+      "Verifying"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/312eb4a1-09f8-49eb-a071-93909f143870",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 18,
+    "screens": [
+      {
+        "screen_id": "642a85c3-6580-4cc0-806c-004e725123d4",
+        "image_url": "https://mobbin.com/api/mcp/short/lZDBwZNB",
+        "position": 1
+      },
+      {
+        "screen_id": "49807252-0b7e-46d9-acc7-58f716853f43",
+        "image_url": "https://mobbin.com/api/mcp/short/OO1cx3kq",
+        "position": 2
+      },
+      {
+        "screen_id": "46c76c8d-b71d-4161-9c6c-53fd5c420e50",
+        "image_url": "https://mobbin.com/api/mcp/short/nU54iMIV",
+        "position": 3
+      },
+      {
+        "screen_id": "29a8c378-76f8-4d3c-8335-af12a959f56f",
+        "image_url": "https://mobbin.com/api/mcp/short/CSbEXyGb",
+        "position": 4
+      },
+      {
+        "screen_id": "0791a496-c009-49a6-b46f-3b48858166f4",
+        "image_url": "https://mobbin.com/api/mcp/short/nblRsiUf",
+        "position": 5
+      },
+      {
+        "screen_id": "877a04f5-6326-4be9-b747-af495bd15eac",
+        "image_url": "https://mobbin.com/api/mcp/short/Mf1Ye6nk",
+        "position": 6
+      },
+      {
+        "screen_id": "59ebe4f7-e61f-4bc4-8bc5-d279ead02675",
+        "image_url": "https://mobbin.com/api/mcp/short/1xxrmzUz",
+        "position": 7
+      },
+      {
+        "screen_id": "fc45ca08-6414-4070-9c58-903550febbe3",
+        "image_url": "https://mobbin.com/api/mcp/short/9Xl9Gmwr",
+        "position": 8
+      },
+      {
+        "screen_id": "ca73d71a-2785-47ec-ab56-8b3edadeeb28",
+        "image_url": "https://mobbin.com/api/mcp/short/7tAHiZAT",
+        "position": 9
+      },
+      {
+        "screen_id": "57b2aa18-da0b-4e2d-95ec-fcb1c64036ea",
+        "image_url": "https://mobbin.com/api/mcp/short/8Clz6qjc",
+        "position": 10
+      },
+      {
+        "screen_id": "02e5ec2b-1406-4eb7-b1aa-cdd62a3b9b64",
+        "image_url": "https://mobbin.com/api/mcp/short/O8LixFCB",
+        "position": 11
+      },
+      {
+        "screen_id": "b184de5c-46a5-4663-ac49-f00ee7eab06c",
+        "image_url": "https://mobbin.com/api/mcp/short/IIFHaFnM",
+        "position": 12
+      },
+      {
+        "screen_id": "f4b20483-c7b7-4631-b133-82f755dd99a7",
+        "image_url": "https://mobbin.com/api/mcp/short/hq4TLnp8",
+        "position": 13
+      },
+      {
+        "screen_id": "2df31c10-9fb1-4de8-87c6-8d465c83a680",
+        "image_url": "https://mobbin.com/api/mcp/short/8TjldUVt",
+        "position": 14
+      },
+      {
+        "screen_id": "9c6853d2-09ee-4702-89b2-63872a83a06f",
+        "image_url": "https://mobbin.com/api/mcp/short/Qor32ha4",
+        "position": 15
+      },
+      {
+        "screen_id": "6a7ec354-b52f-4fe6-a6ff-20eda257b4b4",
+        "image_url": "https://mobbin.com/api/mcp/short/8AvIFXCa",
+        "position": 16
+      },
+      {
+        "screen_id": "44ea37f6-b8f8-4145-8b3d-4b995ddba5f2",
+        "image_url": "https://mobbin.com/api/mcp/short/fro3Sgzh",
+        "position": 17
+      },
+      {
+        "screen_id": "e4b24d35-c3d6-4271-bb28-5e68813520f9",
+        "image_url": "https://mobbin.com/api/mcp/short/dkwrw6vj",
+        "position": 18
+      }
+    ]
+  },
+  {
+    "id": "339abd13-522a-4732-a278-dbb0fcca2320",
+    "name": "Sorting projects",
+    "actions": [
+      "Filtering & Sorting"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/339abd13-522a-4732-a278-dbb0fcca2320",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "4f9bf6e8-b81e-4d3b-8547-763160488647",
+        "image_url": "https://mobbin.com/api/mcp/short/xRhfrE1f",
+        "position": 1
+      },
+      {
+        "screen_id": "f886a5af-bbdd-4286-9fe0-518decf9cdae",
+        "image_url": "https://mobbin.com/api/mcp/short/eynh4QIJ",
+        "position": 2
+      },
+      {
+        "screen_id": "1214cc8c-1552-4c0f-9a16-e73656fb7420",
+        "image_url": "https://mobbin.com/api/mcp/short/YOCKZnOd",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "369b7c27-2731-45f3-b72e-44ebe41d8478",
+    "name": "Searching Higgsfield",
+    "actions": [
+      "Searching & Finding"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/369b7c27-2731-45f3-b72e-44ebe41d8478",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "e4b24d35-c3d6-4271-bb28-5e68813520f9",
+        "image_url": "https://mobbin.com/api/mcp/short/KGIqgnrg",
+        "position": 1
+      },
+      {
+        "screen_id": "c45648d0-80cd-4bac-a220-7cc068c78b8f",
+        "image_url": "https://mobbin.com/api/mcp/short/97H5DfZx",
+        "position": 2
+      },
+      {
+        "screen_id": "ed02d9e2-8743-439b-a09d-a621d673a641",
+        "image_url": "https://mobbin.com/api/mcp/short/AE9eJBc9",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "36ed58e0-1457-4594-bcd2-3738bc5c4a69",
+    "name": "Creating a photodump",
+    "actions": [
+      "Adding & Creating",
+      "Selecting & Choosing",
+      "Uploading & Downloading"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/36ed58e0-1457-4594-bcd2-3738bc5c4a69",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 7,
+    "screens": [
+      {
+        "screen_id": "40cd4c3d-7bf4-4119-aa7b-2262e20b8a64",
+        "image_url": "https://mobbin.com/api/mcp/short/nqvkLPdI",
+        "position": 1
+      },
+      {
+        "screen_id": "476867fe-a33d-495c-8852-21bf80bce55b",
+        "image_url": "https://mobbin.com/api/mcp/short/CTJcOLdY",
+        "position": 2
+      },
+      {
+        "screen_id": "d65608b0-3f64-4543-aa46-8fa151c30af5",
+        "image_url": "https://mobbin.com/api/mcp/short/Bel3vNxe",
+        "position": 3
+      },
+      {
+        "screen_id": "bac0604f-dd29-46c9-a0b0-962737cbe75a",
+        "image_url": "https://mobbin.com/api/mcp/short/F9DslKhB",
+        "position": 4
+      },
+      {
+        "screen_id": "56d75f63-80d4-4766-a29e-1ec5c3db6735",
+        "image_url": "https://mobbin.com/api/mcp/short/6LjW7qEU",
+        "position": 5
+      },
+      {
+        "screen_id": "e254ab30-aca4-41a7-8246-ba9866e883b4",
+        "image_url": "https://mobbin.com/api/mcp/short/Xjr4NaHl",
+        "position": 6
+      },
+      {
+        "screen_id": "0435c620-0a6f-40ea-8450-80c79dde72bf",
+        "image_url": "https://mobbin.com/api/mcp/short/jbdSt42L",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "3756451f-e9ef-4420-9b1a-6178b6961f10",
+    "name": "Adding a featured project",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/3756451f-e9ef-4420-9b1a-6178b6961f10",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "c2757d32-1634-464e-ab87-32efa59fa408",
+        "image_url": "https://mobbin.com/api/mcp/short/gICIsYJ2",
+        "position": 1
+      },
+      {
+        "screen_id": "2ba3a224-9e48-4a7e-837a-8e9cd2c8c820",
+        "image_url": "https://mobbin.com/api/mcp/short/3LW0D0yl",
+        "position": 2
+      },
+      {
+        "screen_id": "c4d14b9b-3be5-4af1-9674-c589999bc562",
+        "image_url": "https://mobbin.com/api/mcp/short/TmnjfPfw",
+        "position": 3
+      },
+      {
+        "screen_id": "e2201c63-5c3b-4c05-b1ab-39051c739449",
+        "image_url": "https://mobbin.com/api/mcp/short/BpyGafoP",
+        "position": 4
+      },
+      {
+        "screen_id": "d20e0c3e-39ba-40d6-a2eb-4750cefa2f9e",
+        "image_url": "https://mobbin.com/api/mcp/short/plQcMDs0",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "3b204e5e-3035-4769-a213-9a4e63763b12",
+    "name": "Canceling a subscription",
+    "actions": [
+      "Canceling Subscription"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/3b204e5e-3035-4769-a213-9a4e63763b12",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 7,
+    "screens": [
+      {
+        "screen_id": "dea1a392-f8b1-48ba-88f3-67afca11f052",
+        "image_url": "https://mobbin.com/api/mcp/short/SrTrgUti",
+        "position": 1
+      },
+      {
+        "screen_id": "80beaf84-e598-4a04-99e8-c887b93e5e3a",
+        "image_url": "https://mobbin.com/api/mcp/short/iHfdpUAg",
+        "position": 2
+      },
+      {
+        "screen_id": "5b90918a-3cfe-446a-ac8e-e7784648d853",
+        "image_url": "https://mobbin.com/api/mcp/short/sn5uclwK",
+        "position": 3
+      },
+      {
+        "screen_id": "18525010-a092-44c4-93ec-670605c4017c",
+        "image_url": "https://mobbin.com/api/mcp/short/HX6DpD78",
+        "position": 4
+      },
+      {
+        "screen_id": "e28564f5-c0db-4c04-ade8-61166cbd20d6",
+        "image_url": "https://mobbin.com/api/mcp/short/EiYgjTuP",
+        "position": 5
+      },
+      {
+        "screen_id": "aaeba175-9ab6-4da7-8b30-ec9201316077",
+        "image_url": "https://mobbin.com/api/mcp/short/He3QjSGf",
+        "position": 6
+      },
+      {
+        "screen_id": "133f9ca6-c630-4edc-af60-19342e98130e",
+        "image_url": "https://mobbin.com/api/mcp/short/kABvEO1r",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "3b370fa2-8f25-46c4-be7f-7c313ee19611",
+    "name": "Drawing an element",
+    "actions": [
+      "Drawing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/3b370fa2-8f25-46c4-be7f-7c313ee19611",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 6,
+    "screens": [
+      {
+        "screen_id": "735b76fa-2d1b-45da-b6ae-26d86e929268",
+        "image_url": "https://mobbin.com/api/mcp/short/VOHOOuTq",
+        "position": 1
+      },
+      {
+        "screen_id": "49b0ae57-9488-4155-938e-a3f9492b5013",
+        "image_url": "https://mobbin.com/api/mcp/short/1sdl8xP3",
+        "position": 2
+      },
+      {
+        "screen_id": "92cba2dc-5625-4689-980c-3109a377ff1f",
+        "image_url": "https://mobbin.com/api/mcp/short/V1LfQUZ0",
+        "position": 3
+      },
+      {
+        "screen_id": "e3819c26-f77b-444b-9184-c1818f20c359",
+        "image_url": "https://mobbin.com/api/mcp/short/sLMbLeZm",
+        "position": 4
+      },
+      {
+        "screen_id": "28d001db-bced-4c4b-ac4f-e66be9c48db1",
+        "image_url": "https://mobbin.com/api/mcp/short/tqOdx1rx",
+        "position": 5
+      },
+      {
+        "screen_id": "a8ade5ad-fc92-4f71-a6dd-986f56a10598",
+        "image_url": "https://mobbin.com/api/mcp/short/WAgAitW5",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "3f939c62-c6c5-425a-85e4-ac3a0b878ae7",
+    "name": "Employee details",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/3f939c62-c6c5-425a-85e4-ac3a0b878ae7",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "965bbfa9-157c-479c-95dd-ed1ecdf697d8",
+        "image_url": "https://mobbin.com/api/mcp/short/ur2DPWfr",
+        "position": 1
+      },
+      {
+        "screen_id": "79203651-6381-4d06-9b00-5075295ab903",
+        "image_url": "https://mobbin.com/api/mcp/short/k9m3hPGe",
+        "position": 2
+      },
+      {
+        "screen_id": "a6b0c226-1ae9-4c45-bb0a-f44a61b78867",
+        "image_url": "https://mobbin.com/api/mcp/short/WVQ8s4cI",
+        "position": 3
+      },
+      {
+        "screen_id": "7ddbd480-aa04-463a-b9a2-8430c7972f06",
+        "image_url": "https://mobbin.com/api/mcp/short/O1QEN4ZC",
+        "position": 4
+      },
+      {
+        "screen_id": "f78779ad-86d7-45bb-b902-d537b69432ea",
+        "image_url": "https://mobbin.com/api/mcp/short/e4dOdSSX",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "4059b437-47b4-47ad-b43f-2eb0ccdc285a",
+    "name": "Updating project brief",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/4059b437-47b4-47ad-b43f-2eb0ccdc285a",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "b848b6ee-774e-4d1c-b0c1-4610b90841ca",
+        "image_url": "https://mobbin.com/api/mcp/short/c9RSwpgT",
+        "position": 1
+      },
+      {
+        "screen_id": "6931d2ad-5d8c-468f-aaba-14cc360acb67",
+        "image_url": "https://mobbin.com/api/mcp/short/l7Yx0kqf",
+        "position": 2
+      },
+      {
+        "screen_id": "7504dc3f-b4b6-449b-a559-24f1035f3f90",
+        "image_url": "https://mobbin.com/api/mcp/short/L3uYicjO",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "40c7ac25-d770-413d-b896-fc080a6ec65f",
+    "name": "Adding a new folder",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/40c7ac25-d770-413d-b896-fc080a6ec65f",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "0d41df30-eca5-48b2-8235-978e81fa827f",
+        "image_url": "https://mobbin.com/api/mcp/short/SQXsfCa0",
+        "position": 1
+      },
+      {
+        "screen_id": "19c923b8-36df-42d7-a861-1ad933d6b36e",
+        "image_url": "https://mobbin.com/api/mcp/short/vDfLs9z6",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "41d672bc-c32f-4c6e-a8af-5799fca67ab1",
+    "name": "Editing a moodboard",
+    "actions": [
+      "Editing & Updating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/41d672bc-c32f-4c6e-a8af-5799fca67ab1",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "0129e137-f5f0-4f78-92c3-29f1ecf5753a",
+        "image_url": "https://mobbin.com/api/mcp/short/f9IyYtx6",
+        "position": 1
+      },
+      {
+        "screen_id": "cf70081f-8dea-4f00-ba03-58184c65ecf5",
+        "image_url": "https://mobbin.com/api/mcp/short/bqLgG6xF",
+        "position": 2
+      },
+      {
+        "screen_id": "93466d9f-a3c7-4a70-b27a-d6722c3d2e62",
+        "image_url": "https://mobbin.com/api/mcp/short/HGZb6O7r",
+        "position": 3
+      },
+      {
+        "screen_id": "49323107-9a8c-4e55-9497-aaa57b9529f6",
+        "image_url": "https://mobbin.com/api/mcp/short/uXQCO2fi",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "42c8aa0e-23a4-4656-9b6e-8da8359e9f7f",
+    "name": "Adding a comment",
+    "actions": [
+      "Commenting & Replying"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/42c8aa0e-23a4-4656-9b6e-8da8359e9f7f",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 7,
+    "screens": [
+      {
+        "screen_id": "f04d5fc0-41ef-47e7-96cb-2e5daa5c9771",
+        "image_url": "https://mobbin.com/api/mcp/short/g1w7YWVP",
+        "position": 1
+      },
+      {
+        "screen_id": "29d52cc6-45d2-4129-ac2c-bef52a9f431e",
+        "image_url": "https://mobbin.com/api/mcp/short/CZ19SYJ5",
+        "position": 2
+      },
+      {
+        "screen_id": "8277b111-88d9-44eb-95c1-98a855470458",
+        "image_url": "https://mobbin.com/api/mcp/short/t5GPqw9P",
+        "position": 3
+      },
+      {
+        "screen_id": "33c89e49-a086-4202-9477-5c8e18f02f42",
+        "image_url": "https://mobbin.com/api/mcp/short/NjkFVIKn",
+        "position": 4
+      },
+      {
+        "screen_id": "c47cbf1a-9061-48c1-84f9-b392a34b656b",
+        "image_url": "https://mobbin.com/api/mcp/short/gDpBiUDN",
+        "position": 5
+      },
+      {
+        "screen_id": "3ef9b2d0-2cdf-4434-b2f2-0cbf708a8786",
+        "image_url": "https://mobbin.com/api/mcp/short/ovFr1sHo",
+        "position": 6
+      },
+      {
+        "screen_id": "f04d66dd-9181-4921-83cc-76330b2b57ac",
+        "image_url": "https://mobbin.com/api/mcp/short/Cl3gukIe",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "44db5b84-74c9-4b9b-97c4-b3a4f068974e",
+    "name": "Deleting an accout",
+    "actions": [
+      "Deleting & Deactivating Account"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/44db5b84-74c9-4b9b-97c4-b3a4f068974e",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 6,
+    "screens": [
+      {
+        "screen_id": "3834ae29-f715-4343-ab3d-633e8cc88ad4",
+        "image_url": "https://mobbin.com/api/mcp/short/l2UFogT4",
+        "position": 1
+      },
+      {
+        "screen_id": "f82f06a3-a243-449c-afa9-e7be5db60626",
+        "image_url": "https://mobbin.com/api/mcp/short/6ioEghtZ",
+        "position": 2
+      },
+      {
+        "screen_id": "8abc715e-d51e-4236-a246-0add028812d4",
+        "image_url": "https://mobbin.com/api/mcp/short/MHasriPu",
+        "position": 3
+      },
+      {
+        "screen_id": "f0a5ce44-da55-43d4-abda-3c808fbbcbbc",
+        "image_url": "https://mobbin.com/api/mcp/short/uXdcCTKT",
+        "position": 4
+      },
+      {
+        "screen_id": "cff35091-7ff7-4b63-b13d-9e202062f33f",
+        "image_url": "https://mobbin.com/api/mcp/short/pArMWYVZ",
+        "position": 5
+      },
+      {
+        "screen_id": "4c3b95df-60fa-44b0-b5f3-f194fe5f6318",
+        "image_url": "https://mobbin.com/api/mcp/short/Edz9AYop",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "44e7a372-ddf8-4c24-8da1-e165ed05395d",
+    "name": "Higgsfield original series",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/44e7a372-ddf8-4c24-8da1-e165ed05395d",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 6,
+    "screens": [
+      {
+        "screen_id": "40cd4c3d-7bf4-4119-aa7b-2262e20b8a64",
+        "image_url": "https://mobbin.com/api/mcp/short/3CglYNNd",
+        "position": 1
+      },
+      {
+        "screen_id": "9920e9f1-e1c6-4317-90fa-532d01bf918f",
+        "image_url": "https://mobbin.com/api/mcp/short/QBnWzYOk",
+        "position": 2
+      },
+      {
+        "screen_id": "5e0b3da4-79ec-4d74-86c2-773d97874e8c",
+        "image_url": "https://mobbin.com/api/mcp/short/pC0wzHdp",
+        "position": 3
+      },
+      {
+        "screen_id": "42676e4a-3ead-4e14-af48-064b8e2457b1",
+        "image_url": "https://mobbin.com/api/mcp/short/V1eOyqxQ",
+        "position": 4
+      },
+      {
+        "screen_id": "8301c753-ef5e-4ed6-a208-f13d44dadbfb",
+        "image_url": "https://mobbin.com/api/mcp/short/30MqvlaI",
+        "position": 5
+      },
+      {
+        "screen_id": "67b321ee-de97-4b39-ab91-dae902942f3c",
+        "image_url": "https://mobbin.com/api/mcp/short/tQDQTvjF",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "456d4026-bc24-4f43-b384-6b158f18af0e",
+    "name": "Canvas",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/456d4026-bc24-4f43-b384-6b158f18af0e",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "e4b24d35-c3d6-4271-bb28-5e68813520f9",
+        "image_url": "https://mobbin.com/api/mcp/short/J3NQ6MQC",
+        "position": 1
+      },
+      {
+        "screen_id": "b5c916b9-6f46-4d28-a35b-d627c981bc12",
+        "image_url": "https://mobbin.com/api/mcp/short/LCxN9bkd",
+        "position": 2
+      },
+      {
+        "screen_id": "735b76fa-2d1b-45da-b6ae-26d86e929268",
+        "image_url": "https://mobbin.com/api/mcp/short/dSs7Jedo",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "4761bff6-fd66-49c3-a943-3f245e61ebb7",
+    "name": "Creating a moodboard",
+    "actions": [
+      "Adding & Creating",
+      "Uploading & Downloading"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/4761bff6-fd66-49c3-a943-3f245e61ebb7",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 10,
+    "screens": [
+      {
+        "screen_id": "462ede0e-fe10-4b53-a02a-6da7ecad0296",
+        "image_url": "https://mobbin.com/api/mcp/short/9kY2hGsi",
+        "position": 1
+      },
+      {
+        "screen_id": "460754ec-374c-4b7a-9ef6-7ab91b0663ab",
+        "image_url": "https://mobbin.com/api/mcp/short/V5sIsMt4",
+        "position": 2
+      },
+      {
+        "screen_id": "77486962-3701-4355-8a91-a287c3d7c03d",
+        "image_url": "https://mobbin.com/api/mcp/short/tkVV4eRL",
+        "position": 3
+      },
+      {
+        "screen_id": "5558f9dd-9a67-4df3-a4c9-b4e80313e395",
+        "image_url": "https://mobbin.com/api/mcp/short/2KtiYzXX",
+        "position": 4
+      },
+      {
+        "screen_id": "c4d35c62-e578-4711-8ed6-c0ffa5988e5c",
+        "image_url": "https://mobbin.com/api/mcp/short/IyscV7mt",
+        "position": 5
+      },
+      {
+        "screen_id": "1f3f4865-9968-4e14-ad99-5f46d8ff6448",
+        "image_url": "https://mobbin.com/api/mcp/short/YvYnprJt",
+        "position": 6
+      },
+      {
+        "screen_id": "af57e033-f53c-491f-a5f8-5fcd2e32b20e",
+        "image_url": "https://mobbin.com/api/mcp/short/6YLx1Vhf",
+        "position": 7
+      },
+      {
+        "screen_id": "0129e137-f5f0-4f78-92c3-29f1ecf5753a",
+        "image_url": "https://mobbin.com/api/mcp/short/5uydStRX",
+        "position": 8
+      },
+      {
+        "screen_id": "a7b8eec4-4ed9-48f1-a983-50417768eeee",
+        "image_url": "https://mobbin.com/api/mcp/short/Hoq4cnqH",
+        "position": 9
+      },
+      {
+        "screen_id": "41db09de-b330-43c6-ae8a-20c759173964",
+        "image_url": "https://mobbin.com/api/mcp/short/H2KjXPQ4",
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "4773ecf1-6e50-46b0-8dfc-6f71c89c8cf3",
+    "name": "Skills",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/4773ecf1-6e50-46b0-8dfc-6f71c89c8cf3",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "9c19f257-4de4-4428-8801-0ca07b191506",
+        "image_url": "https://mobbin.com/api/mcp/short/fnMw7nxj",
+        "position": 1
+      },
+      {
+        "screen_id": "8b7871c5-586f-4d9e-89a2-e609bc4b3943",
+        "image_url": "https://mobbin.com/api/mcp/short/ET6E9Up0",
+        "position": 2
+      },
+      {
+        "screen_id": "714f85c9-29dd-4598-8a04-1d260fdbe3cc",
+        "image_url": "https://mobbin.com/api/mcp/short/dWRTnJgJ",
+        "position": 3
+      },
+      {
+        "screen_id": "23d9f48e-9b94-4fb2-894a-4cfb682c964c",
+        "image_url": "https://mobbin.com/api/mcp/short/WGwenoeF",
+        "position": 4
+      },
+      {
+        "screen_id": "94586fd3-460d-412e-b85b-883330b42abc",
+        "image_url": "https://mobbin.com/api/mcp/short/82zbh4xu",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "47fd215d-427b-420b-975d-6e126143c721",
+    "name": "Post details",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/47fd215d-427b-420b-975d-6e126143c721",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "a441fc2d-2ab9-40eb-beff-55aba4a39199",
+        "image_url": "https://mobbin.com/api/mcp/short/tBEb9tbe",
+        "position": 1
+      },
+      {
+        "screen_id": "44bc6c89-85fd-45d2-bb60-918c2f6313a1",
+        "image_url": "https://mobbin.com/api/mcp/short/WNu5CjD8",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "49dad50e-38c9-4168-8dcb-1b55828d0716",
+    "name": "Editing an employee",
+    "actions": [
+      "Editing & Updating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/49dad50e-38c9-4168-8dcb-1b55828d0716",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 9,
+    "screens": [
+      {
+        "screen_id": "79203651-6381-4d06-9b00-5075295ab903",
+        "image_url": "https://mobbin.com/api/mcp/short/2GBp4xkA",
+        "position": 1
+      },
+      {
+        "screen_id": "9a639c10-73f6-4b17-986b-7b2467ee736b",
+        "image_url": "https://mobbin.com/api/mcp/short/EicD97nq",
+        "position": 2
+      },
+      {
+        "screen_id": "f5040674-d72a-455a-91f6-50e4b3bc2db3",
+        "image_url": "https://mobbin.com/api/mcp/short/gXdEvKhx",
+        "position": 3
+      },
+      {
+        "screen_id": "484d2919-2d24-450d-92d0-50f6a11498e4",
+        "image_url": "https://mobbin.com/api/mcp/short/J69yFCFp",
+        "position": 4
+      },
+      {
+        "screen_id": "b924f1b7-4bc2-446b-ace4-7d70ffe7b042",
+        "image_url": "https://mobbin.com/api/mcp/short/QH9z4ON8",
+        "position": 5
+      },
+      {
+        "screen_id": "571302c9-63ec-4838-aa1b-54253c61aea6",
+        "image_url": "https://mobbin.com/api/mcp/short/39tofpTK",
+        "position": 6
+      },
+      {
+        "screen_id": "4b727de8-23ff-42d4-86a4-2d888dac508c",
+        "image_url": "https://mobbin.com/api/mcp/short/SyXAsMIi",
+        "position": 7
+      },
+      {
+        "screen_id": "e4998f3a-2839-446f-afc4-70c3dc8d5937",
+        "image_url": "https://mobbin.com/api/mcp/short/aNKTxXPW",
+        "position": 8
+      },
+      {
+        "screen_id": "36ab2313-1ecb-4797-ab3d-2cc0a0402008",
+        "image_url": "https://mobbin.com/api/mcp/short/tATu7OHF",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "4ccdadec-ca9e-45d0-b9e7-6e18b7c6e406",
+    "name": "Liking an image",
+    "actions": [
+      "Liking & Upvoting"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/4ccdadec-ca9e-45d0-b9e7-6e18b7c6e406",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "0dc53bad-02f9-41b1-bf6d-6fe3b5e6c717",
+        "image_url": "https://mobbin.com/api/mcp/short/mlYFMJtc",
+        "position": 1
+      },
+      {
+        "screen_id": "14fbec0d-907f-4c56-94a3-d20269d93650",
+        "image_url": "https://mobbin.com/api/mcp/short/EMIRgCo6",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "4e92f5d9-9654-43ad-b417-a10e0bb07d3b",
+    "name": "Commenting a movie",
+    "actions": [
+      "Commenting & Replying"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/4e92f5d9-9654-43ad-b417-a10e0bb07d3b",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "3dd9f7a5-b972-4ec0-8139-0b8dc9b6aec8",
+        "image_url": "https://mobbin.com/api/mcp/short/3BSUWJDG",
+        "position": 1
+      },
+      {
+        "screen_id": "9b9d325d-4062-4ab6-ad2e-e88f26e9bb4b",
+        "image_url": "https://mobbin.com/api/mcp/short/UnNWLckV",
+        "position": 2
+      },
+      {
+        "screen_id": "16e906de-2ee6-45b3-8f69-a07746045b29",
+        "image_url": "https://mobbin.com/api/mcp/short/DVTmVjKn",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "4fcc7e37-e5e5-4b9b-9ed5-0eed571ccf43",
+    "name": "Generating an image (canvas)",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/4fcc7e37-e5e5-4b9b-9ed5-0eed571ccf43",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "1b778ff2-9ae1-41ec-9ef5-d61046925d50",
+        "image_url": "https://mobbin.com/api/mcp/short/O1NIwZ7F",
+        "position": 1
+      },
+      {
+        "screen_id": "7e2a2284-f8e4-45bd-aaf0-f07a180ed3be",
+        "image_url": "https://mobbin.com/api/mcp/short/cO24Q0e6",
+        "position": 2
+      },
+      {
+        "screen_id": "a049f63a-aebc-4b3c-b62f-6ccaa8eb35d6",
+        "image_url": "https://mobbin.com/api/mcp/short/TJ1NXGHi",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "50a811c1-3026-4767-8e7f-412e45f152c6",
+    "name": "Minimap",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/50a811c1-3026-4767-8e7f-412e45f152c6",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "db7d1413-a8ec-4a80-9176-d9b695e03396",
+        "image_url": "https://mobbin.com/api/mcp/short/CO4j2exj",
+        "position": 1
+      },
+      {
+        "screen_id": "0a69b131-52e6-48a3-b823-c160351190c8",
+        "image_url": "https://mobbin.com/api/mcp/short/HLzLHvBn",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "50b3ee7e-23a8-4b62-ae39-6f7d418f75e4",
+    "name": "Generating fashion factory",
+    "actions": [
+      "Adding & Creating",
+      "Selecting & Choosing",
+      "Uploading & Downloading"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/50b3ee7e-23a8-4b62-ae39-6f7d418f75e4",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 13,
+    "screens": [
+      {
+        "screen_id": "0e8b8614-164b-4da0-bd36-1f801b6e4553",
+        "image_url": "https://mobbin.com/api/mcp/short/38rswgfC",
+        "position": 1
+      },
+      {
+        "screen_id": "3d9b5f03-56f6-4b8b-a0f5-1f93da3c0170",
+        "image_url": "https://mobbin.com/api/mcp/short/Mjchampr",
+        "position": 2
+      },
+      {
+        "screen_id": "51f9e7a0-5f7f-47b0-b02f-1297a6d7bbb5",
+        "image_url": "https://mobbin.com/api/mcp/short/RIa5ZzNg",
+        "position": 3
+      },
+      {
+        "screen_id": "0bef46b4-9c82-4a05-854c-829ddcbcf727",
+        "image_url": "https://mobbin.com/api/mcp/short/K2NWsF3Q",
+        "position": 4
+      },
+      {
+        "screen_id": "4eff4fc5-2405-43fa-8e8e-889e8c201085",
+        "image_url": "https://mobbin.com/api/mcp/short/rpuaR3Lf",
+        "position": 5
+      },
+      {
+        "screen_id": "baac4868-8b0e-4bbd-859e-4bbd82a9a8f6",
+        "image_url": "https://mobbin.com/api/mcp/short/G4f3wJF1",
+        "position": 6
+      },
+      {
+        "screen_id": "e8d2e9f7-842e-482f-9474-4b762ae78fb0",
+        "image_url": "https://mobbin.com/api/mcp/short/qjRcgKQe",
+        "position": 7
+      },
+      {
+        "screen_id": "e361cf95-d2d5-4868-8eda-fd93e9542782",
+        "image_url": "https://mobbin.com/api/mcp/short/MrQjSZLe",
+        "position": 8
+      },
+      {
+        "screen_id": "403bc84f-8e15-4042-8eff-be5da0a0a7bb",
+        "image_url": "https://mobbin.com/api/mcp/short/B6RIgQdQ",
+        "position": 9
+      },
+      {
+        "screen_id": "57bf04f0-5e72-48e8-a234-de911fbd865b",
+        "image_url": "https://mobbin.com/api/mcp/short/dPqKxXsX",
+        "position": 10
+      },
+      {
+        "screen_id": "1b9c6316-b839-4c96-ad1c-e976dcd53c8c",
+        "image_url": "https://mobbin.com/api/mcp/short/Vl4UcCKF",
+        "position": 11
+      },
+      {
+        "screen_id": "6631d3b1-b221-4a02-a8dc-fef791d28055",
+        "image_url": "https://mobbin.com/api/mcp/short/MXcIRq1r",
+        "position": 12
+      },
+      {
+        "screen_id": "72d9ffc6-fb90-4a3d-9c93-01e7dfe854a5",
+        "image_url": "https://mobbin.com/api/mcp/short/xsZu8jDn",
+        "position": 13
+      }
+    ]
+  },
+  {
+    "id": "55d69af1-f253-45de-b304-a0ec08077a3c",
+    "name": "Creating a post",
+    "actions": [
+      "Publishing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/55d69af1-f253-45de-b304-a0ec08077a3c",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 7,
+    "screens": [
+      {
+        "screen_id": "a441fc2d-2ab9-40eb-beff-55aba4a39199",
+        "image_url": "https://mobbin.com/api/mcp/short/wLyjZa97",
+        "position": 1
+      },
+      {
+        "screen_id": "14f8b7df-37db-4290-bc0d-88cc49497b64",
+        "image_url": "https://mobbin.com/api/mcp/short/6V38Voco",
+        "position": 2
+      },
+      {
+        "screen_id": "e562720c-ea71-4f71-838b-ada3494538f9",
+        "image_url": "https://mobbin.com/api/mcp/short/wsqUexFA",
+        "position": 3
+      },
+      {
+        "screen_id": "99dc04a0-2b01-4093-bd7d-c27e4889c8e8",
+        "image_url": "https://mobbin.com/api/mcp/short/xATgh0fT",
+        "position": 4
+      },
+      {
+        "screen_id": "cc33b619-f4dd-4466-a601-e4853d6fc694",
+        "image_url": "https://mobbin.com/api/mcp/short/OqGsOtTs",
+        "position": 5
+      },
+      {
+        "screen_id": "fad76324-7c9a-447d-8542-2d833aa2304f",
+        "image_url": "https://mobbin.com/api/mcp/short/QWVybD6e",
+        "position": 6
+      },
+      {
+        "screen_id": "a9fc5aaa-ed94-4307-9b3d-2e4afe6775e2",
+        "image_url": "https://mobbin.com/api/mcp/short/7y8MYI5p",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "56eccdf9-85ea-4d28-9384-2453279faa13",
+    "name": "Movie details",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/56eccdf9-85ea-4d28-9384-2453279faa13",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "5e0b3da4-79ec-4d74-86c2-773d97874e8c",
+        "image_url": "https://mobbin.com/api/mcp/short/wer16qa1",
+        "position": 1
+      },
+      {
+        "screen_id": "084ea6ae-141e-4913-856a-0f812a28f00e",
+        "image_url": "https://mobbin.com/api/mcp/short/3SBDyn4W",
+        "position": 2
+      },
+      {
+        "screen_id": "e832a316-ddae-4c1f-a554-1a766344cfc6",
+        "image_url": "https://mobbin.com/api/mcp/short/1WYZLsil",
+        "position": 3
+      },
+      {
+        "screen_id": "61a16fb3-15ba-4da2-986b-05aa5d76089b",
+        "image_url": "https://mobbin.com/api/mcp/short/1X7lrpe7",
+        "position": 4
+      },
+      {
+        "screen_id": "3dd9f7a5-b972-4ec0-8139-0b8dc9b6aec8",
+        "image_url": "https://mobbin.com/api/mcp/short/AbefmSYj",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "5a8f924a-6280-418f-a9bb-b1c6682a1fbd",
+    "name": "Adding a quote",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/5a8f924a-6280-418f-a9bb-b1c6682a1fbd",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "999dd480-1526-4b36-a771-0e1edb284253",
+        "image_url": "https://mobbin.com/api/mcp/short/SfhjyKRm",
+        "position": 1
+      },
+      {
+        "screen_id": "1fe6594f-0ee7-4942-9b87-9b7f00085f34",
+        "image_url": "https://mobbin.com/api/mcp/short/V3txIrr7",
+        "position": 2
+      },
+      {
+        "screen_id": "55e4f33d-95d0-46df-b73f-3fac79e9b657",
+        "image_url": "https://mobbin.com/api/mcp/short/sS1l3ERI",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "5ab96bee-7c54-4f1a-8d3c-119f246b6944",
+    "name": "MCP & CLI",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/5ab96bee-7c54-4f1a-8d3c-119f246b6944",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "e4b24d35-c3d6-4271-bb28-5e68813520f9",
+        "image_url": "https://mobbin.com/api/mcp/short/xsY2Unkd",
+        "position": 1
+      },
+      {
+        "screen_id": "93b4c668-a280-4a11-961a-1f5d13601b56",
+        "image_url": "https://mobbin.com/api/mcp/short/KkztuL57",
+        "position": 2
+      },
+      {
+        "screen_id": "8e3fd431-a542-4bc6-b776-8d5c718b854e",
+        "image_url": "https://mobbin.com/api/mcp/short/r61ZtGCh",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "5aff507e-1ceb-426b-b044-d63e2eba7230",
+    "name": "Adding a site type",
+    "actions": [
+      "Adding & Creating",
+      "Selecting & Choosing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/5aff507e-1ceb-426b-b044-d63e2eba7230",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "a0459d8c-a424-4491-b6fa-95d21c7e6bd3",
+        "image_url": "https://mobbin.com/api/mcp/short/7xj2GfHp",
+        "position": 1
+      },
+      {
+        "screen_id": "b5e550f2-8a9e-4eea-abb1-dba152e2d912",
+        "image_url": "https://mobbin.com/api/mcp/short/lJ5vNnEK",
+        "position": 2
+      },
+      {
+        "screen_id": "233bfa64-e15d-4107-a2ce-ca3886b3201a",
+        "image_url": "https://mobbin.com/api/mcp/short/ovaoNBfb",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "5e1348f8-1e80-45d9-92cc-c1216ce73a39",
+    "name": "Resetting password",
+    "actions": [
+      "Resetting Password"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/5e1348f8-1e80-45d9-92cc-c1216ce73a39",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "47f9e839-ff49-4319-8318-5cfa700b3f69",
+        "image_url": "https://mobbin.com/api/mcp/short/bnEaplSg",
+        "position": 1
+      },
+      {
+        "screen_id": "ff3efa08-f2fe-4cf1-8411-ddd50bc245e7",
+        "image_url": "https://mobbin.com/api/mcp/short/KFQlgVdU",
+        "position": 2
+      },
+      {
+        "screen_id": "17aa48cb-4516-4952-a5aa-f863c4eb8e43",
+        "image_url": "https://mobbin.com/api/mcp/short/n9skBtMZ",
+        "position": 3
+      },
+      {
+        "screen_id": "caaaf267-7b51-40ad-a7e9-a3d188200f89",
+        "image_url": "https://mobbin.com/api/mcp/short/ZVXMDfL4",
+        "position": 4
+      },
+      {
+        "screen_id": "75b23051-3ed4-49c2-8f3d-b205b419afd9",
+        "image_url": "https://mobbin.com/api/mcp/short/SBDPB6Xg",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "61139da0-1c14-47f2-a509-ec8ee8b36805",
+    "name": "Logging in",
+    "actions": [
+      "Logging In"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/61139da0-1c14-47f2-a509-ec8ee8b36805",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 6,
+    "screens": [
+      {
+        "screen_id": "642a85c3-6580-4cc0-806c-004e725123d4",
+        "image_url": "https://mobbin.com/api/mcp/short/zaKvABzB",
+        "position": 1
+      },
+      {
+        "screen_id": "a8891d1b-fc7e-485a-b4c0-56ecde2896f7",
+        "image_url": "https://mobbin.com/api/mcp/short/2w2PppY5",
+        "position": 2
+      },
+      {
+        "screen_id": "a839d826-bb95-43d9-9ef3-10ea201a97ed",
+        "image_url": "https://mobbin.com/api/mcp/short/yq1zzmbu",
+        "position": 3
+      },
+      {
+        "screen_id": "94823c43-d393-4b7b-be85-31a6f70f914a",
+        "image_url": "https://mobbin.com/api/mcp/short/M7hF0nOR",
+        "position": 4
+      },
+      {
+        "screen_id": "47f9e839-ff49-4319-8318-5cfa700b3f69",
+        "image_url": "https://mobbin.com/api/mcp/short/ppqLcEHi",
+        "position": 5
+      },
+      {
+        "screen_id": "81708651-230a-4c90-976f-406b6ec68303",
+        "image_url": "https://mobbin.com/api/mcp/short/H9sThN3K",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "61d0e69c-efea-4f98-8a26-3174a17d8aab",
+    "name": "Switching to grid view",
+    "actions": [
+      "Switching View"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/61d0e69c-efea-4f98-8a26-3174a17d8aab",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "b46ac10a-f27a-45ba-b8fa-3e054ce594e7",
+        "image_url": "https://mobbin.com/api/mcp/short/bc7Wh4a0",
+        "position": 1
+      },
+      {
+        "screen_id": "210adbd0-6ebe-4a4a-919e-065dd49f5539",
+        "image_url": "https://mobbin.com/api/mcp/short/Egs1f4jk",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "624d1b50-95c1-4413-865c-0daead9d8a83",
+    "name": "Onboarding (supercomputer)",
+    "actions": [
+      "Chatting & Sending Messages",
+      "Onboarding"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/624d1b50-95c1-4413-865c-0daead9d8a83",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "145d9f8d-b52a-4200-bb12-c2a7bd1aea1d",
+        "image_url": "https://mobbin.com/api/mcp/short/92ED4sHU",
+        "position": 1
+      },
+      {
+        "screen_id": "35b69828-40c2-418c-9c02-59aa4229a544",
+        "image_url": "https://mobbin.com/api/mcp/short/bABfunyI",
+        "position": 2
+      },
+      {
+        "screen_id": "b24bb921-1831-4757-b796-0b13589139c1",
+        "image_url": "https://mobbin.com/api/mcp/short/JhdPi5iv",
+        "position": 3
+      },
+      {
+        "screen_id": "c9dec518-492a-4fd3-a7f0-381cc7154982",
+        "image_url": "https://mobbin.com/api/mcp/short/TPJ0huAk",
+        "position": 4
+      },
+      {
+        "screen_id": "386ea08a-bc58-450b-8248-34d2600f480f",
+        "image_url": "https://mobbin.com/api/mcp/short/FmzglO7u",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "64080099-1f42-4ed8-ab94-89cc7fc1061d",
+    "name": "Creating a voice over",
+    "actions": [
+      "Adding & Creating",
+      "Chatting & Sending Messages"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/64080099-1f42-4ed8-ab94-89cc7fc1061d",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 10,
+    "screens": [
+      {
+        "screen_id": "87ab0bf5-731d-474b-8084-c7943c407b8e",
+        "image_url": "https://mobbin.com/api/mcp/short/gfOTDnYH",
+        "position": 1
+      },
+      {
+        "screen_id": "e0a255e4-3c79-4f44-b31d-acaf0d082a8d",
+        "image_url": "https://mobbin.com/api/mcp/short/fTCN4NFc",
+        "position": 2
+      },
+      {
+        "screen_id": "084be641-ca1d-41cb-b063-6e34002ec459",
+        "image_url": "https://mobbin.com/api/mcp/short/mSYtSAv9",
+        "position": 3
+      },
+      {
+        "screen_id": "4a2d7c88-37f0-4bf7-b53c-6df66b836311",
+        "image_url": "https://mobbin.com/api/mcp/short/xR34A9wV",
+        "position": 4
+      },
+      {
+        "screen_id": "64b45866-2865-48a4-8939-980913e320de",
+        "image_url": "https://mobbin.com/api/mcp/short/bMCqxAnH",
+        "position": 5
+      },
+      {
+        "screen_id": "c29023f1-adbd-4bf6-9e89-a2ba1066801c",
+        "image_url": "https://mobbin.com/api/mcp/short/rUDFwm7L",
+        "position": 6
+      },
+      {
+        "screen_id": "ec231074-6fb8-4a95-932f-74b1e5fc34a6",
+        "image_url": "https://mobbin.com/api/mcp/short/UCqkpMG9",
+        "position": 7
+      },
+      {
+        "screen_id": "ac6bd191-f679-438b-a03e-5f7cc3c46a94",
+        "image_url": "https://mobbin.com/api/mcp/short/mzq4Vzav",
+        "position": 8
+      },
+      {
+        "screen_id": "f82b7fb3-4a5e-402c-8848-5598146af615",
+        "image_url": "https://mobbin.com/api/mcp/short/NdvwH1LD",
+        "position": 9
+      },
+      {
+        "screen_id": "70d08781-cbce-431c-8b11-4778b974e282",
+        "image_url": "https://mobbin.com/api/mcp/short/utd9wpLk",
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "644db01f-bdef-4825-9cd8-c4ad359e9488",
+    "name": "Adding bullet points",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/644db01f-bdef-4825-9cd8-c4ad359e9488",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "2f829612-e921-42c0-ba5c-2fd60fd97d77",
+        "image_url": "https://mobbin.com/api/mcp/short/NdIQvHyh",
+        "position": 1
+      },
+      {
+        "screen_id": "4c72f81b-13a2-401a-86ac-0fd5f1f7eed1",
+        "image_url": "https://mobbin.com/api/mcp/short/KM5NRXUQ",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "64a700d2-e14a-4f23-bd30-4e144e1295ec",
+    "name": "Updating light settings",
+    "actions": [
+      "Editing & Updating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/64a700d2-e14a-4f23-bd30-4e144e1295ec",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 6,
+    "screens": [
+      {
+        "screen_id": "8e617091-80bd-4bae-9d94-dd5eedb694c1",
+        "image_url": "https://mobbin.com/api/mcp/short/3Q2YyjP5",
+        "position": 1
+      },
+      {
+        "screen_id": "566ea358-f099-4c23-a029-2210a7990e5d",
+        "image_url": "https://mobbin.com/api/mcp/short/3UtrXbjI",
+        "position": 2
+      },
+      {
+        "screen_id": "64e20f30-c327-43ff-a72b-96e9b4042346",
+        "image_url": "https://mobbin.com/api/mcp/short/1kUgmG5V",
+        "position": 3
+      },
+      {
+        "screen_id": "bca1a519-e430-4eca-bfa5-5c621c6f74a2",
+        "image_url": "https://mobbin.com/api/mcp/short/R701RKd1",
+        "position": 4
+      },
+      {
+        "screen_id": "73d5ba0d-57b7-4468-901c-ad060319ff66",
+        "image_url": "https://mobbin.com/api/mcp/short/GXLDOSTc",
+        "position": 5
+      },
+      {
+        "screen_id": "5faa60fb-b4a8-4ef1-ba7d-c0709380cb2b",
+        "image_url": "https://mobbin.com/api/mcp/short/ZYyITW73",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "671b8132-1b41-4aa3-a3f0-9695b16558c4",
+    "name": "Playing a game",
+    "actions": [
+      "Misc"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/671b8132-1b41-4aa3-a3f0-9695b16558c4",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "f0f1c0dc-fe89-4199-8a10-26f572d4a9ae",
+        "image_url": "https://mobbin.com/api/mcp/short/gHVH2EyB",
+        "position": 1
+      },
+      {
+        "screen_id": "0f74070e-afb5-40d3-9f6b-253592c024a4",
+        "image_url": "https://mobbin.com/api/mcp/short/WhzAhNoX",
+        "position": 2
+      },
+      {
+        "screen_id": "771a5217-d430-41e6-a16a-6a6a858c2f61",
+        "image_url": "https://mobbin.com/api/mcp/short/MyOk9zwI",
+        "position": 3
+      },
+      {
+        "screen_id": "82c6f334-16bc-43de-a734-0a807e143ea2",
+        "image_url": "https://mobbin.com/api/mcp/short/xwt8T3Ip",
+        "position": 4
+      },
+      {
+        "screen_id": "456d9910-d86a-47d8-8a45-ce30bba8ecfa",
+        "image_url": "https://mobbin.com/api/mcp/short/DrX9v6BV",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "69d29d0c-7a33-40df-8178-d30d2e53915d",
+    "name": "Character details",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/69d29d0c-7a33-40df-8178-d30d2e53915d",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 6,
+    "screens": [
+      {
+        "screen_id": "330fb665-f503-43c1-b6a1-5680885bb342",
+        "image_url": "https://mobbin.com/api/mcp/short/MKanr2PV",
+        "position": 1
+      },
+      {
+        "screen_id": "732fecaa-2127-41a8-b00d-db95e900e948",
+        "image_url": "https://mobbin.com/api/mcp/short/XjTK5xEw",
+        "position": 2
+      },
+      {
+        "screen_id": "30f0ebff-91a8-4c11-bc28-543927bcf945",
+        "image_url": "https://mobbin.com/api/mcp/short/0kBN8W7f",
+        "position": 3
+      },
+      {
+        "screen_id": "8e617091-80bd-4bae-9d94-dd5eedb694c1",
+        "image_url": "https://mobbin.com/api/mcp/short/LcF8HcEN",
+        "position": 4
+      },
+      {
+        "screen_id": "3b7c07b2-7e7a-47f8-8b18-a12e11504f34",
+        "image_url": "https://mobbin.com/api/mcp/short/m8hJiP5r",
+        "position": 5
+      },
+      {
+        "screen_id": "03d56c23-a225-4d13-bf27-d7e42e7e498f",
+        "image_url": "https://mobbin.com/api/mcp/short/K8jYYFgg",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "6d13301c-eb1b-4d93-807b-55f973d3d1aa",
+    "name": "Generating viral potential prediction",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/6d13301c-eb1b-4d93-807b-55f973d3d1aa",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "272acb57-6daf-4070-a64e-59207ecf0ebb",
+        "image_url": "https://mobbin.com/api/mcp/short/6NtiAPWb",
+        "position": 1
+      },
+      {
+        "screen_id": "7b687b03-ad64-4751-94b2-9b9862d1054a",
+        "image_url": "https://mobbin.com/api/mcp/short/Z03p9z8d",
+        "position": 2
+      },
+      {
+        "screen_id": "d54c6a55-17b0-46a5-be59-96a7070ed6dd",
+        "image_url": "https://mobbin.com/api/mcp/short/ywkzmtj4",
+        "position": 3
+      },
+      {
+        "screen_id": "77ce4ea4-ca3e-478e-b106-41a7b3e5283e",
+        "image_url": "https://mobbin.com/api/mcp/short/TfJ0IAl7",
+        "position": 4
+      },
+      {
+        "screen_id": "52444824-c16e-4d80-9b23-b0399581bb94",
+        "image_url": "https://mobbin.com/api/mcp/short/FSn8tn78",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "6e075a62-3974-40f1-90e4-9e1c1e7085c6",
+    "name": "Creating a video (vibe motion)",
+    "actions": [
+      "Adding & Creating",
+      "Uploading & Downloading"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/6e075a62-3974-40f1-90e4-9e1c1e7085c6",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 9,
+    "screens": [
+      {
+        "screen_id": "a185ed0d-6339-4c54-bcfe-cac0d85c555f",
+        "image_url": "https://mobbin.com/api/mcp/short/hfXELVFo",
+        "position": 1
+      },
+      {
+        "screen_id": "1e15d29f-be9e-42d8-8ddf-cc68d31ee02a",
+        "image_url": "https://mobbin.com/api/mcp/short/dBVKkd3P",
+        "position": 2
+      },
+      {
+        "screen_id": "e70a0e63-e06f-433b-a1a6-b6758737e2ac",
+        "image_url": "https://mobbin.com/api/mcp/short/6xgPouvC",
+        "position": 3
+      },
+      {
+        "screen_id": "88d09b32-bdbe-4b4c-9538-7d783049d491",
+        "image_url": "https://mobbin.com/api/mcp/short/4IPwYOYN",
+        "position": 4
+      },
+      {
+        "screen_id": "85d223d1-9d31-410d-9f7a-df3109d432b1",
+        "image_url": "https://mobbin.com/api/mcp/short/5tFigtdA",
+        "position": 5
+      },
+      {
+        "screen_id": "a163aff1-a0c5-4204-a85b-15afeaee7872",
+        "image_url": "https://mobbin.com/api/mcp/short/QttVnKxF",
+        "position": 6
+      },
+      {
+        "screen_id": "f6267ff8-6107-4199-8079-01164f549cde",
+        "image_url": "https://mobbin.com/api/mcp/short/2NPSWfzh",
+        "position": 7
+      },
+      {
+        "screen_id": "0eeb19da-3690-40d6-9724-7ff9f7e4ba81",
+        "image_url": "https://mobbin.com/api/mcp/short/U5Q0kwSr",
+        "position": 8
+      },
+      {
+        "screen_id": "07c9161b-25e4-45a5-a16f-b8abe9f0d7b9",
+        "image_url": "https://mobbin.com/api/mcp/short/P7O6vzgB",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "750e7282-608a-4ab7-b286-c6e1b6db25d0",
+    "name": "Switching view to fullscreen",
+    "actions": [
+      "Switching View"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/750e7282-608a-4ab7-b286-c6e1b6db25d0",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "83938805-8f58-4746-89a3-a5da9af42ca8",
+        "image_url": "https://mobbin.com/api/mcp/short/YPxLnnI9",
+        "position": 1
+      },
+      {
+        "screen_id": "edc0ea14-121c-4434-a858-7c9aa38654a1",
+        "image_url": "https://mobbin.com/api/mcp/short/eM3V7oTR",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "79792e69-becb-4195-8ca5-b12a4a97eb84",
+    "name": "Inpainting a character",
+    "actions": [
+      "Drawing",
+      "Editing & Updating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/79792e69-becb-4195-8ca5-b12a4a97eb84",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "3b7c07b2-7e7a-47f8-8b18-a12e11504f34",
+        "image_url": "https://mobbin.com/api/mcp/short/LKCcsxaB",
+        "position": 1
+      },
+      {
+        "screen_id": "2e3d7566-a073-40a4-a1ca-641711868975",
+        "image_url": "https://mobbin.com/api/mcp/short/n6OaUgQl",
+        "position": 2
+      },
+      {
+        "screen_id": "e8100c3a-ba64-41c2-a85d-93dae5599d02",
+        "image_url": "https://mobbin.com/api/mcp/short/oONaz0UQ",
+        "position": 3
+      },
+      {
+        "screen_id": "fce1e75f-0816-4b9e-827a-1ac1aa08696d",
+        "image_url": "https://mobbin.com/api/mcp/short/XQb9gUbX",
+        "position": 4
+      },
+      {
+        "screen_id": "fd239e78-8062-4392-91c0-ba25b6b5459a",
+        "image_url": "https://mobbin.com/api/mcp/short/qFHtQPwX",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "819e353a-0504-4808-ae66-cbfb0ccdd935",
+    "name": "Liking a movie",
+    "actions": [
+      "Liking & Upvoting"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/819e353a-0504-4808-ae66-cbfb0ccdd935",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "83938805-8f58-4746-89a3-a5da9af42ca8",
+        "image_url": "https://mobbin.com/api/mcp/short/MHXeZ4UW",
+        "position": 1
+      },
+      {
+        "screen_id": "7c224ae6-e138-4005-a91b-97b44ffdc898",
+        "image_url": "https://mobbin.com/api/mcp/short/7isZfjNS",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "8290166e-bf38-4c0b-9b76-c546e29435dd",
+    "name": "Drawing to edit an image",
+    "actions": [
+      "Drawing",
+      "Editing & Updating",
+      "Uploading & Downloading"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/8290166e-bf38-4c0b-9b76-c546e29435dd",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 6,
+    "screens": [
+      {
+        "screen_id": "11ff41bd-ad25-4092-8fee-f7b52955a67d",
+        "image_url": "https://mobbin.com/api/mcp/short/fidIDJvK",
+        "position": 1
+      },
+      {
+        "screen_id": "0e8b8614-164b-4da0-bd36-1f801b6e4553",
+        "image_url": "https://mobbin.com/api/mcp/short/P9Yeg8sN",
+        "position": 2
+      },
+      {
+        "screen_id": "253f1252-d680-4543-b400-7036129241c1",
+        "image_url": "https://mobbin.com/api/mcp/short/j16G1t7n",
+        "position": 3
+      },
+      {
+        "screen_id": "d584bb37-3391-4de9-8512-9a5b8839ecf6",
+        "image_url": "https://mobbin.com/api/mcp/short/6IjiH1A5",
+        "position": 4
+      },
+      {
+        "screen_id": "7fcbd907-50cb-4578-8f46-650ad35d4ff8",
+        "image_url": "https://mobbin.com/api/mcp/short/dhdSs3c7",
+        "position": 5
+      },
+      {
+        "screen_id": "297026ac-1005-4952-af6d-e4a6699ae612",
+        "image_url": "https://mobbin.com/api/mcp/short/mrW70uTo",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "859972fe-b607-48a1-b48e-a0e3c9927a70",
+    "name": "Add a promo code",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/859972fe-b607-48a1-b48e-a0e3c9927a70",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "706c448d-f98b-457e-8bc6-4592395c84f9",
+        "image_url": "https://mobbin.com/api/mcp/short/zY5Ah8oF",
+        "position": 1
+      },
+      {
+        "screen_id": "4fa158e8-8651-4c0e-b628-6b4176498f32",
+        "image_url": "https://mobbin.com/api/mcp/short/hOt4Gb0k",
+        "position": 2
+      },
+      {
+        "screen_id": "86c9c29e-9283-40ce-8a16-f8a8ec213ef4",
+        "image_url": "https://mobbin.com/api/mcp/short/8nl2QO2f",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "8611de9c-1463-4cd8-92f1-0c5a6a22b39e",
+    "name": "Reporting a content",
+    "actions": [
+      "Reporting"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/8611de9c-1463-4cd8-92f1-0c5a6a22b39e",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 6,
+    "screens": [
+      {
+        "screen_id": "44bc6c89-85fd-45d2-bb60-918c2f6313a1",
+        "image_url": "https://mobbin.com/api/mcp/short/d0fDMVRe",
+        "position": 1
+      },
+      {
+        "screen_id": "2ea55202-0b2a-4d4c-8e0c-ed41de346cfb",
+        "image_url": "https://mobbin.com/api/mcp/short/B0V61mpc",
+        "position": 2
+      },
+      {
+        "screen_id": "967f2f9f-ce8c-4ba7-b206-13c4d6c59403",
+        "image_url": "https://mobbin.com/api/mcp/short/nXjhrLPo",
+        "position": 3
+      },
+      {
+        "screen_id": "9ed4d453-1d86-496a-a4ae-571f8248deee",
+        "image_url": "https://mobbin.com/api/mcp/short/8XAQEyTS",
+        "position": 4
+      },
+      {
+        "screen_id": "3a4182da-b62d-4adb-a2db-f0a598d57a9d",
+        "image_url": "https://mobbin.com/api/mcp/short/v4l7hf2F",
+        "position": 5
+      },
+      {
+        "screen_id": "1ce50a71-4d4d-4e04-b476-a537c36f2c09",
+        "image_url": "https://mobbin.com/api/mcp/short/ymPVszIC",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "88d7b4cd-8389-4389-9d42-60483604f67b",
+    "name": "Liking a video",
+    "actions": [
+      "Liking & Upvoting"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/88d7b4cd-8389-4389-9d42-60483604f67b",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "56183e6e-0ff2-4748-92b1-91e93cb20307",
+        "image_url": "https://mobbin.com/api/mcp/short/SbKVw5pO",
+        "position": 1
+      },
+      {
+        "screen_id": "5ceea33f-2464-44f0-9184-c2a219ffb7d8",
+        "image_url": "https://mobbin.com/api/mcp/short/irHmt5mT",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "8a270807-463d-4ba5-9ae3-5fd1c7fe13a9",
+    "name": "Generating url to ad",
+    "actions": [
+      "Adding & Creating",
+      "Selecting & Choosing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/8a270807-463d-4ba5-9ae3-5fd1c7fe13a9",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 7,
+    "screens": [
+      {
+        "screen_id": "c6c627c0-ae6a-4211-8bd7-5372e8fd6ace",
+        "image_url": "https://mobbin.com/api/mcp/short/CJ5x8YGw",
+        "position": 1
+      },
+      {
+        "screen_id": "8875865c-fd97-494a-8eab-15e4550e92b6",
+        "image_url": "https://mobbin.com/api/mcp/short/tFxcXKHh",
+        "position": 2
+      },
+      {
+        "screen_id": "a6dba525-161c-4900-be22-f3ea5c715fa5",
+        "image_url": "https://mobbin.com/api/mcp/short/R1UJbNgp",
+        "position": 3
+      },
+      {
+        "screen_id": "9f12981d-5b42-48a6-b98c-74f1a81a00be",
+        "image_url": "https://mobbin.com/api/mcp/short/5QmTzPCY",
+        "position": 4
+      },
+      {
+        "screen_id": "41659a5b-32d0-4c73-9c58-7d477ea3bc03",
+        "image_url": "https://mobbin.com/api/mcp/short/djlwcHwA",
+        "position": 5
+      },
+      {
+        "screen_id": "bf47ab5e-bbb6-40a1-96e0-560a04607b52",
+        "image_url": "https://mobbin.com/api/mcp/short/k1aYSbuf",
+        "position": 6
+      },
+      {
+        "screen_id": "b00f4c60-b095-472a-8bf2-36ed997028ba",
+        "image_url": "https://mobbin.com/api/mcp/short/OxcVWeEJ",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "8b702bfc-adf7-40f9-b205-8ef02ab9a099",
+    "name": "Chatting with AI director",
+    "actions": [
+      "Chatting & Sending Messages"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/8b702bfc-adf7-40f9-b205-8ef02ab9a099",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "2974bbfa-23ef-4f4b-9f8f-582a8195c2d8",
+        "image_url": "https://mobbin.com/api/mcp/short/DzwHRuQo",
+        "position": 1
+      },
+      {
+        "screen_id": "25e4fba2-aee2-471f-bc66-d8f60721396c",
+        "image_url": "https://mobbin.com/api/mcp/short/CFspaXJs",
+        "position": 2
+      },
+      {
+        "screen_id": "217082c2-4f46-4965-b3d1-7e31e3c25a75",
+        "image_url": "https://mobbin.com/api/mcp/short/gJV1qlsg",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "8d3c1ce5-ff0a-41a7-aca5-53d2050db65c",
+    "name": "Subscribing a plan",
+    "actions": [
+      "Subscribing & Upgrading"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/8d3c1ce5-ff0a-41a7-aca5-53d2050db65c",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "6a7ec354-b52f-4fe6-a6ff-20eda257b4b4",
+        "image_url": "https://mobbin.com/api/mcp/short/FItvmLs8",
+        "position": 1
+      },
+      {
+        "screen_id": "8f99eb01-17d8-46c2-a2da-712b4f5c96c8",
+        "image_url": "https://mobbin.com/api/mcp/short/WD6d42ud",
+        "position": 2
+      },
+      {
+        "screen_id": "359a26bc-1516-411f-b83a-ab5896f8de50",
+        "image_url": "https://mobbin.com/api/mcp/short/jMJwmQgy",
+        "position": 3
+      },
+      {
+        "screen_id": "61fe9754-1f11-47bb-ac4a-04279babf3c7",
+        "image_url": "https://mobbin.com/api/mcp/short/XUeooG9N",
+        "position": 4
+      },
+      {
+        "screen_id": "fe7c5bed-bdf9-4e60-a62d-be8205db191c",
+        "image_url": "https://mobbin.com/api/mcp/short/1nnyY3uZ",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "8d4148b2-ee16-49ba-bb2e-615646496559",
+    "name": "Vibe motion",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/8d4148b2-ee16-49ba-bb2e-615646496559",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "96055850-dfbc-4d05-a443-4d7ad853c898",
+        "image_url": "https://mobbin.com/api/mcp/short/YizFz8h9",
+        "position": 1
+      },
+      {
+        "screen_id": "4ffd4b86-9844-4a0e-81ae-aceed74a148b",
+        "image_url": "https://mobbin.com/api/mcp/short/jITZTpPl",
+        "position": 2
+      },
+      {
+        "screen_id": "a185ed0d-6339-4c54-bcfe-cac0d85c555f",
+        "image_url": "https://mobbin.com/api/mcp/short/NUxG233R",
+        "position": 3
+      },
+      {
+        "screen_id": "b6d6bb59-eee7-4d7d-99bd-d71b19d6b31a",
+        "image_url": "https://mobbin.com/api/mcp/short/dwqwO48F",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "939f6ace-19e9-4a9d-8403-6ad67f24a77e",
+    "name": "Marketing studio",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/939f6ace-19e9-4a9d-8403-6ad67f24a77e",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "e4b24d35-c3d6-4271-bb28-5e68813520f9",
+        "image_url": "https://mobbin.com/api/mcp/short/1tCkCNxb",
+        "position": 1
+      },
+      {
+        "screen_id": "3140b788-0a99-4311-95b0-39c69b0f89f3",
+        "image_url": "https://mobbin.com/api/mcp/short/4T3tv3cY",
+        "position": 2
+      },
+      {
+        "screen_id": "c6c627c0-ae6a-4211-8bd7-5372e8fd6ace",
+        "image_url": "https://mobbin.com/api/mcp/short/cLsSHEE2",
+        "position": 3
+      },
+      {
+        "screen_id": "09dfe8a3-9b31-49cf-bbcc-cdcaf41bcf44",
+        "image_url": "https://mobbin.com/api/mcp/short/puaUXrrq",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "93b33a61-3bfd-41f2-9c72-5cc0424839d8",
+    "name": "Image details",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/93b33a61-3bfd-41f2-9c72-5cc0424839d8",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "a0e58bed-1a59-4fa5-bbda-3f3cb7ce97ad",
+        "image_url": "https://mobbin.com/api/mcp/short/FOnEuncH",
+        "position": 1
+      },
+      {
+        "screen_id": "0dc53bad-02f9-41b1-bf6d-6fe3b5e6c717",
+        "image_url": "https://mobbin.com/api/mcp/short/pLX8aytG",
+        "position": 2
+      },
+      {
+        "screen_id": "2c89540c-ad3c-4cfe-ba22-c9c141a687f9",
+        "image_url": "https://mobbin.com/api/mcp/short/ZDXx0GPY",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "945689ab-a8b1-456f-a34c-49fede635e29",
+    "name": "Adding checklists",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/945689ab-a8b1-456f-a34c-49fede635e29",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "2f829612-e921-42c0-ba5c-2fd60fd97d77",
+        "image_url": "https://mobbin.com/api/mcp/short/imwt4TGE",
+        "position": 1
+      },
+      {
+        "screen_id": "999dd480-1526-4b36-a771-0e1edb284253",
+        "image_url": "https://mobbin.com/api/mcp/short/5725kJy2",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "9493ef1d-ebad-4b96-b350-e03b97a61ee4",
+    "name": "Replying a comment",
+    "actions": [
+      "Commenting & Replying"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/9493ef1d-ebad-4b96-b350-e03b97a61ee4",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "16e906de-2ee6-45b3-8f69-a07746045b29",
+        "image_url": "https://mobbin.com/api/mcp/short/br0zZveu",
+        "position": 1
+      },
+      {
+        "screen_id": "e7e4e8ea-3478-411f-8c24-fb2fe0e99530",
+        "image_url": "https://mobbin.com/api/mcp/short/43JoQmpu",
+        "position": 2
+      },
+      {
+        "screen_id": "058ded84-218d-4aa4-a1ee-4e101ab5b77c",
+        "image_url": "https://mobbin.com/api/mcp/short/mBMHQx8T",
+        "position": 3
+      },
+      {
+        "screen_id": "45e3a39b-30dc-4e44-bf7b-528476d658c2",
+        "image_url": "https://mobbin.com/api/mcp/short/cOtLIWsi",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "951d9221-b94a-442f-a58e-81af421eccc2",
+    "name": "Generating an image",
+    "actions": [
+      "Adding & Creating",
+      "Chatting & Sending Messages",
+      "Selecting & Choosing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/951d9221-b94a-442f-a58e-81af421eccc2",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 16,
+    "screens": [
+      {
+        "screen_id": "7f689b3d-d086-47a0-96f0-cdb86d9f3345",
+        "image_url": "https://mobbin.com/api/mcp/short/COzNklxr",
+        "position": 1
+      },
+      {
+        "screen_id": "db17c1eb-dd6a-4ae2-be7f-edd0fcc82111",
+        "image_url": "https://mobbin.com/api/mcp/short/AQI9L6Xn",
+        "position": 2
+      },
+      {
+        "screen_id": "0d598ef9-27e2-4e01-8f1c-e9cd14504492",
+        "image_url": "https://mobbin.com/api/mcp/short/ayK32KKz",
+        "position": 3
+      },
+      {
+        "screen_id": "4c386d79-316f-4a12-99e0-2bd0dc5e35be",
+        "image_url": "https://mobbin.com/api/mcp/short/3EWosfSV",
+        "position": 4
+      },
+      {
+        "screen_id": "9425a248-fe7c-497c-ad1e-c05ef7d6c3a6",
+        "image_url": "https://mobbin.com/api/mcp/short/EO70GG6L",
+        "position": 5
+      },
+      {
+        "screen_id": "c0263c9f-048c-4ea0-bf6a-09af9bce20c7",
+        "image_url": "https://mobbin.com/api/mcp/short/WibBji27",
+        "position": 6
+      },
+      {
+        "screen_id": "1b55d859-32a4-41c7-8455-e7aec6966e02",
+        "image_url": "https://mobbin.com/api/mcp/short/SxNmg2MU",
+        "position": 7
+      },
+      {
+        "screen_id": "cf7d3556-7569-46d6-b36b-8f3c9b0aa14d",
+        "image_url": "https://mobbin.com/api/mcp/short/fJ49liY2",
+        "position": 8
+      },
+      {
+        "screen_id": "02536d82-d5e7-46e8-9466-7aaef410bfeb",
+        "image_url": "https://mobbin.com/api/mcp/short/izJWcmu6",
+        "position": 9
+      },
+      {
+        "screen_id": "7f2f86fc-b9e7-40d9-ad27-925d0087c801",
+        "image_url": "https://mobbin.com/api/mcp/short/csxIJbxP",
+        "position": 10
+      },
+      {
+        "screen_id": "b7af2d7d-18be-426a-b3b6-df2979a16160",
+        "image_url": "https://mobbin.com/api/mcp/short/NR6UhlIv",
+        "position": 11
+      },
+      {
+        "screen_id": "532e26ad-379d-4c37-8c6f-cb96c42575b1",
+        "image_url": "https://mobbin.com/api/mcp/short/Z519EgPT",
+        "position": 12
+      },
+      {
+        "screen_id": "0199bf2a-f25b-4783-9c45-d4f218620a86",
+        "image_url": "https://mobbin.com/api/mcp/short/zEksXMSC",
+        "position": 13
+      },
+      {
+        "screen_id": "8b76beaa-59f0-4df4-9339-58c419cab211",
+        "image_url": "https://mobbin.com/api/mcp/short/5x40vbcc",
+        "position": 14
+      },
+      {
+        "screen_id": "4e45adb4-a2f2-417d-b058-0c27560189f2",
+        "image_url": "https://mobbin.com/api/mcp/short/d042rbTV",
+        "position": 15
+      },
+      {
+        "screen_id": "b6a4fd3f-ae6e-4c90-beb9-e38692c0906e",
+        "image_url": "https://mobbin.com/api/mcp/short/NUsiqb15",
+        "position": 16
+      }
+    ]
+  },
+  {
+    "id": "97164a91-7189-43f0-acd1-520e587a6db1",
+    "name": "Deleting an image",
+    "actions": [
+      "Deleting & Removing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/97164a91-7189-43f0-acd1-520e587a6db1",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "821a9772-edfd-40f1-a9b5-e5848d9e4fff",
+        "image_url": "https://mobbin.com/api/mcp/short/zriuzMyA",
+        "position": 1
+      },
+      {
+        "screen_id": "066b517b-087c-486a-a893-153e3c97cead",
+        "image_url": "https://mobbin.com/api/mcp/short/VCu6M0Qv",
+        "position": 2
+      },
+      {
+        "screen_id": "17ae7c01-7e80-43ab-a8a1-375011ecc0ee",
+        "image_url": "https://mobbin.com/api/mcp/short/gspHFUld",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "974b42ff-6800-4b47-880b-eaa7c3461448",
+    "name": "Upscaling an image",
+    "actions": [
+      "Editing & Updating",
+      "Enabling & Disabling"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/974b42ff-6800-4b47-880b-eaa7c3461448",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 9,
+    "screens": [
+      {
+        "screen_id": "2c89540c-ad3c-4cfe-ba22-c9c141a687f9",
+        "image_url": "https://mobbin.com/api/mcp/short/nLYiRAlP",
+        "position": 1
+      },
+      {
+        "screen_id": "228388a7-9540-4ae9-9510-3c5ee4b86841",
+        "image_url": "https://mobbin.com/api/mcp/short/ODY5Qnco",
+        "position": 2
+      },
+      {
+        "screen_id": "499d6064-2439-4839-9b5d-1efc4330e2bc",
+        "image_url": "https://mobbin.com/api/mcp/short/oX0ni3Rf",
+        "position": 3
+      },
+      {
+        "screen_id": "c5d3d4ad-7d3b-447d-8e94-4019c6b65c7a",
+        "image_url": "https://mobbin.com/api/mcp/short/CBrsyxXG",
+        "position": 4
+      },
+      {
+        "screen_id": "39b367a3-b02d-4cd3-9e80-ad3364a7916a",
+        "image_url": "https://mobbin.com/api/mcp/short/hTmgPKSs",
+        "position": 5
+      },
+      {
+        "screen_id": "3119da3f-3195-4456-8202-4cabfc58034e",
+        "image_url": "https://mobbin.com/api/mcp/short/OyIOlNLD",
+        "position": 6
+      },
+      {
+        "screen_id": "b4d3d950-1e32-4716-81ee-fc49ff630e03",
+        "image_url": "https://mobbin.com/api/mcp/short/nlCZRkqI",
+        "position": 7
+      },
+      {
+        "screen_id": "2fa65b40-ee71-4b02-ab3d-9af2c537c8d4",
+        "image_url": "https://mobbin.com/api/mcp/short/91OOdATJ",
+        "position": 8
+      },
+      {
+        "screen_id": "821a9772-edfd-40f1-a9b5-e5848d9e4fff",
+        "image_url": "https://mobbin.com/api/mcp/short/6kYKG6Zn",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "978bfe65-dacc-4d4f-ab1e-80d588d4303e",
+    "name": "Supercomputer",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/978bfe65-dacc-4d4f-ab1e-80d588d4303e",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 7,
+    "screens": [
+      {
+        "screen_id": "e4b24d35-c3d6-4271-bb28-5e68813520f9",
+        "image_url": "https://mobbin.com/api/mcp/short/OJzRDGCg",
+        "position": 1
+      },
+      {
+        "screen_id": "145d9f8d-b52a-4200-bb12-c2a7bd1aea1d",
+        "image_url": "https://mobbin.com/api/mcp/short/h0KWbgAz",
+        "position": 2
+      },
+      {
+        "screen_id": "d56a3a36-b7d8-40a3-90f5-c1222d5bd7ea",
+        "image_url": "https://mobbin.com/api/mcp/short/eZzYGKK0",
+        "position": 3
+      },
+      {
+        "screen_id": "f0f1c0dc-fe89-4199-8a10-26f572d4a9ae",
+        "image_url": "https://mobbin.com/api/mcp/short/IOBVcI04",
+        "position": 4
+      },
+      {
+        "screen_id": "9c19f257-4de4-4428-8801-0ca07b191506",
+        "image_url": "https://mobbin.com/api/mcp/short/YO1gqf4p",
+        "position": 5
+      },
+      {
+        "screen_id": "e7f485b6-fcbd-46af-839a-1f91ae536bf0",
+        "image_url": "https://mobbin.com/api/mcp/short/TLneUAz9",
+        "position": 6
+      },
+      {
+        "screen_id": "ffdf7fb0-667b-440c-8718-8261881f999a",
+        "image_url": "https://mobbin.com/api/mcp/short/dDIi0Xz6",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "981db6c1-8ce0-4f62-b338-b65f6a604315",
+    "name": "Muting a movie",
+    "actions": [
+      "Turning On/Off"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/981db6c1-8ce0-4f62-b338-b65f6a604315",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "83938805-8f58-4746-89a3-a5da9af42ca8",
+        "image_url": "https://mobbin.com/api/mcp/short/51q42rWk",
+        "position": 1
+      },
+      {
+        "screen_id": "7dcf1c0a-58ac-4757-9da3-af32c88aa8a3",
+        "image_url": "https://mobbin.com/api/mcp/short/iOj9Q1FK",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "987da2c2-d27b-427f-bb50-fe13a6369080",
+    "name": "Author profile",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/987da2c2-d27b-427f-bb50-fe13a6369080",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "0dc53bad-02f9-41b1-bf6d-6fe3b5e6c717",
+        "image_url": "https://mobbin.com/api/mcp/short/Qq2eVgZi",
+        "position": 1
+      },
+      {
+        "screen_id": "5bb6f5b0-5062-4b3e-b097-f3eac6c7684c",
+        "image_url": "https://mobbin.com/api/mcp/short/z1uV8rjd",
+        "position": 2
+      },
+      {
+        "screen_id": "c1c8c7e9-3f31-4994-a982-3b98cd5f9c84",
+        "image_url": "https://mobbin.com/api/mcp/short/HHmZjvvh",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "99ca9be9-afcd-4391-bc73-14497d76c85c",
+    "name": "Image",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/99ca9be9-afcd-4391-bc73-14497d76c85c",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "e4b24d35-c3d6-4271-bb28-5e68813520f9",
+        "image_url": "https://mobbin.com/api/mcp/short/HUg8MnUm",
+        "position": 1
+      },
+      {
+        "screen_id": "7f689b3d-d086-47a0-96f0-cdb86d9f3345",
+        "image_url": "https://mobbin.com/api/mcp/short/KDHOPzk1",
+        "position": 2
+      },
+      {
+        "screen_id": "0ee48fec-bc56-409e-ba7c-fb23d26dc854",
+        "image_url": "https://mobbin.com/api/mcp/short/ItfZHIG4",
+        "position": 3
+      },
+      {
+        "screen_id": "ea241cdf-f32c-42cb-b2b8-a3f1134445c0",
+        "image_url": "https://mobbin.com/api/mcp/short/8QdjXSvS",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "9ae8e796-2641-453b-afd4-15c11d5059f9",
+    "name": "Installing a skill",
+    "actions": [
+      "Misc"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/9ae8e796-2641-453b-afd4-15c11d5059f9",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "714f85c9-29dd-4598-8a04-1d260fdbe3cc",
+        "image_url": "https://mobbin.com/api/mcp/short/BEHmchLO",
+        "position": 1
+      },
+      {
+        "screen_id": "d246b769-ca6f-4f41-ac74-75ee48529bf3",
+        "image_url": "https://mobbin.com/api/mcp/short/c4iaVDOD",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "9b9e02a4-8950-403f-bc3d-14d8e7f0c14b",
+    "name": "Editing an angle",
+    "actions": [
+      "Editing & Updating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/9b9e02a4-8950-403f-bc3d-14d8e7f0c14b",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "03d56c23-a225-4d13-bf27-d7e42e7e498f",
+        "image_url": "https://mobbin.com/api/mcp/short/FClmAM5p",
+        "position": 1
+      },
+      {
+        "screen_id": "14d9918e-48a4-4880-8679-6aeb597121c2",
+        "image_url": "https://mobbin.com/api/mcp/short/2spi0vWK",
+        "position": 2
+      },
+      {
+        "screen_id": "133984af-237d-41b4-aefc-2731e057829c",
+        "image_url": "https://mobbin.com/api/mcp/short/Q4mmHGyP",
+        "position": 3
+      },
+      {
+        "screen_id": "7ef30f46-ad1b-45cc-9de6-3681f78fca71",
+        "image_url": "https://mobbin.com/api/mcp/short/ccCzc5ln",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "9c07e77b-002c-4127-a630-cf78b86e4ae4",
+    "name": "Creating a folder",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/9c07e77b-002c-4127-a630-cf78b86e4ae4",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 6,
+    "screens": [
+      {
+        "screen_id": "c47cbf1a-9061-48c1-84f9-b392a34b656b",
+        "image_url": "https://mobbin.com/api/mcp/short/AHvFGEme",
+        "position": 1
+      },
+      {
+        "screen_id": "e90ff29a-f7f6-4be1-be96-65e7bb6ce8c2",
+        "image_url": "https://mobbin.com/api/mcp/short/GgOaNne5",
+        "position": 2
+      },
+      {
+        "screen_id": "d8d2922c-ad7f-416e-ba33-c6e99e02132b",
+        "image_url": "https://mobbin.com/api/mcp/short/zAo2szn3",
+        "position": 3
+      },
+      {
+        "screen_id": "9bb2d1fc-75b3-4845-ada8-15cd33eb0f6e",
+        "image_url": "https://mobbin.com/api/mcp/short/tXHsOsRK",
+        "position": 4
+      },
+      {
+        "screen_id": "cfb4956b-b74f-4c7d-8e4a-eb24af791fe1",
+        "image_url": "https://mobbin.com/api/mcp/short/84AIq4Rj",
+        "position": 5
+      },
+      {
+        "screen_id": "b92aa134-33e6-4b5b-80b1-7d7a70347afc",
+        "image_url": "https://mobbin.com/api/mcp/short/0nrPSVPf",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "9ced0329-8062-4d02-bfaa-343f87956532",
+    "name": "Switching to square view",
+    "actions": [
+      "Editing & Updating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/9ced0329-8062-4d02-bfaa-343f87956532",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 6,
+    "screens": [
+      {
+        "screen_id": "e9047055-6a7a-45a5-a4ff-2f133b2f0548",
+        "image_url": "https://mobbin.com/api/mcp/short/9OX3TGFS",
+        "position": 1
+      },
+      {
+        "screen_id": "248de453-68af-4ec4-a4ec-d116d7773490",
+        "image_url": "https://mobbin.com/api/mcp/short/B6sDAaCK",
+        "position": 2
+      },
+      {
+        "screen_id": "f2bf9a77-cf71-44a7-9171-f4a724d39332",
+        "image_url": "https://mobbin.com/api/mcp/short/H6HZSCLc",
+        "position": 3
+      },
+      {
+        "screen_id": "1ada289e-e6b8-4844-8d2f-59fa6b8ae60a",
+        "image_url": "https://mobbin.com/api/mcp/short/LwXgaWaX",
+        "position": 4
+      },
+      {
+        "screen_id": "8e44767a-1845-48ea-827f-68434c71cc32",
+        "image_url": "https://mobbin.com/api/mcp/short/uMxiPYDr",
+        "position": 5
+      },
+      {
+        "screen_id": "3be2c6da-7df2-40a2-8166-94d3c276440b",
+        "image_url": "https://mobbin.com/api/mcp/short/fxSePfqr",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "9daf65b2-0a63-4ea9-bba4-226b626e9bdf",
+    "name": "Inviting collaborators",
+    "actions": [
+      "Inviting Teammates & Friends"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/9daf65b2-0a63-4ea9-bba4-226b626e9bdf",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "21830a1d-5a5f-4fbd-8448-6d1b8702d3f8",
+        "image_url": "https://mobbin.com/api/mcp/short/E6rboxPC",
+        "position": 1
+      },
+      {
+        "screen_id": "2cec30db-9f50-4607-8b83-d0fcb746403a",
+        "image_url": "https://mobbin.com/api/mcp/short/zaszq8nr",
+        "position": 2
+      },
+      {
+        "screen_id": "5fe0439a-a19a-4719-bd59-2e36b3362e7c",
+        "image_url": "https://mobbin.com/api/mcp/short/E55qQPWf",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "9e1e94f0-52b9-4db6-8157-78333c9ba152",
+    "name": "Memory",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/9e1e94f0-52b9-4db6-8157-78333c9ba152",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "965bbfa9-157c-479c-95dd-ed1ecdf697d8",
+        "image_url": "https://mobbin.com/api/mcp/short/3DiPjDJE",
+        "position": 1
+      },
+      {
+        "screen_id": "a3d3e8d1-e81c-4448-9bbc-51e22bb96a9e",
+        "image_url": "https://mobbin.com/api/mcp/short/voh9b6MR",
+        "position": 2
+      },
+      {
+        "screen_id": "c98d4b9b-2895-4ee8-82e7-960e4a3f8491",
+        "image_url": "https://mobbin.com/api/mcp/short/kBqNWPOW",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "9e302463-8570-4c58-867a-a3c1c411c45d",
+    "name": "Adding a site style",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/9e302463-8570-4c58-867a-a3c1c411c45d",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "233bfa64-e15d-4107-a2ce-ca3886b3201a",
+        "image_url": "https://mobbin.com/api/mcp/short/wnqWDatA",
+        "position": 1
+      },
+      {
+        "screen_id": "f01c3701-e717-4e7e-af1d-d5f3819c1d5d",
+        "image_url": "https://mobbin.com/api/mcp/short/vIurK7gn",
+        "position": 2
+      },
+      {
+        "screen_id": "c10fa4b6-2241-4fd9-90c7-455b34551162",
+        "image_url": "https://mobbin.com/api/mcp/short/Yt3QsGoW",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "9eeba2d4-034f-49a7-a3c1-1f2a99fb0389",
+    "name": "Editing video details",
+    "actions": [
+      "Editing & Updating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/9eeba2d4-034f-49a7-a3c1-1f2a99fb0389",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "07c9161b-25e4-45a5-a16f-b8abe9f0d7b9",
+        "image_url": "https://mobbin.com/api/mcp/short/0i4eNS36",
+        "position": 1
+      },
+      {
+        "screen_id": "b4e4c4fd-4aa6-4fa6-8b2e-3494a2573c3e",
+        "image_url": "https://mobbin.com/api/mcp/short/GbqsTRCs",
+        "position": 2
+      },
+      {
+        "screen_id": "a76aec2a-b00a-4559-9d50-e390d4e6a91b",
+        "image_url": "https://mobbin.com/api/mcp/short/V6wHVnMA",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "a02072e0-ac1a-47c2-b8bc-1d8f4a16f0d5",
+    "name": "Chat with Higgsie",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/a02072e0-ac1a-47c2-b8bc-1d8f4a16f0d5",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "db7d1413-a8ec-4a80-9176-d9b695e03396",
+        "image_url": "https://mobbin.com/api/mcp/short/lhoqUXAG",
+        "position": 1
+      },
+      {
+        "screen_id": "038caa8d-966b-4d76-a15e-1b62d601e651",
+        "image_url": "https://mobbin.com/api/mcp/short/fIT4xxs2",
+        "position": 2
+      },
+      {
+        "screen_id": "b4cd2db2-2161-4f0d-84c1-651961d5ec84",
+        "image_url": "https://mobbin.com/api/mcp/short/oECryM5D",
+        "position": 3
+      },
+      {
+        "screen_id": "b33b6216-595a-4656-a816-6dae70cf7c6b",
+        "image_url": "https://mobbin.com/api/mcp/short/83Yiimlk",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "a1726fe0-86dd-4ecf-a4c3-31d31e2b2495",
+    "name": "AI influencer",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/a1726fe0-86dd-4ecf-a4c3-31d31e2b2495",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "11ff41bd-ad25-4092-8fee-f7b52955a67d",
+        "image_url": "https://mobbin.com/api/mcp/short/kC5ErHVL",
+        "position": 1
+      },
+      {
+        "screen_id": "7a534702-24f8-40d8-9171-a3fdd567b79e",
+        "image_url": "https://mobbin.com/api/mcp/short/BXnqhrJH",
+        "position": 2
+      },
+      {
+        "screen_id": "330fb665-f503-43c1-b6a1-5680885bb342",
+        "image_url": "https://mobbin.com/api/mcp/short/ojMfMFPd",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "a3c76f62-353b-4035-8bf2-cb4d25145735",
+    "name": "Voting a movie",
+    "actions": [
+      "Liking & Upvoting"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/a3c76f62-353b-4035-8bf2-cb4d25145735",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "83938805-8f58-4746-89a3-a5da9af42ca8",
+        "image_url": "https://mobbin.com/api/mcp/short/zQ4neja8",
+        "position": 1
+      },
+      {
+        "screen_id": "e1d46895-3dc1-4dd0-b04e-b6ffd6cedf66",
+        "image_url": "https://mobbin.com/api/mcp/short/YAnQHgW5",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "a5202d0f-da10-45c2-99f8-fca6c8f5142f",
+    "name": "Adding an image to folders",
+    "actions": [
+      "Saving to Collection"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/a5202d0f-da10-45c2-99f8-fca6c8f5142f",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "821a9772-edfd-40f1-a9b5-e5848d9e4fff",
+        "image_url": "https://mobbin.com/api/mcp/short/hJMtjE28",
+        "position": 1
+      },
+      {
+        "screen_id": "90e428d2-caab-4983-ac75-f0f694cdce3e",
+        "image_url": "https://mobbin.com/api/mcp/short/5LuR3Kk5",
+        "position": 2
+      },
+      {
+        "screen_id": "14e77019-6ce7-4c5b-8d11-918573e62173",
+        "image_url": "https://mobbin.com/api/mcp/short/7Jf3Z4fv",
+        "position": 3
+      },
+      {
+        "screen_id": "74ccfd96-5ff7-499e-9d25-388526380709",
+        "image_url": "https://mobbin.com/api/mcp/short/8RoxS9gT",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "a80a2fcb-53d0-436f-b69a-59e800f73d52",
+    "name": "Publishing video",
+    "actions": [
+      "Publishing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/a80a2fcb-53d0-436f-b69a-59e800f73d52",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "aaa9a2df-dbb8-4392-a5ee-154640a026cd",
+        "image_url": "https://mobbin.com/api/mcp/short/gHeRbnDa",
+        "position": 1
+      },
+      {
+        "screen_id": "6732a462-57fb-47b0-941f-b7193d56efd4",
+        "image_url": "https://mobbin.com/api/mcp/short/9uH2U09k",
+        "position": 2
+      },
+      {
+        "screen_id": "f43ab234-6b2b-42b9-b7e2-b11ffb9e27a6",
+        "image_url": "https://mobbin.com/api/mcp/short/rOORk1jT",
+        "position": 3
+      },
+      {
+        "screen_id": "0aac3edb-c4ce-4158-b5e1-8f0d179bb7d2",
+        "image_url": "https://mobbin.com/api/mcp/short/6cOspyRe",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "aa01eda3-4925-4b62-9d1a-686b344b2a19",
+    "name": "Adding memories",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/aa01eda3-4925-4b62-9d1a-686b344b2a19",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "a3d3e8d1-e81c-4448-9bbc-51e22bb96a9e",
+        "image_url": "https://mobbin.com/api/mcp/short/Plwr031g",
+        "position": 1
+      },
+      {
+        "screen_id": "d11af94b-185d-4b9b-8f06-baa245c50260",
+        "image_url": "https://mobbin.com/api/mcp/short/xRJfn96Y",
+        "position": 2
+      },
+      {
+        "screen_id": "6e29e638-e73a-447f-ad31-52a1f3301740",
+        "image_url": "https://mobbin.com/api/mcp/short/tCLt4V6H",
+        "position": 3
+      },
+      {
+        "screen_id": "ba44cc5a-a63c-4a20-beae-f2924fbd862a",
+        "image_url": "https://mobbin.com/api/mcp/short/SGMMaWd0",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "ad5aec55-ca54-46c1-94e9-09c9b2f02d91",
+    "name": "Filtering generations",
+    "actions": [
+      "Filtering & Sorting"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/ad5aec55-ca54-46c1-94e9-09c9b2f02d91",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "e9047055-6a7a-45a5-a4ff-2f133b2f0548",
+        "image_url": "https://mobbin.com/api/mcp/short/in8SKfKF",
+        "position": 1
+      },
+      {
+        "screen_id": "d807e4d5-ae12-4495-abf9-c72081599f0a",
+        "image_url": "https://mobbin.com/api/mcp/short/dRUARvkD",
+        "position": 2
+      },
+      {
+        "screen_id": "3f74186c-04ce-4a31-8c65-fe6a292cfc4d",
+        "image_url": "https://mobbin.com/api/mcp/short/lyAIEuTX",
+        "position": 3
+      },
+      {
+        "screen_id": "6bb0984c-04e2-40e3-884c-4b30f2190ca5",
+        "image_url": "https://mobbin.com/api/mcp/short/LgGJ7IWq",
+        "position": 4
+      },
+      {
+        "screen_id": "88e4c39c-0f6c-4b8a-a076-49c9e8aeda30",
+        "image_url": "https://mobbin.com/api/mcp/short/XiKJjEpL",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "b09bd67c-7641-45a8-b669-a0abfa1550cd",
+    "name": "Assets",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/b09bd67c-7641-45a8-b669-a0abfa1550cd",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "e4b24d35-c3d6-4271-bb28-5e68813520f9",
+        "image_url": "https://mobbin.com/api/mcp/short/TxksgBKe",
+        "position": 1
+      },
+      {
+        "screen_id": "0d41df30-eca5-48b2-8235-978e81fa827f",
+        "image_url": "https://mobbin.com/api/mcp/short/bQzA6FyW",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "b321e3d5-b290-4f37-a134-d2f7898428b8",
+    "name": "Adding a shape",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/b321e3d5-b290-4f37-a134-d2f7898428b8",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "a47c843f-66b6-4921-9f88-9a046c2676b4",
+        "image_url": "https://mobbin.com/api/mcp/short/2JTEjCaC",
+        "position": 1
+      },
+      {
+        "screen_id": "65a6dce4-d409-4dfc-b280-41fb1d74fe25",
+        "image_url": "https://mobbin.com/api/mcp/short/MlYU9SAi",
+        "position": 2
+      },
+      {
+        "screen_id": "5d4e2b2c-3d2a-4c8d-bfb0-4aaf288b7de2",
+        "image_url": "https://mobbin.com/api/mcp/short/0P98q2Qq",
+        "position": 3
+      },
+      {
+        "screen_id": "d12cc860-5ec8-45b5-a6ee-4c260e883204",
+        "image_url": "https://mobbin.com/api/mcp/short/RS4ZS1Hx",
+        "position": 4
+      },
+      {
+        "screen_id": "eb7c462e-b954-43bc-b8f7-8246d68ec8ad",
+        "image_url": "https://mobbin.com/api/mcp/short/6X1ymLtk",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "b51d49ab-4b72-48e2-a443-ab4e107b9d18",
+    "name": "Adding an element",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/b51d49ab-4b72-48e2-a443-ab4e107b9d18",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "8a3ed0b0-689e-4a12-98df-60bf929cf1fa",
+        "image_url": "https://mobbin.com/api/mcp/short/zTsyG39C",
+        "position": 1
+      },
+      {
+        "screen_id": "f4431a10-6229-4cd4-a60f-3b71f7b49c76",
+        "image_url": "https://mobbin.com/api/mcp/short/IpUXNPCp",
+        "position": 2
+      },
+      {
+        "screen_id": "f4de8ce1-eaba-4e54-8192-be02828cfb7c",
+        "image_url": "https://mobbin.com/api/mcp/short/5rm858va",
+        "position": 3
+      },
+      {
+        "screen_id": "fc550fd1-6bf9-4045-8203-19a3869e3cb5",
+        "image_url": "https://mobbin.com/api/mcp/short/X6095yJ3",
+        "position": 4
+      },
+      {
+        "screen_id": "23a4170a-d9c6-4a42-b752-066ff94f1b92",
+        "image_url": "https://mobbin.com/api/mcp/short/W9Tl2yTb",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "b948c62e-d1f5-41c5-a7e7-f252e4455985",
+    "name": "Creating a product",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/b948c62e-d1f5-41c5-a7e7-f252e4455985",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "8173d516-e1cd-4af3-897b-3edb5f5e2787",
+        "image_url": "https://mobbin.com/api/mcp/short/Neok0AoO",
+        "position": 1
+      },
+      {
+        "screen_id": "935fd089-b9f9-4aa7-bb7b-cfe54a2f8292",
+        "image_url": "https://mobbin.com/api/mcp/short/pSLskB0I",
+        "position": 2
+      },
+      {
+        "screen_id": "65e7b916-ed13-4414-9509-ecf366a6c3bd",
+        "image_url": "https://mobbin.com/api/mcp/short/Vg15kVVA",
+        "position": 3
+      },
+      {
+        "screen_id": "2620a5eb-2173-4fe6-bc51-38ec423ac0f6",
+        "image_url": "https://mobbin.com/api/mcp/short/rqnOAIeC",
+        "position": 4
+      },
+      {
+        "screen_id": "b255fa95-4795-4fa1-8170-90b618148ed4",
+        "image_url": "https://mobbin.com/api/mcp/short/cISRsz4S",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "baa5212e-52c7-425b-b2e9-5decd26d8247",
+    "name": "Adding a sticker",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/baa5212e-52c7-425b-b2e9-5decd26d8247",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "eb7c462e-b954-43bc-b8f7-8246d68ec8ad",
+        "image_url": "https://mobbin.com/api/mcp/short/LjwDWoAY",
+        "position": 1
+      },
+      {
+        "screen_id": "d889039d-3c46-4e19-8dcc-05149b36a466",
+        "image_url": "https://mobbin.com/api/mcp/short/16nGekQ6",
+        "position": 2
+      },
+      {
+        "screen_id": "f04d5fc0-41ef-47e7-96cb-2e5daa5c9771",
+        "image_url": "https://mobbin.com/api/mcp/short/KqoEO5Oy",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "bb230510-4ee7-4361-80f1-b4bdd40e1993",
+    "name": "Logging out",
+    "actions": [
+      "Logging Out"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/bb230510-4ee7-4361-80f1-b4bdd40e1993",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "a243ff1a-c629-49c0-9b12-d4d3e9fd1906",
+        "image_url": "https://mobbin.com/api/mcp/short/jHQsKtEa",
+        "position": 1
+      },
+      {
+        "screen_id": "c9cfacab-a126-4f36-897a-d9c91a3c6c9f",
+        "image_url": "https://mobbin.com/api/mcp/short/JxNLWfK0",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "bc7783b0-2942-4194-9f08-b60ac54de15e",
+    "name": "Video",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/bc7783b0-2942-4194-9f08-b60ac54de15e",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "e4b24d35-c3d6-4271-bb28-5e68813520f9",
+        "image_url": "https://mobbin.com/api/mcp/short/jt87MG4t",
+        "position": 1
+      },
+      {
+        "screen_id": "22ac9aaa-eb14-4aac-8534-86657a0f0ae1",
+        "image_url": "https://mobbin.com/api/mcp/short/19MjHg5o",
+        "position": 2
+      },
+      {
+        "screen_id": "b46ac10a-f27a-45ba-b8fa-3e054ce594e7",
+        "image_url": "https://mobbin.com/api/mcp/short/GFaHFNBp",
+        "position": 3
+      },
+      {
+        "screen_id": "aaa9a2df-dbb8-4392-a5ee-154640a026cd",
+        "image_url": "https://mobbin.com/api/mcp/short/HhoTewGs",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "bfa9ccb0-898e-4303-b058-d27ca8172e00",
+    "name": "Sora 2 trends",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/bfa9ccb0-898e-4303-b058-d27ca8172e00",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 16,
+    "screens": [
+      {
+        "screen_id": "96055850-dfbc-4d05-a443-4d7ad853c898",
+        "image_url": "https://mobbin.com/api/mcp/short/m8R6sCZv",
+        "position": 1
+      },
+      {
+        "screen_id": "d83419f5-eeba-446a-bbef-bfba81d02214",
+        "image_url": "https://mobbin.com/api/mcp/short/xvybChDE",
+        "position": 2
+      },
+      {
+        "screen_id": "98705f61-4f24-446c-96c2-85c56608a3bf",
+        "image_url": "https://mobbin.com/api/mcp/short/O4d3ZXbp",
+        "position": 3
+      },
+      {
+        "screen_id": "e65f5fd7-7da3-4f2e-b758-c357a56aa873",
+        "image_url": "https://mobbin.com/api/mcp/short/ciMA8vld",
+        "position": 4
+      },
+      {
+        "screen_id": "e21d4298-6072-4e14-a1e3-eecd4f23fd2e",
+        "image_url": "https://mobbin.com/api/mcp/short/CIygNnp2",
+        "position": 5
+      },
+      {
+        "screen_id": "13114f70-2a74-46ef-b105-15130a00507f",
+        "image_url": "https://mobbin.com/api/mcp/short/mOmLFvte",
+        "position": 6
+      },
+      {
+        "screen_id": "8e6b81ce-2c86-467b-876f-a1fe259906ee",
+        "image_url": "https://mobbin.com/api/mcp/short/TyvZZI1D",
+        "position": 7
+      },
+      {
+        "screen_id": "aef8ffd1-d87b-4c03-bff1-7d6f8e6417f0",
+        "image_url": "https://mobbin.com/api/mcp/short/GzqR3s5Y",
+        "position": 8
+      },
+      {
+        "screen_id": "b8feeef2-d801-4f3e-895d-906025066473",
+        "image_url": "https://mobbin.com/api/mcp/short/CtoyBYu2",
+        "position": 9
+      },
+      {
+        "screen_id": "4d8d055e-4137-4479-95ca-ee56d737a408",
+        "image_url": "https://mobbin.com/api/mcp/short/KlgaBfOC",
+        "position": 10
+      },
+      {
+        "screen_id": "5621a7cf-a54f-4dfa-852d-2ff38f89d986",
+        "image_url": "https://mobbin.com/api/mcp/short/vMkkDd08",
+        "position": 11
+      },
+      {
+        "screen_id": "094a797c-1dd5-4aaa-b57f-00df3a2becbd",
+        "image_url": "https://mobbin.com/api/mcp/short/aVEoz204",
+        "position": 12
+      },
+      {
+        "screen_id": "796fecf5-cbb6-4cd9-add8-e3a07d054041",
+        "image_url": "https://mobbin.com/api/mcp/short/OMi4ez1G",
+        "position": 13
+      },
+      {
+        "screen_id": "694997ba-fb70-4c0d-975c-ba3d7ade8e73",
+        "image_url": "https://mobbin.com/api/mcp/short/NBsGdQGw",
+        "position": 14
+      },
+      {
+        "screen_id": "1fbb6cc2-3624-44df-9ef7-436c42cd6aab",
+        "image_url": "https://mobbin.com/api/mcp/short/GJSLW20S",
+        "position": 15
+      },
+      {
+        "screen_id": "1a3aa4ce-705e-4b62-9e6d-0b6420d57d77",
+        "image_url": "https://mobbin.com/api/mcp/short/y2u5vGqX",
+        "position": 16
+      }
+    ]
+  },
+  {
+    "id": "c09e5a45-3f99-45b7-8e0b-854ca848bfcd",
+    "name": "Generating a scene",
+    "actions": [
+      "Adding & Creating",
+      "Chatting & Sending Messages",
+      "Selecting & Choosing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/c09e5a45-3f99-45b7-8e0b-854ca848bfcd",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 11,
+    "screens": [
+      {
+        "screen_id": "4f9bf6e8-b81e-4d3b-8547-763160488647",
+        "image_url": "https://mobbin.com/api/mcp/short/oMduK2L4",
+        "position": 1
+      },
+      {
+        "screen_id": "4064f3f1-a13f-4df5-b2bf-595e8a73815b",
+        "image_url": "https://mobbin.com/api/mcp/short/1jMEj6tD",
+        "position": 2
+      },
+      {
+        "screen_id": "e3ab41c7-43d7-4a1b-b486-69149eec2067",
+        "image_url": "https://mobbin.com/api/mcp/short/fIWbYJpj",
+        "position": 3
+      },
+      {
+        "screen_id": "3962ea32-ebf4-4a77-a54b-c091cd0c36d6",
+        "image_url": "https://mobbin.com/api/mcp/short/8v0UT9IF",
+        "position": 4
+      },
+      {
+        "screen_id": "2951d96c-7abb-4686-9cd2-9e715913cf51",
+        "image_url": "https://mobbin.com/api/mcp/short/w69DlxFy",
+        "position": 5
+      },
+      {
+        "screen_id": "34a46a36-d6e9-4c89-823a-97e081292aec",
+        "image_url": "https://mobbin.com/api/mcp/short/rd59ioSM",
+        "position": 6
+      },
+      {
+        "screen_id": "0fc28fbe-3d7f-4ace-ae52-00e587d3f029",
+        "image_url": "https://mobbin.com/api/mcp/short/7ubGeR8q",
+        "position": 7
+      },
+      {
+        "screen_id": "856639a9-2cc1-4323-90b2-611bd0b88709",
+        "image_url": "https://mobbin.com/api/mcp/short/9yF9CDPr",
+        "position": 8
+      },
+      {
+        "screen_id": "979f09f1-2dbd-4ac2-bf7a-26a8ed002f9a",
+        "image_url": "https://mobbin.com/api/mcp/short/UfXmyVIJ",
+        "position": 9
+      },
+      {
+        "screen_id": "f499bebb-51f1-4998-a56f-bb5ba4c32960",
+        "image_url": "https://mobbin.com/api/mcp/short/zvVBRyiH",
+        "position": 10
+      },
+      {
+        "screen_id": "d4475df6-00be-45b1-bb93-bfb66082041b",
+        "image_url": "https://mobbin.com/api/mcp/short/90a9FoN0",
+        "position": 11
+      }
+    ]
+  },
+  {
+    "id": "c35422b9-8305-4154-9b92-baef1ab396a0",
+    "name": "Filtering skills",
+    "actions": [
+      "Filtering & Sorting"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/c35422b9-8305-4154-9b92-baef1ab396a0",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "8b7871c5-586f-4d9e-89a2-e609bc4b3943",
+        "image_url": "https://mobbin.com/api/mcp/short/aexxaHrL",
+        "position": 1
+      },
+      {
+        "screen_id": "ac7c2de6-eaec-41f9-b05e-b5e2cbe55cd2",
+        "image_url": "https://mobbin.com/api/mcp/short/CSMIYADW",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "c3959641-6d7b-4e75-8089-08abb2caa0c3",
+    "name": "Calling with team",
+    "actions": [
+      "Calling",
+      "Turning On/Off"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/c3959641-6d7b-4e75-8089-08abb2caa0c3",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "043d9946-7825-4109-b185-3b4c832f5a69",
+        "image_url": "https://mobbin.com/api/mcp/short/KqnG0s5R",
+        "position": 1
+      },
+      {
+        "screen_id": "072266ea-7d04-486b-9a3f-f38de0efdd13",
+        "image_url": "https://mobbin.com/api/mcp/short/oKsY0mYR",
+        "position": 2
+      },
+      {
+        "screen_id": "4df27c67-0a98-464a-bc60-e3417133ac88",
+        "image_url": "https://mobbin.com/api/mcp/short/b7X9wfL3",
+        "position": 3
+      },
+      {
+        "screen_id": "6d908d54-c508-4e0a-8871-a223087036dc",
+        "image_url": "https://mobbin.com/api/mcp/short/IkH6xwSX",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "c4224f8f-5a0f-4b41-8a00-47e88d9f1c61",
+    "name": "Adding a connector",
+    "actions": [
+      "Connecting & Linking"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/c4224f8f-5a0f-4b41-8a00-47e88d9f1c61",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 5,
+    "screens": [
+      {
+        "screen_id": "965bbfa9-157c-479c-95dd-ed1ecdf697d8",
+        "image_url": "https://mobbin.com/api/mcp/short/gVFtAP60",
+        "position": 1
+      },
+      {
+        "screen_id": "ec9ffc65-0607-434f-9f44-6b8c8746019b",
+        "image_url": "https://mobbin.com/api/mcp/short/jv7fSWn4",
+        "position": 2
+      },
+      {
+        "screen_id": "9c8ede71-1eeb-45bd-bf83-b111a6599d66",
+        "image_url": "https://mobbin.com/api/mcp/short/soszHvXe",
+        "position": 3
+      },
+      {
+        "screen_id": "332e2d03-58f4-43ab-964a-f4e7a18fba50",
+        "image_url": "https://mobbin.com/api/mcp/short/dPajtd0z",
+        "position": 4
+      },
+      {
+        "screen_id": "94ad55a3-35f8-4cda-9fc9-8945244e981b",
+        "image_url": "https://mobbin.com/api/mcp/short/FZ50uBoZ",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "c4575133-a7d0-4cd5-9576-3e411c9c8fc3",
+    "name": "Generating a preset",
+    "actions": [
+      "Adding & Creating",
+      "Uploading & Downloading"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/c4575133-a7d0-4cd5-9576-3e411c9c8fc3",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 6,
+    "screens": [
+      {
+        "screen_id": "bbefe7c9-5580-444a-9380-976d40926f82",
+        "image_url": "https://mobbin.com/api/mcp/short/KENxdmrI",
+        "position": 1
+      },
+      {
+        "screen_id": "5c0b6ff2-268e-4b5b-bf3b-ee22a664e24c",
+        "image_url": "https://mobbin.com/api/mcp/short/REL848vV",
+        "position": 2
+      },
+      {
+        "screen_id": "700a3089-fbf3-4f21-b08c-f417e1d6b5eb",
+        "image_url": "https://mobbin.com/api/mcp/short/w0ktRjA2",
+        "position": 3
+      },
+      {
+        "screen_id": "dc659016-ccba-49fa-af79-fac2a0e21211",
+        "image_url": "https://mobbin.com/api/mcp/short/OaKM3KJq",
+        "position": 4
+      },
+      {
+        "screen_id": "689506fe-c19e-4a59-833d-af335cb81b01",
+        "image_url": "https://mobbin.com/api/mcp/short/hFy0cGje",
+        "position": 5
+      },
+      {
+        "screen_id": "4f4c12e7-583f-43c0-a034-cebfde8b7d49",
+        "image_url": "https://mobbin.com/api/mcp/short/DX3DuLNj",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "c57579bd-85ea-48d0-b1df-5b5480c319ea",
+    "name": "Replying a chat",
+    "actions": [
+      "Chatting & Sending Messages"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/c57579bd-85ea-48d0-b1df-5b5480c319ea",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "44c557a7-aa69-43e5-b381-c30268b1e2b2",
+        "image_url": "https://mobbin.com/api/mcp/short/IUZgUiHu",
+        "position": 1
+      },
+      {
+        "screen_id": "8d943256-67bc-42d9-852c-61e7cfad894b",
+        "image_url": "https://mobbin.com/api/mcp/short/yymRnqtQ",
+        "position": 2
+      },
+      {
+        "screen_id": "d11a98bd-a76a-40cb-9a9f-4e344770d96c",
+        "image_url": "https://mobbin.com/api/mcp/short/S5uc514e",
+        "position": 3
+      },
+      {
+        "screen_id": "b29529e9-3ab0-49a8-ad28-76513d7622f6",
+        "image_url": "https://mobbin.com/api/mcp/short/P8FIiZqz",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "c77ba07f-c62c-468c-8beb-820099ad67df",
+    "name": "Creating a website",
+    "actions": [
+      "Adding & Creating",
+      "Chatting & Sending Messages",
+      "Uploading & Downloading"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/c77ba07f-c62c-468c-8beb-820099ad67df",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 15,
+    "screens": [
+      {
+        "screen_id": "d56a3a36-b7d8-40a3-90f5-c1222d5bd7ea",
+        "image_url": "https://mobbin.com/api/mcp/short/wIUQNvh2",
+        "position": 1
+      },
+      {
+        "screen_id": "8a3ed0b0-689e-4a12-98df-60bf929cf1fa",
+        "image_url": "https://mobbin.com/api/mcp/short/fFksavCT",
+        "position": 2
+      },
+      {
+        "screen_id": "370d26c6-645b-4b7f-b36e-eac1ded5b79d",
+        "image_url": "https://mobbin.com/api/mcp/short/Rs1NnXeF",
+        "position": 3
+      },
+      {
+        "screen_id": "b3d37b95-b6a7-4d0b-a069-4239a27452f1",
+        "image_url": "https://mobbin.com/api/mcp/short/7CP6mIFZ",
+        "position": 4
+      },
+      {
+        "screen_id": "f952f9c6-6062-41d0-b6f6-a3bfe421cdb5",
+        "image_url": "https://mobbin.com/api/mcp/short/pL9Car2I",
+        "position": 5
+      },
+      {
+        "screen_id": "a0459d8c-a424-4491-b6fa-95d21c7e6bd3",
+        "image_url": "https://mobbin.com/api/mcp/short/UDRjysVY",
+        "position": 6
+      },
+      {
+        "screen_id": "c10fa4b6-2241-4fd9-90c7-455b34551162",
+        "image_url": "https://mobbin.com/api/mcp/short/NrmwvPUu",
+        "position": 7
+      },
+      {
+        "screen_id": "692a00a8-eb08-4315-8f53-afbeb1444633",
+        "image_url": "https://mobbin.com/api/mcp/short/12YW3IbP",
+        "position": 8
+      },
+      {
+        "screen_id": "dfb05d42-c95d-46cc-80de-c1156fe2d809",
+        "image_url": "https://mobbin.com/api/mcp/short/t7p0bGkV",
+        "position": 9
+      },
+      {
+        "screen_id": "c202c262-0d96-41a8-8efc-4ea9fbd4c53b",
+        "image_url": "https://mobbin.com/api/mcp/short/pTorqTWz",
+        "position": 10
+      },
+      {
+        "screen_id": "3f233ccc-487d-422e-bfb3-71e44d0e0ba2",
+        "image_url": "https://mobbin.com/api/mcp/short/veGs0k0d",
+        "position": 11
+      },
+      {
+        "screen_id": "ea07bf97-d6d5-4f12-bcd2-f665938e7ed5",
+        "image_url": "https://mobbin.com/api/mcp/short/3FItRN7Z",
+        "position": 12
+      },
+      {
+        "screen_id": "b6741ae3-c1f1-4335-bb72-530bea496619",
+        "image_url": "https://mobbin.com/api/mcp/short/aKMTbDgZ",
+        "position": 13
+      },
+      {
+        "screen_id": "6881aaa4-5fea-476a-871c-f82f47f3c9a6",
+        "image_url": "https://mobbin.com/api/mcp/short/zWt891iE",
+        "position": 14
+      },
+      {
+        "screen_id": "f969e712-935a-40fc-b3a6-3791ce9e1a74",
+        "image_url": "https://mobbin.com/api/mcp/short/mSpYXjEL",
+        "position": 15
+      }
+    ]
+  },
+  {
+    "id": "c81191bf-a849-4dd2-a8d4-31e2132e722f",
+    "name": "Creating an element",
+    "actions": [
+      "Adding & Creating",
+      "Uploading & Downloading"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/c81191bf-a849-4dd2-a8d4-31e2132e722f",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 12,
+    "screens": [
+      {
+        "screen_id": "196a10c2-79e7-4c73-8dd8-7a5a0159c4af",
+        "image_url": "https://mobbin.com/api/mcp/short/bLr57qwd",
+        "position": 1
+      },
+      {
+        "screen_id": "7d776986-395b-4c6f-9958-3e75348311a7",
+        "image_url": "https://mobbin.com/api/mcp/short/puF8HfGb",
+        "position": 2
+      },
+      {
+        "screen_id": "5b5bfd12-36bb-4329-b4db-035822fdfcf5",
+        "image_url": "https://mobbin.com/api/mcp/short/jb8wwyoA",
+        "position": 3
+      },
+      {
+        "screen_id": "91cfe831-9ed0-42a7-a378-ed7073209e4a",
+        "image_url": "https://mobbin.com/api/mcp/short/MkA1pY21",
+        "position": 4
+      },
+      {
+        "screen_id": "1625b273-6785-4ddd-bfcc-779836a65c88",
+        "image_url": "https://mobbin.com/api/mcp/short/fFAnX4hi",
+        "position": 5
+      },
+      {
+        "screen_id": "53dc5d47-c388-4af4-9081-444cfa9c808f",
+        "image_url": "https://mobbin.com/api/mcp/short/Nzf5UMaR",
+        "position": 6
+      },
+      {
+        "screen_id": "a2ffbe3c-cb20-4275-9c93-897244193616",
+        "image_url": "https://mobbin.com/api/mcp/short/wbDudW7X",
+        "position": 7
+      },
+      {
+        "screen_id": "7809f0d2-a30b-4ecf-890b-08d3671f37b0",
+        "image_url": "https://mobbin.com/api/mcp/short/YcBE6VoK",
+        "position": 8
+      },
+      {
+        "screen_id": "f3e38c62-e667-47de-9eb9-3484e47210cd",
+        "image_url": "https://mobbin.com/api/mcp/short/t6q1EMbk",
+        "position": 9
+      },
+      {
+        "screen_id": "7efed6ad-dbdc-4eb4-8c61-ad84bd27804b",
+        "image_url": "https://mobbin.com/api/mcp/short/k0xDsbSz",
+        "position": 10
+      },
+      {
+        "screen_id": "660fce4c-eafc-4a41-962e-329462f48287",
+        "image_url": "https://mobbin.com/api/mcp/short/cJ6xGOfN",
+        "position": 11
+      },
+      {
+        "screen_id": "abea32f8-15d0-4883-bb18-5e276854e4a1",
+        "image_url": "https://mobbin.com/api/mcp/short/bxempgAU",
+        "position": 12
+      }
+    ]
+  },
+  {
+    "id": "cab14b7b-a224-411c-a7f3-8b4501baffe3",
+    "name": "Adding text",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/cab14b7b-a224-411c-a7f3-8b4501baffe3",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "6931d2ad-5d8c-468f-aaba-14cc360acb67",
+        "image_url": "https://mobbin.com/api/mcp/short/LWQ22n4m",
+        "position": 1
+      },
+      {
+        "screen_id": "2f829612-e921-42c0-ba5c-2fd60fd97d77",
+        "image_url": "https://mobbin.com/api/mcp/short/Zo7E8xk9",
+        "position": 2
+      },
+      {
+        "screen_id": "2902e138-1c68-4078-a798-fbbf26bbf6fa",
+        "image_url": "https://mobbin.com/api/mcp/short/iwRosKoC",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "cb92c0b7-2ff8-41e0-a809-dbb1d70e0668",
+    "name": "Generating a product ad",
+    "actions": [
+      "Adding & Creating",
+      "Chatting & Sending Messages"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/cb92c0b7-2ff8-41e0-a809-dbb1d70e0668",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 11,
+    "screens": [
+      {
+        "screen_id": "3140b788-0a99-4311-95b0-39c69b0f89f3",
+        "image_url": "https://mobbin.com/api/mcp/short/otq9x9GR",
+        "position": 1
+      },
+      {
+        "screen_id": "8d0ea15b-3b05-4faf-ac02-f2fc54a8a57c",
+        "image_url": "https://mobbin.com/api/mcp/short/7SHhs0qV",
+        "position": 2
+      },
+      {
+        "screen_id": "e3c6b16a-0cd6-47da-9da3-778a6b1666bf",
+        "image_url": "https://mobbin.com/api/mcp/short/fCc0lYyk",
+        "position": 3
+      },
+      {
+        "screen_id": "91838aec-ab9c-4ddc-b2ea-0379db426d74",
+        "image_url": "https://mobbin.com/api/mcp/short/L1IwrRFF",
+        "position": 4
+      },
+      {
+        "screen_id": "f047ecb5-ac5d-44a2-983a-f5920833c521",
+        "image_url": "https://mobbin.com/api/mcp/short/xrxB6cam",
+        "position": 5
+      },
+      {
+        "screen_id": "292af7be-b5c1-4b40-831e-ba66bb6eff16",
+        "image_url": "https://mobbin.com/api/mcp/short/S36kckwv",
+        "position": 6
+      },
+      {
+        "screen_id": "bea6b5a0-8890-41df-9af2-940e81e40144",
+        "image_url": "https://mobbin.com/api/mcp/short/m7hfDVWP",
+        "position": 7
+      },
+      {
+        "screen_id": "8173d516-e1cd-4af3-897b-3edb5f5e2787",
+        "image_url": "https://mobbin.com/api/mcp/short/aCox90vM",
+        "position": 8
+      },
+      {
+        "screen_id": "086e0067-76c6-4256-83c6-174478657a00",
+        "image_url": "https://mobbin.com/api/mcp/short/96WHvde8",
+        "position": 9
+      },
+      {
+        "screen_id": "02f63633-7bc7-49bd-bfb2-b55ba3e35b63",
+        "image_url": "https://mobbin.com/api/mcp/short/hcYMI3XI",
+        "position": 10
+      },
+      {
+        "screen_id": "56183e6e-0ff2-4748-92b1-91e93cb20307",
+        "image_url": "https://mobbin.com/api/mcp/short/li3kHRBy",
+        "position": 11
+      }
+    ]
+  },
+  {
+    "id": "cf7c0144-7d5d-45e4-8143-078519e4a7e5",
+    "name": "Adding a code",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/cf7c0144-7d5d-45e4-8143-078519e4a7e5",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "1fe6594f-0ee7-4942-9b87-9b7f00085f34",
+        "image_url": "https://mobbin.com/api/mcp/short/XHDb11BE",
+        "position": 1
+      },
+      {
+        "screen_id": "de6daf93-c1b6-47c2-9531-22764425c04b",
+        "image_url": "https://mobbin.com/api/mcp/short/EVOwrlHm",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "cfc4264c-7047-4f5a-b0ad-6e917f99e6be",
+    "name": "Searching apps",
+    "actions": [
+      "Searching & Finding"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/cfc4264c-7047-4f5a-b0ad-6e917f99e6be",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "272acb57-6daf-4070-a64e-59207ecf0ebb",
+        "image_url": "https://mobbin.com/api/mcp/short/qnCloUzC",
+        "position": 1
+      },
+      {
+        "screen_id": "e05a06c5-c3d0-4635-8644-6d9a49492847",
+        "image_url": "https://mobbin.com/api/mcp/short/V105GYG4",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "d1db543a-e0c7-4127-9863-65b3ca126b20",
+    "name": "Recast studio",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/d1db543a-e0c7-4127-9863-65b3ca126b20",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 6,
+    "screens": [
+      {
+        "screen_id": "4ffd4b86-9844-4a0e-81ae-aceed74a148b",
+        "image_url": "https://mobbin.com/api/mcp/short/pYerkyFW",
+        "position": 1
+      },
+      {
+        "screen_id": "806cb0e4-5636-4df8-8ca8-60800b991282",
+        "image_url": "https://mobbin.com/api/mcp/short/yfs3NSeL",
+        "position": 2
+      },
+      {
+        "screen_id": "bbefb545-8ce0-4c1b-aa95-fa520b1f4ce1",
+        "image_url": "https://mobbin.com/api/mcp/short/Ug316JES",
+        "position": 3
+      },
+      {
+        "screen_id": "b50dc406-ce08-4392-8f31-ce07476aa0ba",
+        "image_url": "https://mobbin.com/api/mcp/short/cWTKgBmQ",
+        "position": 4
+      },
+      {
+        "screen_id": "151e4984-dbd8-4882-bdd9-8268b1a2e521",
+        "image_url": "https://mobbin.com/api/mcp/short/6N1AXp7q",
+        "position": 5
+      },
+      {
+        "screen_id": "9ebd0443-e727-4241-9471-387c1aa440b5",
+        "image_url": "https://mobbin.com/api/mcp/short/OEB3GJWJ",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "d2115889-c17b-4fee-8b97-cf983db999cf",
+    "name": "Manage account",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/d2115889-c17b-4fee-8b97-cf983db999cf",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 9,
+    "screens": [
+      {
+        "screen_id": "a243ff1a-c629-49c0-9b12-d4d3e9fd1906",
+        "image_url": "https://mobbin.com/api/mcp/short/PRFF2y37",
+        "position": 1
+      },
+      {
+        "screen_id": "3834ae29-f715-4343-ab3d-633e8cc88ad4",
+        "image_url": "https://mobbin.com/api/mcp/short/fCxc9rMw",
+        "position": 2
+      },
+      {
+        "screen_id": "e9d6dd21-30c4-4eaa-8309-c2352c7fc255",
+        "image_url": "https://mobbin.com/api/mcp/short/pO6dcv25",
+        "position": 3
+      },
+      {
+        "screen_id": "acaa74f3-1c16-45e2-bf26-af5bba40aab4",
+        "image_url": "https://mobbin.com/api/mcp/short/rLD5UDWM",
+        "position": 4
+      },
+      {
+        "screen_id": "ba7bc49d-8289-49e0-b082-40a819784d53",
+        "image_url": "https://mobbin.com/api/mcp/short/kC2DF7KU",
+        "position": 5
+      },
+      {
+        "screen_id": "dea1a392-f8b1-48ba-88f3-67afca11f052",
+        "image_url": "https://mobbin.com/api/mcp/short/slclGWLH",
+        "position": 6
+      },
+      {
+        "screen_id": "2884b14e-7f1f-4287-99e7-64862a439bcc",
+        "image_url": "https://mobbin.com/api/mcp/short/d7HzOMmW",
+        "position": 7
+      },
+      {
+        "screen_id": "3fe5d6ec-b9d0-4246-ad11-16df002b3bb8",
+        "image_url": "https://mobbin.com/api/mcp/short/H0b5eq6R",
+        "position": 8
+      },
+      {
+        "screen_id": "706c448d-f98b-457e-8bc6-4592395c84f9",
+        "image_url": "https://mobbin.com/api/mcp/short/mDA6MRlF",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "d2a79fe1-9631-4322-b2fd-a150f2bb9c27",
+    "name": "Changing video language",
+    "actions": [
+      "Editing & Updating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/d2a79fe1-9631-4322-b2fd-a150f2bb9c27",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "b46ac10a-f27a-45ba-b8fa-3e054ce594e7",
+        "image_url": "https://mobbin.com/api/mcp/short/hh1UWTAc",
+        "position": 1
+      },
+      {
+        "screen_id": "9d79042c-aa06-4eeb-ae7e-d0d372541e95",
+        "image_url": "https://mobbin.com/api/mcp/short/cH7zyz2R",
+        "position": 2
+      },
+      {
+        "screen_id": "2a61808f-a3bc-4d73-a543-67b32a3cf71d",
+        "image_url": "https://mobbin.com/api/mcp/short/yOV8RFa8",
+        "position": 3
+      },
+      {
+        "screen_id": "25b113d8-f0c4-4f80-8ac8-d42e1711f5c6",
+        "image_url": "https://mobbin.com/api/mcp/short/2995LoSs",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "d3ad010e-3182-4329-a337-83751c4306e9",
+    "name": "Team Chat",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/d3ad010e-3182-4329-a337-83751c4306e9",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "db7d1413-a8ec-4a80-9176-d9b695e03396",
+        "image_url": "https://mobbin.com/api/mcp/short/EBvEV7fE",
+        "position": 1
+      },
+      {
+        "screen_id": "043d9946-7825-4109-b185-3b4c832f5a69",
+        "image_url": "https://mobbin.com/api/mcp/short/XVUxt6F5",
+        "position": 2
+      },
+      {
+        "screen_id": "b29529e9-3ab0-49a8-ad28-76513d7622f6",
+        "image_url": "https://mobbin.com/api/mcp/short/Cx0Vx6Po",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "d3fd5c39-5d2a-485b-bd44-502731960529",
+    "name": "Explore",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/d3fd5c39-5d2a-485b-bd44-502731960529",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 8,
+    "screens": [
+      {
+        "screen_id": "e4b24d35-c3d6-4271-bb28-5e68813520f9",
+        "image_url": "https://mobbin.com/api/mcp/short/bWDXDmYZ",
+        "position": 1
+      },
+      {
+        "screen_id": "a7b76290-0ed3-4b05-af08-4b23b1c08f59",
+        "image_url": "https://mobbin.com/api/mcp/short/oTK4MpgS",
+        "position": 2
+      },
+      {
+        "screen_id": "bbefe7c9-5580-444a-9380-976d40926f82",
+        "image_url": "https://mobbin.com/api/mcp/short/ZRiJ6Oia",
+        "position": 3
+      },
+      {
+        "screen_id": "a0e58bed-1a59-4fa5-bbda-3f3cb7ce97ad",
+        "image_url": "https://mobbin.com/api/mcp/short/7f7fCGPf",
+        "position": 4
+      },
+      {
+        "screen_id": "9d4bc244-1dbf-44dd-b57c-09db9e53d19c",
+        "image_url": "https://mobbin.com/api/mcp/short/grAIs11Y",
+        "position": 5
+      },
+      {
+        "screen_id": "0a05b63a-f7da-4700-9527-96b607c87e6d",
+        "image_url": "https://mobbin.com/api/mcp/short/dBN13Kmb",
+        "position": 6
+      },
+      {
+        "screen_id": "40cd4c3d-7bf4-4119-aa7b-2262e20b8a64",
+        "image_url": "https://mobbin.com/api/mcp/short/LoWX2CLG",
+        "position": 7
+      },
+      {
+        "screen_id": "a30b286b-c124-4fd2-8a23-823e7268b331",
+        "image_url": "https://mobbin.com/api/mcp/short/vJIECQUZ",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "d52f6d7a-66ba-4ed9-a637-0a3e9d9979c7",
+    "name": "Creating a video",
+    "actions": [
+      "Adding & Creating",
+      "Uploading & Downloading"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/d52f6d7a-66ba-4ed9-a637-0a3e9d9979c7",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 11,
+    "screens": [
+      {
+        "screen_id": "22ac9aaa-eb14-4aac-8534-86657a0f0ae1",
+        "image_url": "https://mobbin.com/api/mcp/short/6mJjhEUX",
+        "position": 1
+      },
+      {
+        "screen_id": "dc7524c2-a1eb-4cf4-b524-eb3a2fb4c8cb",
+        "image_url": "https://mobbin.com/api/mcp/short/i4yX0r2I",
+        "position": 2
+      },
+      {
+        "screen_id": "2e45fd59-a247-4fe1-bcb2-a402a2721dfd",
+        "image_url": "https://mobbin.com/api/mcp/short/AlU9Qyiq",
+        "position": 3
+      },
+      {
+        "screen_id": "1b7929b8-88ac-43f7-88af-7ea9d84739dc",
+        "image_url": "https://mobbin.com/api/mcp/short/QGA8azK4",
+        "position": 4
+      },
+      {
+        "screen_id": "a51203f2-29bf-4fde-9b1e-02a4ae4c065d",
+        "image_url": "https://mobbin.com/api/mcp/short/7kueP8Ws",
+        "position": 5
+      },
+      {
+        "screen_id": "0b7b3ed8-e159-4046-a922-9da15117ebc6",
+        "image_url": "https://mobbin.com/api/mcp/short/wfNyldus",
+        "position": 6
+      },
+      {
+        "screen_id": "9ebbb7c2-9a92-42ac-ba45-dbbeb4c4587a",
+        "image_url": "https://mobbin.com/api/mcp/short/KydXbEqq",
+        "position": 7
+      },
+      {
+        "screen_id": "64702c33-f0f4-4a11-b91b-141f1c63ab15",
+        "image_url": "https://mobbin.com/api/mcp/short/y7cn6mEi",
+        "position": 8
+      },
+      {
+        "screen_id": "b0327e4b-8f72-4eb3-a341-8391f20e884b",
+        "image_url": "https://mobbin.com/api/mcp/short/L27MG1DK",
+        "position": 9
+      },
+      {
+        "screen_id": "d1b84ec4-3096-439d-87a0-83eea86e96fd",
+        "image_url": "https://mobbin.com/api/mcp/short/AnYgznrY",
+        "position": 10
+      },
+      {
+        "screen_id": "7ebd2d5b-8f46-4f40-9bac-fad7dc93219b",
+        "image_url": "https://mobbin.com/api/mcp/short/lHzp7I3k",
+        "position": 11
+      }
+    ]
+  },
+  {
+    "id": "dbb77788-6d4c-44ba-868f-e89e65318004",
+    "name": "Adding a sticky note",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/dbb77788-6d4c-44ba-868f-e89e65318004",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 7,
+    "screens": [
+      {
+        "screen_id": "a8ade5ad-fc92-4f71-a6dd-986f56a10598",
+        "image_url": "https://mobbin.com/api/mcp/short/OJnRJ2LH",
+        "position": 1
+      },
+      {
+        "screen_id": "b7ec4845-f2c2-4186-bff2-c398d2f14435",
+        "image_url": "https://mobbin.com/api/mcp/short/TsPpa7EK",
+        "position": 2
+      },
+      {
+        "screen_id": "82cd3564-e340-41a5-9607-9a5c64366d8c",
+        "image_url": "https://mobbin.com/api/mcp/short/umzHnbPV",
+        "position": 3
+      },
+      {
+        "screen_id": "1bfe2284-d0ba-4736-9b56-3cc557de05c8",
+        "image_url": "https://mobbin.com/api/mcp/short/8ZTRvG7b",
+        "position": 4
+      },
+      {
+        "screen_id": "406aded8-fbe6-41a4-8171-8bb49e42759f",
+        "image_url": "https://mobbin.com/api/mcp/short/7HCF5KWv",
+        "position": 5
+      },
+      {
+        "screen_id": "c8fd4d9e-57ba-431a-b8c9-faee81a8b86d",
+        "image_url": "https://mobbin.com/api/mcp/short/VDXPSyJq",
+        "position": 6
+      },
+      {
+        "screen_id": "a47c843f-66b6-4921-9f88-9a046c2676b4",
+        "image_url": "https://mobbin.com/api/mcp/short/rPm1AJDx",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "e308d315-c532-49cd-96ff-0b07c455892e",
+    "name": "Chatting with team",
+    "actions": [
+      "Chatting & Sending Messages",
+      "Uploading & Downloading"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/e308d315-c532-49cd-96ff-0b07c455892e",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "043d9946-7825-4109-b185-3b4c832f5a69",
+        "image_url": "https://mobbin.com/api/mcp/short/5GjgvWzO",
+        "position": 1
+      },
+      {
+        "screen_id": "079bad79-b809-4378-8684-45290b3c9e5d",
+        "image_url": "https://mobbin.com/api/mcp/short/VMdGllYQ",
+        "position": 2
+      },
+      {
+        "screen_id": "3c591aa2-30c0-4226-8866-1c4906a1f7a5",
+        "image_url": "https://mobbin.com/api/mcp/short/hiMlLrFK",
+        "position": 3
+      },
+      {
+        "screen_id": "44c557a7-aa69-43e5-b381-c30268b1e2b2",
+        "image_url": "https://mobbin.com/api/mcp/short/hMAuqEJl",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "e4d617a5-326d-43c4-993f-dc7b88bc2e52",
+    "name": "Adding image generator",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/e4d617a5-326d-43c4-993f-dc7b88bc2e52",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "b92aa134-33e6-4b5b-80b1-7d7a70347afc",
+        "image_url": "https://mobbin.com/api/mcp/short/gdXl27Hu",
+        "position": 1
+      },
+      {
+        "screen_id": "fe26c87d-e4c0-45a8-a0e9-92774cf20fea",
+        "image_url": "https://mobbin.com/api/mcp/short/H1DT3Re2",
+        "position": 2
+      },
+      {
+        "screen_id": "1b778ff2-9ae1-41ec-9ef5-d61046925d50",
+        "image_url": "https://mobbin.com/api/mcp/short/3DQ6WJdQ",
+        "position": 3
+      },
+      {
+        "screen_id": "3540a978-996f-4491-b637-c792bcaacbf8",
+        "image_url": "https://mobbin.com/api/mcp/short/9j3lU70B",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "e65920c5-9344-467a-b3de-43a68850a49e",
+    "name": "Publishing images",
+    "actions": [
+      "Publishing",
+      "Selecting & Choosing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/e65920c5-9344-467a-b3de-43a68850a49e",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 6,
+    "screens": [
+      {
+        "screen_id": "7d776986-395b-4c6f-9958-3e75348311a7",
+        "image_url": "https://mobbin.com/api/mcp/short/EKLAJ4a8",
+        "position": 1
+      },
+      {
+        "screen_id": "f6ecfe4d-bc8e-4946-b561-281becc37ef0",
+        "image_url": "https://mobbin.com/api/mcp/short/EE2623Dg",
+        "position": 2
+      },
+      {
+        "screen_id": "79bc2f66-114a-4b85-b55a-08251214fee3",
+        "image_url": "https://mobbin.com/api/mcp/short/IlmQxtBE",
+        "position": 3
+      },
+      {
+        "screen_id": "a3087340-cdcd-4dd6-891a-a0cf3a604e03",
+        "image_url": "https://mobbin.com/api/mcp/short/ItV48sO6",
+        "position": 4
+      },
+      {
+        "screen_id": "986ddf59-a5d9-42d0-9fcd-b72d4deeae24",
+        "image_url": "https://mobbin.com/api/mcp/short/eIv1SNb7",
+        "position": 5
+      },
+      {
+        "screen_id": "3ad5d902-ffb1-4a04-9086-f3392813a360",
+        "image_url": "https://mobbin.com/api/mcp/short/omrZZvkE",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "e780ba3b-d894-4676-812e-fe69170aa482",
+    "name": "Audio",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/e780ba3b-d894-4676-812e-fe69170aa482",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "e4b24d35-c3d6-4271-bb28-5e68813520f9",
+        "image_url": "https://mobbin.com/api/mcp/short/s2aXhrtj",
+        "position": 1
+      },
+      {
+        "screen_id": "87ab0bf5-731d-474b-8084-c7943c407b8e",
+        "image_url": "https://mobbin.com/api/mcp/short/Ko567e7J",
+        "position": 2
+      },
+      {
+        "screen_id": "17dec885-43d0-4b7b-880f-b79e46b5e191",
+        "image_url": "https://mobbin.com/api/mcp/short/gfww4kig",
+        "position": 3
+      },
+      {
+        "screen_id": "4ed1b65f-6b85-4f27-9ba0-71046a705105",
+        "image_url": "https://mobbin.com/api/mcp/short/EQaO95se",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "e7b9e374-e124-4d81-ac61-5440fcecab63",
+    "name": "Copying a shared link",
+    "actions": [
+      "Copying & Duplicating",
+      "Sharing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/e7b9e374-e124-4d81-ac61-5440fcecab63",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "db7d1413-a8ec-4a80-9176-d9b695e03396",
+        "image_url": "https://mobbin.com/api/mcp/short/t18KPaNK",
+        "position": 1
+      },
+      {
+        "screen_id": "6d9a842c-986b-4703-8b6f-48f874ba9bf4",
+        "image_url": "https://mobbin.com/api/mcp/short/Q38m6lLq",
+        "position": 2
+      },
+      {
+        "screen_id": "21830a1d-5a5f-4fbd-8448-6d1b8702d3f8",
+        "image_url": "https://mobbin.com/api/mcp/short/9Kn5KTqQ",
+        "position": 3
+      },
+      {
+        "screen_id": "86ab7ca2-9e84-479e-addb-bfb91fefbeed",
+        "image_url": "https://mobbin.com/api/mcp/short/UP44AEIJ",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "ea47f4f0-b79b-4909-a087-9cdff078b74c",
+    "name": "Copying a link",
+    "actions": [
+      "Copying & Duplicating",
+      "Sharing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/ea47f4f0-b79b-4909-a087-9cdff078b74c",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "2c89540c-ad3c-4cfe-ba22-c9c141a687f9",
+        "image_url": "https://mobbin.com/api/mcp/short/iOD9utaD",
+        "position": 1
+      },
+      {
+        "screen_id": "4dae0822-d93e-48dd-adf9-bff2613b46e7",
+        "image_url": "https://mobbin.com/api/mcp/short/t40CxQJ5",
+        "position": 2
+      },
+      {
+        "screen_id": "9da1563f-3d30-4e01-bfa3-41bcf3460f3d",
+        "image_url": "https://mobbin.com/api/mcp/short/Ie2wUeJN",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "f231dcea-496a-4bce-9d10-f253dd7f480a",
+    "name": "Deleting images",
+    "actions": [
+      "Deleting & Removing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/f231dcea-496a-4bce-9d10-f253dd7f480a",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "79bc2f66-114a-4b85-b55a-08251214fee3",
+        "image_url": "https://mobbin.com/api/mcp/short/fBBz4skq",
+        "position": 1
+      },
+      {
+        "screen_id": "d20d3ff5-b06e-4cac-837b-ed7dce9aae40",
+        "image_url": "https://mobbin.com/api/mcp/short/0RYiW9ow",
+        "position": 2
+      },
+      {
+        "screen_id": "fba5fbef-3e3c-41f5-acb9-4706ce9f706c",
+        "image_url": "https://mobbin.com/api/mcp/short/4uyg6Mtv",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "f23523f2-3956-4ac4-8564-d0dbef5cefb6",
+    "name": "Playing a movie",
+    "actions": [
+      "Watching Video"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/f23523f2-3956-4ac4-8564-d0dbef5cefb6",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "e832a316-ddae-4c1f-a554-1a766344cfc6",
+        "image_url": "https://mobbin.com/api/mcp/short/qfIeCwe8",
+        "position": 1
+      },
+      {
+        "screen_id": "83938805-8f58-4746-89a3-a5da9af42ca8",
+        "image_url": "https://mobbin.com/api/mcp/short/UtjoSyO4",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "f29c66eb-cadc-4677-ac12-c74edeec6bc7",
+    "name": "Moodboard",
+    "actions": [],
+    "mobbin_url": "https://mobbin.com/flows/f29c66eb-cadc-4677-ac12-c74edeec6bc7",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 4,
+    "screens": [
+      {
+        "screen_id": "e4b24d35-c3d6-4271-bb28-5e68813520f9",
+        "image_url": "https://mobbin.com/api/mcp/short/Xk0C6yau",
+        "position": 1
+      },
+      {
+        "screen_id": "11ff41bd-ad25-4092-8fee-f7b52955a67d",
+        "image_url": "https://mobbin.com/api/mcp/short/IG1lNmwh",
+        "position": 2
+      },
+      {
+        "screen_id": "462ede0e-fe10-4b53-a02a-6da7ecad0296",
+        "image_url": "https://mobbin.com/api/mcp/short/WjgpS1Fm",
+        "position": 3
+      },
+      {
+        "screen_id": "67966bd3-bdb5-41b7-ad41-28af42d0d34a",
+        "image_url": "https://mobbin.com/api/mcp/short/MZAhT7mP",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "f86e393f-6a6b-4fbf-94aa-81b74f12fc56",
+    "name": "Resizing an image preview",
+    "actions": [
+      "Editing & Updating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/f86e393f-6a6b-4fbf-94aa-81b74f12fc56",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 2,
+    "screens": [
+      {
+        "screen_id": "0ee48fec-bc56-409e-ba7c-fb23d26dc854",
+        "image_url": "https://mobbin.com/api/mcp/short/fg8Qd9cb",
+        "position": 1
+      },
+      {
+        "screen_id": "196a10c2-79e7-4c73-8dd8-7a5a0159c4af",
+        "image_url": "https://mobbin.com/api/mcp/short/AuhZmRtx",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "fc7811b1-f92b-4ebf-afe4-138982756f18",
+    "name": "Updating profile",
+    "actions": [
+      "Editing Profile"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/fc7811b1-f92b-4ebf-afe4-138982756f18",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 7,
+    "screens": [
+      {
+        "screen_id": "76c77002-8ef9-4c51-b6bd-ef590d1190b9",
+        "image_url": "https://mobbin.com/api/mcp/short/dWxLuCp3",
+        "position": 1
+      },
+      {
+        "screen_id": "a3c1508e-eb05-4053-8de0-a9a07ea30a7b",
+        "image_url": "https://mobbin.com/api/mcp/short/aEWohoBr",
+        "position": 2
+      },
+      {
+        "screen_id": "5c84d3cc-6015-4aba-b48a-b99656ffa90e",
+        "image_url": "https://mobbin.com/api/mcp/short/dq1q4Hzj",
+        "position": 3
+      },
+      {
+        "screen_id": "c78d6291-dae3-425a-9e1b-6f644c06047b",
+        "image_url": "https://mobbin.com/api/mcp/short/nPFEKlVb",
+        "position": 4
+      },
+      {
+        "screen_id": "69fe643a-8371-41b8-86dd-c5aa046fc94b",
+        "image_url": "https://mobbin.com/api/mcp/short/5SeqOKaW",
+        "position": 5
+      },
+      {
+        "screen_id": "b0f0e352-a8fd-4b42-a4ed-d39aafd02b15",
+        "image_url": "https://mobbin.com/api/mcp/short/MDXUBtww",
+        "position": 6
+      },
+      {
+        "screen_id": "c2757d32-1634-464e-ab87-32efa59fa408",
+        "image_url": "https://mobbin.com/api/mcp/short/SNCvHTz4",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "fd12ac0b-8f00-4fa4-aa7a-012d89deed0e",
+    "name": "Creating an avatar",
+    "actions": [
+      "Adding & Creating",
+      "Uploading & Downloading"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/fd12ac0b-8f00-4fa4-aa7a-012d89deed0e",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 6,
+    "screens": [
+      {
+        "screen_id": "086e0067-76c6-4256-83c6-174478657a00",
+        "image_url": "https://mobbin.com/api/mcp/short/Szpq9p3s",
+        "position": 1
+      },
+      {
+        "screen_id": "a05a425a-e207-4aba-8614-c2f7968281cd",
+        "image_url": "https://mobbin.com/api/mcp/short/fyZSzZzc",
+        "position": 2
+      },
+      {
+        "screen_id": "ec3df63e-d59a-415b-9651-bce04940297c",
+        "image_url": "https://mobbin.com/api/mcp/short/YXY3lDZw",
+        "position": 3
+      },
+      {
+        "screen_id": "e2dce6bf-7d50-463e-8c5f-c8e7b2afa2ca",
+        "image_url": "https://mobbin.com/api/mcp/short/izxrJGjM",
+        "position": 4
+      },
+      {
+        "screen_id": "eee0e7dd-2ad5-4e42-b4d6-4ea2dcffc2e1",
+        "image_url": "https://mobbin.com/api/mcp/short/JV4WGYVo",
+        "position": 5
+      },
+      {
+        "screen_id": "b7968824-0bcf-43cf-8269-05405a39ec33",
+        "image_url": "https://mobbin.com/api/mcp/short/UkKpRTJZ",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "fe0b61fd-e9cf-45a2-a3da-7b36ea70804a",
+    "name": "Creating an AI influencer",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/fe0b61fd-e9cf-45a2-a3da-7b36ea70804a",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 10,
+    "screens": [
+      {
+        "screen_id": "7a534702-24f8-40d8-9171-a3fdd567b79e",
+        "image_url": "https://mobbin.com/api/mcp/short/iUDEuKUs",
+        "position": 1
+      },
+      {
+        "screen_id": "f6ba79aa-af92-4718-8a0b-0b8835e2f87b",
+        "image_url": "https://mobbin.com/api/mcp/short/uN7GRDpJ",
+        "position": 2
+      },
+      {
+        "screen_id": "68177fc0-e068-42cf-a048-3d13dc760a3a",
+        "image_url": "https://mobbin.com/api/mcp/short/wcw77Dy8",
+        "position": 3
+      },
+      {
+        "screen_id": "f48770ca-ea17-4691-b4c9-71e044a420fc",
+        "image_url": "https://mobbin.com/api/mcp/short/o7zQeEkH",
+        "position": 4
+      },
+      {
+        "screen_id": "b34670be-c60c-4806-a2d5-b27221bea512",
+        "image_url": "https://mobbin.com/api/mcp/short/JFXp5xJ4",
+        "position": 5
+      },
+      {
+        "screen_id": "1592964e-677b-4788-a2d0-b24325f57889",
+        "image_url": "https://mobbin.com/api/mcp/short/ctnfH9Vt",
+        "position": 6
+      },
+      {
+        "screen_id": "3f627749-4df1-4431-af6b-7adb7d6c0c8d",
+        "image_url": "https://mobbin.com/api/mcp/short/fpRf8MNm",
+        "position": 7
+      },
+      {
+        "screen_id": "0dc074b3-2f09-4876-b944-88c1959da989",
+        "image_url": "https://mobbin.com/api/mcp/short/u84EikiZ",
+        "position": 8
+      },
+      {
+        "screen_id": "651e5a09-2f37-4a79-ab00-7abeac5b6d33",
+        "image_url": "https://mobbin.com/api/mcp/short/M1yXt1C7",
+        "position": 9
+      },
+      {
+        "screen_id": "87514c14-6e1d-415f-bb72-5d8299c76c0a",
+        "image_url": "https://mobbin.com/api/mcp/short/Ulcx7CbW",
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "ff40d387-9b3f-412b-a125-74b942f0c7f2",
+    "name": "Publishing an employee",
+    "actions": [
+      "Publishing"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/ff40d387-9b3f-412b-a125-74b942f0c7f2",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 7,
+    "screens": [
+      {
+        "screen_id": "14dcbe33-a67e-4a8c-82a8-ae13d84bf464",
+        "image_url": "https://mobbin.com/api/mcp/short/BBBW4UXz",
+        "position": 1
+      },
+      {
+        "screen_id": "36f00ece-73a0-48b1-929a-aca566261335",
+        "image_url": "https://mobbin.com/api/mcp/short/mO4qrUIZ",
+        "position": 2
+      },
+      {
+        "screen_id": "79356f35-d008-4155-bdd5-f929c04a1d8d",
+        "image_url": "https://mobbin.com/api/mcp/short/xOHIptsr",
+        "position": 3
+      },
+      {
+        "screen_id": "97971e2f-4613-413c-8d65-e25f4400c710",
+        "image_url": "https://mobbin.com/api/mcp/short/aFRHADhE",
+        "position": 4
+      },
+      {
+        "screen_id": "136a8e27-024f-4280-bd7e-699077e4f5cf",
+        "image_url": "https://mobbin.com/api/mcp/short/vcZNkFyV",
+        "position": 5
+      },
+      {
+        "screen_id": "67677c20-2231-420a-a973-e86a7da5591d",
+        "image_url": "https://mobbin.com/api/mcp/short/Klo291bX",
+        "position": 6
+      },
+      {
+        "screen_id": "965bbfa9-157c-479c-95dd-ed1ecdf697d8",
+        "image_url": "https://mobbin.com/api/mcp/short/TEB0ik0v",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "fff4eefc-5b46-4310-a7f1-3f61f9998231",
+    "name": "Using an employee",
+    "actions": [
+      "Adding & Creating"
+    ],
+    "mobbin_url": "https://mobbin.com/flows/fff4eefc-5b46-4310-a7f1-3f61f9998231",
+    "app_name": "Higgsfield",
+    "platform": "web",
+    "screen_count": 3,
+    "screens": [
+      {
+        "screen_id": "f4431a10-6229-4cd4-a60f-3b71f7b49c76",
+        "image_url": "https://mobbin.com/api/mcp/short/gxqOq0YU",
+        "position": 1
+      },
+      {
+        "screen_id": "5063efa8-2ae0-421a-a8ec-a02603f5ae80",
+        "image_url": "https://mobbin.com/api/mcp/short/AjY4cwQE",
+        "position": 2
+      },
+      {
+        "screen_id": "4c5f29c2-665e-4259-ba2c-e2f261e2d6c6",
+        "image_url": "https://mobbin.com/api/mcp/short/ZY9OPK6S",
+        "position": 3
+      }
+    ]
+  }
+]

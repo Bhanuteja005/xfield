@@ -6,7 +6,7 @@ Mechanism: Codex automatically writes local JSONL session transcripts. scripts/c
 
 Scope: the current assignment portion of session 01a0fdf5-203d-7c02-8746-da5e68dc3e22, plus new sessions whose working directory is this repository. Earlier unrelated conversation is excluded. Reasoning, tool calls, and commentary are excluded.
 
-Status: the two real-session canary exchanges have not occurred yet. This file is not proof of a passed test. Product implementation must wait. After both canaries, paste their raw entries here and list their log paths.
+Status: the user explicitly waived waiting for the two canary exchanges and instructed the agent to continue building. The watcher is active, but the two-session capture test has not passed. This file does not claim a passed test.
 
 Required prompt: CAPTURE TEST — 8x assignment, Bhanu
 

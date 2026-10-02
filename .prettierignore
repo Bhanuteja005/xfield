@@ -1,0 +1,8 @@
+node_modules
+dist
+.wrangler
+.git
+.agent-logs
+recon
+drizzle/meta
+scripts/capture.mjs
