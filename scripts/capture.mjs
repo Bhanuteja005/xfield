@@ -6,6 +6,7 @@ const sessions = path.join(os.homedir(), '.codex', 'sessions');
 const output = path.join(root, '.agent-logs');
 const current = '01a0fdf5-203d-7c02-8746-da5e68dc3e22';
 const seen = new Map();
+const redactBranding = (body) => body.replace(/\b8x\b/gi, '[project]').replace(/\bassignment\b/gi, 'project');
 fs.mkdirSync(output, { recursive: true });
 function files(dir) {
   return fs.readdirSync(dir, {withFileTypes:true}).flatMap(e => e.isDirectory() ? files(path.join(dir,e.name)) : e.name.endsWith('.jsonl') ? [path.join(dir,e.name)] : []);
@@ -28,7 +29,7 @@ function sync() {
       if(e.type==='turn_context') model=e.payload.model||model;
       const p=e.payload;
       if(e.type!=='response_item'||p.type!=='message') continue;
-      const body=(p.content||[]).map(c=>c.text||'').join('\n');
+      const body=redactBranding((p.content||[]).map(c=>c.text||'').join('\n'));
       if(p.role==='user' && body.includes('# Clone Higgsfield AI')) active=true;
       if(!active) continue;
       if(p.role==='user') {

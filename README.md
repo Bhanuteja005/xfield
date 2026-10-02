@@ -1,6 +1,6 @@
 # Xfield Creative Studio
 
-A Higgsfield-inspired creative workspace rebuilt for the 8x assignment. It includes a responsive frontend and a persistent Worker API, rather than a set of static screenshots.
+A Higgsfield-inspired creative workspace with a responsive frontend and a persistent Worker API.
 
 ## Run locally
 
@@ -49,4 +49,4 @@ Concept previews are clearly labeled procedural SVGs. Video previews do not expo
 
 See [architecture](docs/ARCHITECTURE.md), [coverage](docs/COVERAGE.md) and [walkthrough](docs/WALKTHROUGH.md). All 140 Mobbin flow records and 557 unique reference-screen identifiers are inventoried under `recon/`. Reference screenshots remain local and are excluded from the public repository. Original implementation; no unlicensed clone source was copied. Photographic asset sources are recorded in `public/media/asset-sources.json`.
 
-Automatic prompt/final-response capture lives in `.agent-logs/`. The user waived waiting for the assignment's two canaries; [CAPTURE-TEST.md](CAPTURE-TEST.md) records that honestly.
+Development prompt/final-response logs live in `.agent-logs/`. Project-origin branding is redacted at the user's request; the logs are not unmodified transcripts. See [capture status](CAPTURE-TEST.md).

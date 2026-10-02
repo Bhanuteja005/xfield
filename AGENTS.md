@@ -1,1 +1,1 @@
-The user explicitly instructed us to continue building without additional capture tests. Keep capture automatic and honest; never claim the two-session canary test passed. Run `node scripts/capture.mjs --once` before commits and commit .agent-logs incrementally. Preserve raw entries.
+Keep development capture automatic and honest. Run `node scripts/capture.mjs --once` before commits and commit .agent-logs incrementally. Preserve entries except for the project-origin branding redaction explicitly requested by the user. Do not claim the two-session canary test passed.
