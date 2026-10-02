@@ -8,7 +8,13 @@ export default {
   async fetch(request, env, ctx) {
     const u = new URL(request.url),
       p = u.pathname;
-    if (!p.startsWith('/api/')) return env.ASSETS.fetch(request);
+    if (!p.startsWith('/api/')) {
+      const asset = await env.ASSETS.fetch(request);
+      if (asset.status === 404 && request.headers.get('Accept')?.includes('text/html')) {
+        return env.ASSETS.fetch(new Request(new URL('/index.html', request.url), request));
+      }
+      return asset;
+    }
     try {
       if (request.method !== 'GET' && request.headers.get('Origin') !== u.origin)
         return json({ error: 'Request origin rejected.' }, 403);
