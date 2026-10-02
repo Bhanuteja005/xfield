@@ -1,1 +1,1 @@
-{"project_id":"appgprj_6abfffb13bbc8191b671d289e25c6552","d1":[{"binding":"DB","database_name":"xfield"}],"r2":[{"binding":"MEDIA","bucket_name":"xfield-media"}]}
+{"project_id":"appgprj_6abfffb13bbc8191b671d289e25c6552","d1":"DB","r2":"MEDIA"}

@@ -2834,6 +2834,18 @@ footer button {
     font-size: 10px;
   }
 }
+@media (max-width: 760px) {
+  .hero-side {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 240px);
+    height: auto;
+  }
+  .hero-side h2,
+  .hero-side .hero-green h2 {
+    font-size: 30px;
+    letter-spacing: -1px;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   * {
     animation: none !important;
