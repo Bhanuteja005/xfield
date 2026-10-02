@@ -398,7 +398,9 @@ export function Studio({
                       <Icon name="ArrowUpRight" size={17} />
                     )}
                   </div>
-                  <span className="preset-type">{i < 8 ? 'CAMERA MOTION' : 'STYLE'}</span>
+                  <span className="preset-type">
+                    {kind === 'image' ? 'CREATIVE DIRECTION' : i < 8 ? 'CAMERA MOTION' : 'STYLE'}
+                  </span>
                 </button>
               ))}
             </div>

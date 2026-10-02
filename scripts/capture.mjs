@@ -5,15 +5,24 @@ const root = path.resolve(import.meta.dirname, '..');
 const sessions = path.join(os.homedir(), '.codex', 'sessions');
 const output = path.join(root, '.agent-logs');
 const current = '01a0fdf5-203d-7c02-8746-da5e68dc3e22';
+const seen = new Map();
 fs.mkdirSync(output, { recursive: true });
 function files(dir) {
   return fs.readdirSync(dir, {withFileTypes:true}).flatMap(e => e.isDirectory() ? files(path.join(dir,e.name)) : e.name.endsWith('.jsonl') ? [path.join(dir,e.name)] : []);
 }
 function sync() {
   for (const file of files(sessions)) {
-    const entries = fs.readFileSync(file,'utf8').split('\n').flatMap(line => {try{return [JSON.parse(line)]}catch{return []}});
-    const meta = entries.find(e=>e.type==='session_meta')?.payload;
+    const stat = fs.statSync(file);
+    if (seen.get(file) === stat.mtimeMs) continue;
+    seen.set(file, stat.mtimeMs);
+    const handle = fs.openSync(file, 'r');
+    const head = Buffer.alloc(16384);
+    const count = fs.readSync(handle, head, 0, head.length, 0);
+    fs.closeSync(handle);
+    let meta;
+    try { meta = JSON.parse(head.toString('utf8', 0, count).split('\n')[0]).payload; } catch { continue; }
     if (!meta || (meta.id!==current && path.resolve(meta.cwd||'.').toLowerCase()!==root.toLowerCase())) continue;
+    const entries = fs.readFileSync(file,'utf8').split('\n').flatMap(line => {try{return [JSON.parse(line)]}catch{return []}});
     let active = meta.id!==current, model='unknown', number=0, records=[];
     for (const e of entries) {
       if(e.type==='turn_context') model=e.payload.model||model;

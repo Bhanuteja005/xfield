@@ -95,7 +95,13 @@ export default function App() {
     return () => window.removeEventListener('keydown', h);
   }, []);
   const go = (r, data = null) => {
-    history.pushState({}, '', r === 'explore' ? '/' : '/' + r);
+    history.pushState(
+      {},
+      '',
+      r === 'explore'
+        ? '/'
+        : '/' + r + (data?.project?.id ? '?project=' + encodeURIComponent(data.project.id) : ''),
+    );
     setRoute(r);
     setSearch('');
     setSeed(data);
@@ -307,7 +313,7 @@ export default function App() {
                 className="hero hero-large"
                 onClick={() => go('video', { prompt: media[0].prompt, preset: 'Orbit' })}
               >
-                <img src={media[0].image} alt="Astronaut exploring space" />
+                <img src={media[0].image} alt="Earth seen from space" />
                 <div className="hero-shade" />
                 <span className="pill">THE POSSIBILITIES ARE INFINITE</span>
                 <div className="hero-copy">
@@ -568,8 +574,7 @@ export default function App() {
               )}
               {detail.model === 'Concept preview' && (
                 <small>
-                  This is a procedural SVG concept, not AI-generated media. Video motion is a
-                  browser preview.
+                  This is a procedural SVG concept, not AI-generated media or an exported video.
                 </small>
               )}
             </div>

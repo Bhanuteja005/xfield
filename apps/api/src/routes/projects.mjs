@@ -1,5 +1,5 @@
 import { text } from '../lib/http.mjs';
-import { folderInput } from '../../../../packages/shared/src/contracts.ts';
+import { folderInput, projectInput } from '../../../../packages/shared/src/contracts.ts';
 
 export async function handleProjects({ request, env, p, owner, reply }) {
   if (p === '/api/folders') {
@@ -33,7 +33,7 @@ export async function handleProjects({ request, env, p, owner, reply }) {
         ).results.map((p) => ({ ...p, data: JSON.parse(p.data) })),
       );
     if (request.method === 'POST') {
-      const b = await request.json();
+      const b = projectInput.parse(await request.json());
       if (JSON.stringify(b.data || {}).length > 100000)
         return reply({ error: 'Project is too large' }, 400);
       const id = crypto.randomUUID();
@@ -52,7 +52,7 @@ export async function handleProjects({ request, env, p, owner, reply }) {
   if (/^\/api\/projects\/[^/]+$/.test(p)) {
     const id = p.split('/').pop();
     if (request.method === 'PATCH') {
-      const b = await request.json();
+      const b = projectInput.parse(await request.json());
       if (JSON.stringify(b.data || {}).length > 100000)
         return reply({ error: 'Project too large' }, 400);
       await env.DB.prepare('UPDATE projects SET name=?,data=? WHERE id=? AND owner=?')

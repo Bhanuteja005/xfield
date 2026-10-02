@@ -23,6 +23,22 @@ export const assetUpdate = z.object({
 });
 export const profileUpdate = z.object({ name: z.string().trim().min(1).max(60) });
 export const folderInput = z.object({ name: z.string().trim().min(1).max(80) });
+export const canvasNode = z.object({
+  id: z.string().min(1).max(80),
+  type: z.enum(['note', 'image', 'generation']),
+  text: z.string().max(2000),
+  image: z.string().max(2048).optional(),
+  x: z.number().finite().min(-10000).max(10000),
+  y: z.number().finite().min(-10000).max(10000),
+  color: z
+    .string()
+    .regex(/^#[a-fA-F0-9]{6}$/)
+    .optional(),
+});
+export const projectInput = z.object({
+  name: z.string().trim().min(1).max(80),
+  data: z.object({ nodes: z.array(canvasNode).max(100).default([]) }).default({ nodes: [] }),
+});
 export interface Asset {
   id: string;
   owner: string;
