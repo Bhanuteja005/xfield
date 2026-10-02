@@ -47,6 +47,10 @@ Concept previews are clearly labeled procedural SVGs. Video previews do not expo
 
 ## Structure and research
 
+## Deployment
+
+The user will deploy on Vercel. The frontend can use the generated `dist/client` assets, but the current API is a Cloudflare Worker backed by D1 and R2. A complete Vercel deployment requires adapting the API and storage integrations or configuring a separately hosted backend. The previous ChatGPT-hosted deployment is owner-only pending permanent deletion; do not republish it.
+
 See [architecture](docs/ARCHITECTURE.md), [coverage](docs/COVERAGE.md) and [walkthrough](docs/WALKTHROUGH.md). All 140 Mobbin flow records and 557 unique reference-screen identifiers are inventoried under `recon/`. Reference screenshots remain local and are excluded from the public repository. Original implementation; no unlicensed clone source was copied. Photographic asset sources are recorded in `public/media/asset-sources.json`.
 
 Development prompt/final-response logs live in `.agent-logs/`. Project-origin branding is redacted at the user's request; the logs are not unmodified transcripts. See [capture status](CAPTURE-TEST.md).
