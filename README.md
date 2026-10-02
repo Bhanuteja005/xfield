@@ -45,11 +45,11 @@ Live generation supports the documented Higgsfield **Soul 2** text-to-image and 
 
 Concept previews are clearly labeled procedural SVGs. Video previews do not export actual video. Audio plays browser speech synthesis and has no downloadable output. Other models, advanced video editing, motion control, commerce and cross-device account recovery remain outside the shipped integration scope. Plans are illustrative and do not charge money.
 
-## Structure and research
-
 ## Deployment
 
-The user will deploy on Vercel. The frontend can use the generated `dist/client` assets, but the current API is a Cloudflare Worker backed by D1 and R2. A complete Vercel deployment requires adapting the API and storage integrations or configuring a separately hosted backend. The previous ChatGPT-hosted deployment is owner-only pending permanent deletion; do not republish it.
+The user will deploy on Vercel. The frontend can use the generated `dist/client` assets, but the current API is a Cloudflare Worker backed by D1 and R2. A complete Vercel deployment requires adapting the API and storage integrations or configuring a separately hosted backend. The user has reported deleting the previous ChatGPT-hosted deployment; do not republish it.
+
+## Structure and research
 
 See [architecture](docs/ARCHITECTURE.md), [coverage](docs/COVERAGE.md) and [walkthrough](docs/WALKTHROUGH.md). All 140 Mobbin flow records and 557 unique reference-screen identifiers are inventoried under `recon/`. Reference screenshots remain local and are excluded from the public repository. Original implementation; no unlicensed clone source was copied. Photographic asset sources are recorded in `public/media/asset-sources.json`.
 
