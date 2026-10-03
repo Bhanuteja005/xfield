@@ -342,21 +342,6 @@
 .landing-final h2 {
   margin: 0 0 28px;
 }
-.landing-footer {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 20px;
-  padding: 36px clamp(16px, 5vw, 64px);
-  font-size: 13px;
-  color: var(--muted);
-}
-.landing-footer span:last-child {
-  margin-left: auto;
-}
-.landing-footer button:hover {
-  color: #fff;
-}
 
 @media (max-width: 860px) {
   .landing-nav nav {
@@ -386,9 +371,6 @@
   }
   .landing-honest {
     flex-direction: column;
-  }
-  .landing-footer span:last-child {
-    margin-left: 0;
   }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -445,4 +427,8 @@
 }
 .landing-auth {
   margin-left: auto;
+}
+
+.landing footer.site-footer {
+  margin-inline: clamp(16px, 5vw, 64px);
 }

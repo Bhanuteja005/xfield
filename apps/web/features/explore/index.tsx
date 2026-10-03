@@ -1,3 +1,4 @@
+import { SiteFooter } from '../../components/studio/footer';
 import { Button, Gallery, Icon } from '../../components/ui';
 import { media, tools } from '../../lib/data';
 import type { StudioApi } from '../../lib/types';
@@ -126,13 +127,7 @@ export function Explore({ go, search, setDetail }: Pick<StudioApi, 'go' | 'searc
           Open Canvas <Icon name="ArrowUpRight" size={16} />
         </Button>
       </div>
-      <footer>
-        <span className="brand">xfield.</span>
-        <p>Made for the things you haven&apos;t imagined yet.</p>
-        <button onClick={() => go('home')}>About Xfield</button>
-        <button onClick={() => go('academy')}>Help & guides</button>
-        <span>© 2026 Xfield · Independent rebuild</span>
-      </footer>
+      <SiteFooter go={go} />
     </>
   );
 }

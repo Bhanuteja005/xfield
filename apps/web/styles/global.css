@@ -749,6 +749,76 @@ footer p {
 footer button {
   font-size: 10px;
 }
+footer.site-footer {
+  display: block;
+  margin-top: 64px;
+  padding: 56px 0 0;
+  overflow: hidden;
+  font-size: 13px;
+}
+.site-footer-top {
+  display: grid;
+  grid-template-columns: 1.6fr repeat(4, 1fr);
+  gap: 32px;
+}
+.site-footer-brand .brand {
+  font-size: 26px;
+}
+.site-footer-brand p {
+  margin: 12px 0 0;
+  max-width: 220px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.site-footer nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.site-footer h3 {
+  margin: 0 0 4px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #e6ebe6;
+}
+.site-footer button {
+  padding: 0;
+  font-size: 13px;
+  color: var(--muted);
+  text-align: left;
+  transition: color 0.15s;
+}
+.site-footer button:hover {
+  color: #fff;
+}
+.site-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  color: #61686a;
+}
+.site-footer-mark {
+  margin: 12px 0 -0.22em;
+  font-size: clamp(88px, 22vw, 320px);
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #181a1b;
+  user-select: none;
+}
+@media (max-width: 860px) {
+  .site-footer-top {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .site-footer-brand {
+    grid-column: 1 / -1;
+  }
+}
 .studio-main {
   padding: 0;
   max-width: none;
@@ -2908,12 +2978,6 @@ footer button {
 .auth-tabs button.active {
   background: #2b2f31;
   color: #fff;
-}
-.auth-code {
-  font-size: 24px;
-  letter-spacing: 0.5em;
-  text-align: center;
-  font-variant-numeric: tabular-nums;
 }
 .top-actions .auth-login {
   background: transparent;

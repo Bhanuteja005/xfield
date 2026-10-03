@@ -1,4 +1,5 @@
 import { useRef, useState, type FormEvent } from 'react';
+import { fitForUpload } from '../../lib/shrink-image';
 import { Button, Empty, Heading, Icon, Modal } from '../../components/ui';
 import { api, patch, post } from '../../lib/api';
 import { messageOf, type Asset, type Folder, type StudioApi } from '../../lib/types';
@@ -59,7 +60,7 @@ export function AssetLibrary({
     setUploading(true);
     try {
       const form = new FormData();
-      form.append('file', file);
+      form.append('file', await fitForUpload(file));
       await api('/upload', { method: 'POST', body: form });
       await refresh();
       notify('Asset uploaded');

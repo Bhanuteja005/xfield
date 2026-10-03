@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { fitForUpload } from '../../lib/shrink-image';
 import { Button, Empty, Icon, Modal } from '../../components/ui';
 import { api, post } from '../../lib/api';
 import { LIVE_MODELS, imageModels, media, presets, videoModels } from '../../lib/data';
@@ -152,7 +153,7 @@ export function Studio({
     if (!file) return;
     try {
       const form = new FormData();
-      form.append('file', file);
+      form.append('file', await fitForUpload(file));
       const uploaded = await api<Asset>('/upload', { method: 'POST', body: form });
       setReference(uploaded.id);
       await refresh();

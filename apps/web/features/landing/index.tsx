@@ -2,6 +2,7 @@
 import { useState, type FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
 import { MainNav, PromoBanner, usePromoBanner } from '../../components/studio/nav';
+import { SiteFooter } from '../../components/studio/footer';
 import { Icon } from '../../components/ui';
 import { media, tools } from '../../lib/data';
 import type { RouteTarget, Seed } from '../../lib/types';
@@ -274,13 +275,7 @@ export function Landing() {
         </button>
       </section>
 
-      <footer className="landing-footer">
-        <span className="brand">xfield.</span>
-        <button onClick={() => go('academy')}>Help & guides</button>
-        <button onClick={() => go('community')}>Community</button>
-        <button onClick={() => go('pricing')}>Plans</button>
-        <span>© 2026 Xfield · Independent product rebuild, not affiliated with Higgsfield</span>
-      </footer>
+      <SiteFooter go={go} />
     </div>
   );
 }

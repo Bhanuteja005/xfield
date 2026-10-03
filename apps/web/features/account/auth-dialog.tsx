@@ -47,7 +47,6 @@ export function AuthDialog({ initial, close, refresh, notify }: AuthDialogProps)
   const [agreed, setAgreed] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [code, setCode] = useState('');
   const [wait, setWait] = useState(0);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
@@ -110,7 +109,7 @@ export function AuthDialog({ initial, close, refresh, notify }: AuthDialogProps)
         try {
           await post('/auth/signin', { email, password });
         } catch (failure) {
-          // An account that was never verified continues at the code step.
+          // An account that was never verified continues at the verify step.
           if (failure instanceof ApiError && failure.status === 403) {
             goTo('verify');
             return;
@@ -132,19 +131,11 @@ export function AuthDialog({ initial, close, refresh, notify }: AuthDialogProps)
     });
   };
 
-  const submitCode = (event: FormEvent) => {
-    event.preventDefault();
-    void run(async () => {
-      await post('/auth/verify', { email, code });
-      await finish('Email verified. Your work is saved to your account.');
-    });
-  };
-
   const resend = () =>
     void run(async () => {
       await post('/auth/resend', { email });
       setWait(RESEND_SECONDS);
-      notify('A new code is on its way');
+      notify('A new email is on its way');
     });
 
   const sendReset = (event: FormEvent) => {
@@ -288,34 +279,18 @@ export function AuthDialog({ initial, close, refresh, notify }: AuthDialogProps)
         )}
 
         {step === 'verify' && (
-          <form onSubmit={submitCode}>
+          <div>
             <p>
               We sent an email to <b>{email}</b>. Click the link in it to verify. This window signs
               you in automatically once you do.
             </p>
-            <label htmlFor="auth-code">Or enter the code from the email</label>
-            <input
-              id="auth-code"
-              className="auth-code"
-              inputMode="numeric"
-              autoComplete="one-time-code"
-              pattern="\d{6,10}"
-              maxLength={10}
-              value={code}
-              onChange={(event) => setCode(event.target.value.replace(/\D/g, ''))}
-              required
-              autoFocus
-            />
             {error && <p className="form-error">{error}</p>}
             <div className="modal-actions">
               <Button disabled={busy || wait > 0} onClick={resend}>
-                {wait > 0 ? `Resend in ${wait}` : 'Resend code'}
-              </Button>
-              <Button primary type="submit" disabled={busy || code.length < 6}>
-                {busy ? 'Verifying…' : 'Verify'}
+                {wait > 0 ? `Resend in ${wait}` : 'Resend email'}
               </Button>
             </div>
-          </form>
+          </div>
         )}
 
         {step === 'forgot' && (
