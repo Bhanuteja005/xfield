@@ -1,56 +1,75 @@
 # Xfield Creative Studio
 
-A Higgsfield-inspired creative workspace with a responsive frontend and a persistent Worker API.
+A Higgsfield-inspired creative workspace: a public landing page, a studio for images, video,
+campaigns and canvases, and a typed backend. Built as a Next.js monorepo.
+
+```
+apps/web          Next.js 16 app: landing page, studio pages, /api route
+packages/api      backend: routes → controllers → services → infrastructure
+packages/db       Drizzle schema and Postgres migrations
+packages/shared   Zod contracts shared by the browser, the API and the tests
+```
+
+See [architecture](docs/ARCHITECTURE.md) for the request lifecycle and design decisions.
 
 ## Run locally
 
-Use Node 24 or newer. From this folder:
+Node 24 or newer. No database or cloud account is needed: without configuration the API uses an
+embedded Postgres and local file storage under `apps/web/.data/`.
 
 ```sh
 npm ci
-npm run build
-npm run db:local
-npm run backend
-```
-
-In a second terminal:
-
-```sh
 npm run dev
 ```
 
-Open http://127.0.0.1:5173. The backend runs on port 8787. Local storage is under `.wrangler/` and is excluded from Git. You can also use the complete production build directly at http://127.0.0.1:8787.
+Open http://localhost:3000.
 
 ## Checks
 
-With the local backend running:
-
 ```sh
-npm run check
-npm run format:check
+npm run check            # format, lint, strict typecheck, production build
+npm run start &          # then, with the server on port 3000:
+npm test                 # API integration tests and contract tests
 ```
 
-The quality workflow repeats formatting, lint, strict shared-contract/API-client type checking, production build, migrations, and API/contract tests on GitHub. Views are JSX; this is not a fully TypeScript frontend. Integration tests verify workspace isolation, private media, uploads, folders, projects, publication/revocation, validation and idempotency against real local D1/R2.
+GitHub Actions runs the same steps on every push. The integration tests run against the real API
+and database and cover workspace isolation, private media, upload signature checks, folders,
+projects, publication and revocation, validation, idempotent generation, credential
+non-disclosure and 404/405 handling.
 
 ## Working flows
 
-- Browse inspiration, search, presets, model choices and studio directions.
-- Create procedural concept previews; inspect history, reuse prompts and download results.
-- Upload assets, rename, favorite, organize into folders, and publish/revoke community visibility.
-- Create and save a canvas with draggable references, editable notes and generation nodes.
-- Prepare a marketing brief, generate campaign directions and send a concept to image studio.
-- Profile settings, provider connection, template-based creative planning, help and responsive navigation.
+- Landing page at `/` with a prompt bar that hands the idea to the studio.
+- Browse inspiration, search, presets, model choices and creative directions.
+- Create concept previews; inspect history, reuse prompts and download results.
+- Upload assets, rename, favorite, organize into folders, and publish or revoke them.
+- Save a canvas with draggable references, editable notes and generation nodes.
+- Prepare a marketing brief, generate campaign directions and send one to the image studio.
+- Profile, provider connection, template-based planning, help and responsive navigation.
 
-Live generation supports the documented Higgsfield **Soul 2** text-to-image and **Seedance 2.0** text-to-video endpoints. Enter your own full API key in Settings. The key stays in an HTTP-only session cookie; calls and result storage happen server-side. It is never committed. No funded provider key was available during development, so actual paid output has not been verified.
+Live generation supports Higgsfield **Soul 2** text-to-image and **Seedance 2.0**
+text-to-video. Each user enters their own API key in Settings; it stays in an HTTP-only cookie
+and is used only server-side. No funded key was available during development, so paid output
+has not been verified.
 
-Concept previews are clearly labeled procedural SVGs. Video previews do not export actual video. Audio plays browser speech synthesis and has no downloadable output. Other models, advanced video editing, motion control, commerce and cross-device account recovery remain outside the shipped integration scope. Plans are illustrative and do not charge money.
+Concept previews are clearly labelled procedural SVGs. Audio plays browser speech synthesis.
+Other models, advanced editing, payments and recoverable accounts are not built; plans are
+illustrative.
 
 ## Deployment
 
-The user will deploy on Vercel. The frontend can use the generated `dist/client` assets, but the current API is a Cloudflare Worker backed by D1 and R2. A complete Vercel deployment requires adapting the API and storage integrations or configuring a separately hosted backend. The user has reported deleting the previous ChatGPT-hosted deployment; do not republish it.
+Vercel for the app and API, Supabase for Postgres and storage. Follow
+[the deployment guide](docs/DEPLOYMENT.md). The hosted path has not been exercised yet.
 
-## Structure and research
+## Research and process
 
-See [architecture](docs/ARCHITECTURE.md), [coverage](docs/COVERAGE.md) and [walkthrough](docs/WALKTHROUGH.md). All 140 Mobbin flow records and 557 unique reference-screen identifiers are inventoried under `recon/`. Reference screenshots remain local and are excluded from the public repository. Original implementation; no unlicensed clone source was copied. Photographic asset sources are recorded in `public/media/asset-sources.json`.
+All 140 Mobbin flow records and 557 unique reference-screen identifiers are inventoried under
+`recon/`; screenshots stay local. See [coverage](docs/COVERAGE.md) and
+[walkthrough](docs/WALKTHROUGH.md). Original implementation; no third-party clone source was
+copied. Photo sources are recorded in `recon/asset-sources.json`.
 
-Development prompt/final-response logs live in `.agent-logs/`. Project-origin branding is redacted at the user's request; the logs are not unmodified transcripts. See [capture status](CAPTURE-TEST.md).
+How the project was built with AI agents, step by step: [AI workflow](docs/AI-WORKFLOW.md).
+
+Prompt and final-response logs from Codex, Claude Code and its parallel sub-agents live in `.agent-logs/`. Project-origin
+branding is redacted at the user's request, so the logs are not unmodified transcripts. See
+[capture status](CAPTURE-TEST.md).

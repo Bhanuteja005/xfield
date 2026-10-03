@@ -1,0 +1,36 @@
+.asset-card {
+  position: relative;
+}
+.asset-card.selected {
+  border-color: var(--lime);
+}
+.asset-select {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  accent-color: var(--lime);
+  cursor: pointer;
+}
+.selection-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 16px;
+  padding: 10px 14px;
+  border: 1px solid #3d4a14;
+  border-radius: 12px;
+  background: #161a0b;
+}
+.selection-bar b {
+  margin-right: auto;
+  font-size: 14px;
+}
+.selection-bar select {
+  width: auto;
+  padding: 9px 12px;
+}

@@ -21,8 +21,41 @@ export const assetUpdate = z.object({
   favorite: z.boolean().optional(),
   published: z.boolean().optional(),
 });
+export type AssetUpdate = z.infer<typeof assetUpdate>;
 export const profileUpdate = z.object({ name: z.string().trim().min(1).max(60) });
 export const folderInput = z.object({ name: z.string().trim().min(1).max(80) });
+export const providerKeyInput = z.object({
+  key: z
+    .string()
+    .trim()
+    .min(1, 'Paste the complete provider key.')
+    .max(512)
+    .regex(/^[^\r\n;]+$/, 'Paste the complete provider key.'),
+});
+export const credentialsInput = z.object({
+  email: z.string().trim().toLowerCase().pipe(z.email('Enter a valid email address.').max(254)),
+  password: z.string().min(8, 'Use at least 8 characters.').max(200),
+});
+export type CredentialsInput = z.infer<typeof credentialsInput>;
+export const bulkAssetInput = z.discriminatedUnion('action', [
+  z.object({ action: z.literal('delete'), ids: z.array(z.uuid()).min(1).max(100) }),
+  z.object({
+    action: z.literal('move'),
+    ids: z.array(z.uuid()).min(1).max(100),
+    folder: z.string().max(80),
+  }),
+  z.object({
+    action: z.literal('favorite'),
+    ids: z.array(z.uuid()).min(1).max(100),
+    favorite: z.boolean(),
+  }),
+]);
+export type BulkAssetInput = z.infer<typeof bulkAssetInput>;
+export const pageQuery = z.object({
+  limit: z.coerce.number().int().min(1).max(500).optional(),
+  before: z.coerce.number().int().positive().optional(),
+});
+export type PageQuery = z.infer<typeof pageQuery>;
 export const canvasNode = z.object({
   id: z.string().min(1).max(80),
   type: z.enum(['note', 'image', 'generation']),
@@ -39,34 +72,33 @@ export const projectInput = z.object({
   name: z.string().trim().min(1).max(80),
   data: z.object({ nodes: z.array(canvasNode).max(100).default([]) }).default({ nodes: [] }),
 });
+export type ProjectInput = z.infer<typeof projectInput>;
 export interface Asset {
   id: string;
-  owner: string;
   name: string;
   kind: 'image' | 'video' | 'audio';
   url: string;
   prompt: string;
   model: string;
   folder: string;
-  favorite: number;
-  published: number;
+  favorite: boolean;
+  published: boolean;
   created: number;
 }
 export interface Workspace {
   name: string;
   connected: boolean;
-  signedIn: boolean;
+  /** The signed-in account, or null for a guest workspace. */
   email: string | null;
 }
+export type JobStatus = 'processing' | 'completed' | 'failed' | 'nsfw' | 'canceled';
 export interface Job {
   id: string;
-  owner: string;
-  token: string;
   prompt: string;
   model: string;
   kind: 'image' | 'video' | 'audio';
-  settings: string;
-  status: 'processing' | 'completed' | 'failed' | 'nsfw' | 'canceled';
+  settings: Omit<GenerationInput, 'token'>;
+  status: JobStatus;
   provider: string | null;
   asset: string | null;
   error: string | null;
@@ -84,13 +116,11 @@ export interface CanvasNode {
 }
 export interface Project {
   id: string;
-  owner: string;
   name: string;
   data: { nodes: CanvasNode[] };
   created: number;
 }
 export interface Folder {
   id: string;
-  owner: string;
   name: string;
 }

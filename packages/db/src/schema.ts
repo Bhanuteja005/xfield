@@ -1,27 +1,36 @@
-import { sqliteTable, text, integer, index, uniqueIndex } from 'drizzle-orm/sqlite-core';
-export const workspaces = sqliteTable('workspaces', {
+import { bigint, boolean, index, jsonb, pgTable, text, uniqueIndex } from 'drizzle-orm/pg-core';
+
+// Timestamps are epoch milliseconds so the API and the browser share one representation.
+const createdAt = () => bigint('created', { mode: 'number' }).notNull();
+
+export const workspaces = pgTable('workspaces', {
   id: text('id').primaryKey(),
   name: text('name').notNull().default('Creator'),
-  created: integer('created').notNull(),
+  created: createdAt(),
 });
-export const assets = sqliteTable(
+
+export const assets = pgTable(
   'assets',
   {
     id: text('id').primaryKey(),
     owner: text('owner').notNull(),
     name: text('name').notNull(),
-    kind: text('kind').notNull(),
+    kind: text('kind', { enum: ['image', 'video', 'audio'] }).notNull(),
     url: text('url').notNull(),
     prompt: text('prompt').notNull().default(''),
     model: text('model').notNull().default('Upload'),
     folder: text('folder').notNull().default(''),
-    favorite: integer('favorite').notNull().default(0),
-    published: integer('published').notNull().default(0),
-    created: integer('created').notNull(),
+    favorite: boolean('favorite').notNull().default(false),
+    published: boolean('published').notNull().default(false),
+    created: createdAt(),
   },
-  (t) => [index('idx_assets_owner_created').on(t.owner, t.created)],
+  (table) => [
+    index('idx_assets_owner_created').on(table.owner, table.created),
+    index('idx_assets_published_created').on(table.published, table.created),
+  ],
 );
-export const jobs = sqliteTable(
+
+export const jobs = pgTable(
   'jobs',
   {
     id: text('id').primaryKey(),
@@ -29,32 +38,62 @@ export const jobs = sqliteTable(
     token: text('token').notNull(),
     prompt: text('prompt').notNull(),
     model: text('model').notNull(),
-    kind: text('kind').notNull(),
-    settings: text('settings').notNull(),
-    status: text('status').notNull(),
+    kind: text('kind', { enum: ['image', 'video', 'audio'] }).notNull(),
+    settings: jsonb('settings').notNull(),
+    status: text('status', {
+      enum: ['processing', 'completed', 'failed', 'nsfw', 'canceled'],
+    }).notNull(),
     provider: text('provider'),
     asset: text('asset'),
     error: text('error'),
-    created: integer('created').notNull(),
+    created: createdAt(),
   },
-  (t) => [
-    index('idx_jobs_owner_created').on(t.owner, t.created),
-    uniqueIndex('idx_jobs_owner_token').on(t.owner, t.token),
+  (table) => [
+    index('idx_jobs_owner_created').on(table.owner, table.created),
+    uniqueIndex('idx_jobs_owner_token').on(table.owner, table.token),
   ],
 );
-export const projects = sqliteTable(
+
+export const projects = pgTable(
   'projects',
   {
     id: text('id').primaryKey(),
     owner: text('owner').notNull(),
     name: text('name').notNull(),
-    data: text('data').notNull(),
-    created: integer('created').notNull(),
+    data: jsonb('data').notNull(),
+    created: createdAt(),
   },
-  (t) => [index('idx_projects_owner').on(t.owner)],
+  (table) => [index('idx_projects_owner').on(table.owner, table.created)],
 );
-export const folders = sqliteTable(
+
+export const folders = pgTable(
   'folders',
-  { id: text('id').primaryKey(), owner: text('owner').notNull(), name: text('name').notNull() },
-  (t) => [index('idx_folders_owner').on(t.owner)],
+  {
+    id: text('id').primaryKey(),
+    owner: text('owner').notNull(),
+    name: text('name').notNull(),
+  },
+  (table) => [index('idx_folders_owner').on(table.owner)],
+);
+
+export const users = pgTable('users', {
+  id: text('id').primaryKey(),
+  email: text('email').notNull().unique(),
+  passwordHash: text('password_hash').notNull(),
+  // The workspace this account owns. A guest workspace is adopted at sign-up.
+  workspaceId: text('workspace_id').notNull().unique(),
+  created: createdAt(),
+});
+
+export const sessions = pgTable(
+  'sessions',
+  {
+    // SHA-256 of the session token, so a database leak does not expose live sessions.
+    id: text('id').primaryKey(),
+    userId: text('user_id')
+      .notNull()
+      .references(() => users.id, { onDelete: 'cascade' }),
+    expires: bigint('expires', { mode: 'number' }).notNull(),
+  },
+  (table) => [index('idx_sessions_user').on(table.userId)],
 );

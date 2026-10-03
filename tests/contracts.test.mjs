@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { generationInput, assetUpdate, profileUpdate } from '../packages/shared/src/contracts.ts';
-import { previewSvg } from '../apps/api/src/services/previews.mjs';
+import { generationInput, assetUpdate, profileUpdate } from '../packages/shared/src/index.ts';
+import { previewSvg } from '../packages/api/src/services/preview.service.ts';
 const valid = {
   token: crypto.randomUUID(),
   prompt: 'A mountain at dawn',

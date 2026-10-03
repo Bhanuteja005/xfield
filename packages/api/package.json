@@ -1,0 +1,19 @@
+{
+  "name": "@xfield/api",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "@xfield/db": "*",
+    "@xfield/shared": "*",
+    "drizzle-orm": "^0.45.3",
+    "zod": "^4.6.5"
+  }
+}

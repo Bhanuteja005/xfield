@@ -1,9 +1,12 @@
 node_modules/
+.next/
 dist/
+.data/
 .wrangler/
 .sites-runtime/
 .env*
 !.env.example
-.dev.vars
 capture-errors.log
 recon/screens/
+next-env.d.ts
+*.tsbuildinfo

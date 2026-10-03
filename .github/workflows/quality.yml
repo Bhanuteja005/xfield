@@ -4,7 +4,26 @@ permissions:
   contents: read
 jobs:
   verify:
+    name: verify (${{ matrix.database }})
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # embedded: zero-setup in-process Postgres, the local development default.
+        # postgres: a real server over the network driver, the production path.
+        database: [embedded, postgres]
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_PASSWORD: ci
+          POSTGRES_DB: xfield
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U postgres" --health-interval 5s
+          --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL: ${{ matrix.database == 'postgres' && 'postgresql://postgres:ci@127.0.0.1:5432/xfield' || '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -16,14 +35,16 @@ jobs:
       - run: npm run lint
       - run: npm run typecheck
       - run: npm run build
-      - run: npm run db:local
-      - name: Test real local API and contracts
+      - name: Apply migrations
+        if: matrix.database == 'postgres'
+        run: npm run db:migrate
+      - name: Test the real API and contracts
         run: |
-          npm run backend > /tmp/xfield-worker.log 2>&1 &
-          WORKER_PID=$!
-          trap 'kill "$WORKER_PID"' EXIT
+          npm run start > /tmp/xfield.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID"; cat /tmp/xfield.log' EXIT
           for attempt in $(seq 1 30); do
-            curl --fail --silent http://127.0.0.1:8787/api/session && break
+            curl --fail --silent http://127.0.0.1:3000/api/health && break
             sleep 1
           done
           npm run test

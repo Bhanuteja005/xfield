@@ -1,24 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-const base = process.env.TEST_API_ORIGIN || 'http://127.0.0.1:8787';
-function client() {
-  let cookie = '';
-  return async (path, method = 'GET', body) => {
-    const res = await fetch(base + '/api' + path, {
-      method,
-      headers: {
-        Origin: base,
-        ...(cookie ? { Cookie: cookie } : {}),
-        ...(body && !(body instanceof FormData) ? { 'Content-Type': 'application/json' } : {}),
-      },
-      ...(body ? { body: body instanceof FormData ? body : JSON.stringify(body) } : {}),
-    });
-    const set = res.headers.get('set-cookie');
-    if (set?.startsWith('xf_workspace=')) cookie = set.split(';')[0];
-    return { status: res.status, data: await res.json(), res };
-  };
-}
+import { base, client } from './helpers.mjs';
+
 test('workspace isolation, persistent uploads, folders, projects and publishing', async () => {
   const owner = client(),
     other = client();
@@ -27,12 +11,12 @@ test('workspace isolation, persistent uploads, folders, projects and publishing'
   const form = new FormData();
   form.append(
     'file',
-    new File([fs.readFileSync('public/media/portrait.jpg')], 'reference.jpg', {
+    new File([fs.readFileSync('apps/web/public/media/portrait.jpg')], 'reference.jpg', {
       type: 'image/jpeg',
     }),
   );
   const upload = await owner('/upload', 'POST', form);
-  assert.equal(upload.status, 200);
+  assert.equal(upload.status, 201);
   const id = upload.data.id;
   assert.equal(
     (await owner('/assets')).data.some((a) => a.id === id),
@@ -45,14 +29,14 @@ test('workspace isolation, persistent uploads, folders, projects and publishing'
   assert.equal((await other('/assets/' + id, 'PATCH', { name: 'stolen' })).status, 404);
   assert.equal((await fetch(base + '/api/media/' + id)).status, 404);
   const folder = await owner('/folders', 'POST', { name: 'Campaign' });
-  assert.equal(folder.status, 200);
+  assert.equal(folder.status, 201);
   await owner('/assets/' + id, 'PATCH', {
     favorite: true,
     folder: folder.data.id,
     name: 'Renamed reference',
   });
   const asset = (await owner('/assets')).data.find((a) => a.id === id);
-  assert.equal(asset.favorite, 1);
+  assert.equal(asset.favorite, true);
   assert.equal(asset.name, 'Renamed reference');
   await owner('/folders/' + folder.data.id, 'PATCH', { name: 'New campaign' });
   assert.equal(
@@ -63,7 +47,7 @@ test('workspace isolation, persistent uploads, folders, projects and publishing'
     name: 'Test canvas',
     data: { nodes: [{ id: 'a', type: 'note', text: 'An idea', x: 20, y: 30 }] },
   });
-  assert.equal(project.status, 200);
+  assert.equal(project.status, 201);
   assert.equal(
     (await other('/projects')).data.some((p) => p.id === project.data.id),
     false,
@@ -106,7 +90,7 @@ test('generation is validated, idempotent and creates a stored result', async ()
   };
   assert.equal((await c('/jobs', 'POST', { ...body, prompt: '' })).status, 400);
   const first = await c('/jobs', 'POST', body);
-  assert.equal(first.status, 200);
+  assert.equal(first.status, 201);
   const again = await c('/jobs', 'POST', body);
   assert.equal(again.data.id, first.data.id);
   let job;
@@ -135,4 +119,40 @@ test('mutations reject cross-origin requests and dangerous uploads', async () =>
   const form = new FormData();
   form.append('file', new File(['<script>bad</script>'], 'unsafe.html', { type: 'text/html' }));
   assert.equal((await c('/upload', 'POST', form)).status, 400);
+});
+test('responses never expose the workspace credential or accept spoofed file types', async () => {
+  const c = client();
+  await c('/session');
+  const spoofed = new FormData();
+  spoofed.append('file', new File(['<svg onload=alert(1)>'], 'fake.png', { type: 'image/png' }));
+  assert.equal((await c('/upload', 'POST', spoofed)).status, 400);
+  const real = new FormData();
+  real.append(
+    'file',
+    new File([fs.readFileSync('apps/web/public/media/city.jpg')], 'city.jpg', {
+      type: 'image/jpeg',
+    }),
+  );
+  const upload = await c('/upload', 'POST', real);
+  const project = await c('/projects', 'POST', { name: 'Leak check', data: { nodes: [] } });
+  for (const path of ['/assets', '/projects', '/jobs', '/folders'])
+    for (const row of (await c(path)).data) {
+      assert.equal('owner' in row, false);
+      assert.equal('token' in row, false);
+    }
+  await c('/assets/' + upload.data.id, 'DELETE');
+  await c('/projects/' + project.data.id, 'DELETE');
+});
+test('unknown resources and methods return precise statuses', async () => {
+  const c = client();
+  await c('/session');
+  const missing = crypto.randomUUID();
+  assert.equal((await c('/projects/' + missing, 'PATCH', { name: 'x', data: {} })).status, 404);
+  assert.equal((await c('/folders/' + missing, 'PATCH', { name: 'x' })).status, 404);
+  assert.equal((await c('/assets/' + missing, 'DELETE')).status, 404);
+  const wrongMethod = await c('/assets', 'DELETE');
+  assert.equal(wrongMethod.status, 405);
+  assert.equal(wrongMethod.res.headers.get('allow'), 'GET');
+  assert.equal((await c('/nothing-here')).status, 404);
+  assert.equal((await fetch(base + '/api/health')).status, 200);
 });

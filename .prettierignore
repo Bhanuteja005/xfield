@@ -1,8 +1,8 @@
 node_modules
-dist
-.wrangler
+.next
+.data
 .git
 .agent-logs
 recon
-drizzle/meta
-scripts/capture.mjs
+packages/db/migrations
+next-env.d.ts
