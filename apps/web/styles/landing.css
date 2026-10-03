@@ -1,7 +1,8 @@
 .landing {
   min-height: 100vh;
   background: #0b0c0d;
-  overflow-x: hidden;
+  /* clip, not hidden: hidden would make this a scroll container and break the sticky nav. */
+  overflow-x: clip;
 }
 .landing-nav {
   position: sticky;
@@ -409,4 +410,39 @@
 }
 .landing-auth > a:first-child:hover {
   color: #fff;
+}
+.landing.with-banner {
+  --banner-h: 36px;
+  padding-top: var(--banner-h);
+}
+.landing-nav {
+  top: var(--banner-h);
+  gap: 18px;
+}
+.landing-nav .main-nav {
+  margin: 0;
+  gap: 2px;
+  font-size: inherit;
+}
+.landing-pricing {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #343638;
+  background: #1c1e20;
+}
+@media (max-width: 1100px) {
+  .landing-pricing {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .landing.with-banner {
+    --banner-h: 40px;
+  }
+}
+.landing-auth {
+  margin-left: auto;
 }

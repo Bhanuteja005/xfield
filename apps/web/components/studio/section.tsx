@@ -48,7 +48,14 @@ export function Section({ name }: { name: SectionName }) {
   if (!mounted) return null;
 
   if (isStudioSection(name))
-    return <Studio key={name} kind={STUDIO_KINDS[name]} cinema={name === 'cinema'} {...studio} />;
+    return (
+      <Studio
+        key={name + (studio.seed?.model ?? '')}
+        kind={STUDIO_KINDS[name]}
+        cinema={name === 'cinema'}
+        {...studio}
+      />
+    );
   if (name === 'canvas') return <CanvasPage studio={studio} />;
   const Page = PAGES[name];
   return <Page {...studio} />;

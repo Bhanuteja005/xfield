@@ -30,6 +30,7 @@ async function respond(request: Request, runtime: Runtime): Promise<Response> {
     workspaceId: session.workspaceId,
     email: session.email,
     sessionToken: session.token,
+    needsOnboarding: session.needsOnboarding,
     defer: runtime.defer,
   });
   return session.commit(response);

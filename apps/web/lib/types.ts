@@ -28,6 +28,7 @@ export const isOwned = (detail: Detail): detail is Asset => 'favorite' in detail
 /** Values one page hands to the next when navigating. */
 export interface Seed {
   prompt?: string;
+  model?: string;
   preset?: string;
   reference?: string;
   project?: Project;

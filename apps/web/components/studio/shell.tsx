@@ -2,6 +2,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 import { AuthDialog, KeyDialog } from '../../features/account';
+import { Onboarding } from '../../features/onboarding';
 import { api, post } from '../../lib/api';
 import type { SectionName } from '../../lib/sections';
 import {
@@ -19,22 +20,13 @@ import {
 import { ErrorBoundary } from '../ErrorBoundary';
 import { Button, Icon } from '../ui';
 import { AssetDetail } from './asset-detail';
+import { MainNav, PromoBanner, usePromoBanner } from './nav';
 import { StudioContext } from './context';
 
 const POLL_INTERVAL_MS = 3500;
 const TOAST_MS = 4000;
 const STUDIO_ROUTES = ['image', 'video', 'audio', 'cinema'];
 const SEARCHABLE_ROUTES = ['explore', 'community', 'apps', 'assets'];
-
-const TOP_NAV: [SectionName, string][] = [
-  ['explore', 'Explore'],
-  ['image', 'Image'],
-  ['video', 'Video'],
-  ['audio', 'Audio'],
-  ['cinema', 'Cinema studio'],
-  ['marketing', 'Marketing studio'],
-  ['apps', 'Apps'],
-];
 
 type RailItem = [SectionName, string, string];
 const RAIL_GROUPS: [string, RailItem[]][] = [
@@ -68,7 +60,7 @@ const RAIL_GROUPS: [string, RailItem[]][] = [
   ],
 ];
 
-const GUEST: Workspace = { name: 'Creator', connected: false, email: null };
+const GUEST: Workspace = { name: 'Creator', connected: false, email: null, onboarding: false };
 
 export function StudioShell({ children }: { children: ReactNode }) {
   const router = useRouter();
@@ -120,8 +112,9 @@ export function StudioShell({ children }: { children: ReactNode }) {
   useEffect(() => {
     // A prompt handed over from the landing page arrives in the query string.
     const query = new URLSearchParams(window.location.search);
-    const prompt = query.get('prompt');
-    if (prompt) setSeed({ prompt });
+    const prompt = query.get('prompt') ?? undefined;
+    const model = query.get('model') ?? undefined;
+    if (prompt || model) setSeed({ prompt, model });
     // Sign-in links and the OAuth callback report back through the query string.
     const auth = query.get('auth');
     const authError = query.get('auth_error');
@@ -210,6 +203,7 @@ export function StudioShell({ children }: { children: ReactNode }) {
     [go, notify, refresh, mutate, assets, jobs, projects, folders, session, seed, search, loading],
   );
 
+  const banner = usePromoBanner(!loading && !session.email);
   const busy = jobs.filter((job) => job.status === 'processing').length;
   const railButton = ([target, icon, label]: RailItem) => (
     <button key={target} className={route === target ? 'active' : ''} onClick={() => go(target)}>
@@ -221,7 +215,10 @@ export function StudioShell({ children }: { children: ReactNode }) {
 
   return (
     <StudioContext.Provider value={studio}>
-      <div className="app">
+      <div className={`app ${banner.shown ? 'with-banner' : ''}`}>
+        {banner.shown && (
+          <PromoBanner onSignUp={() => setDialog('signup')} dismiss={banner.dismiss} />
+        )}
         <header className="topbar">
           <button
             className="mobile-menu"
@@ -236,38 +233,44 @@ export function StudioShell({ children }: { children: ReactNode }) {
               xfield<span className="brand-dot">.</span>
             </span>
           </button>
-          <nav aria-label="Main navigation">
-            {TOP_NAV.map(([target, label]) => (
-              <button
-                key={target}
-                onClick={() => go(target)}
-                className={route === target ? 'active' : ''}
-              >
-                {label}
-                {target === 'marketing' && <span className="tiny-label">NEW</span>}
-              </button>
-            ))}
-          </nav>
+          <MainNav active={route} go={go} />
           <div className="top-actions">
-            <div className="searchbox">
-              <Icon name="Search" size={15} />
-              <input
-                id="global-search"
-                aria-label="Search creations"
-                placeholder="Search anything"
-                value={search}
-                onChange={(event) => {
-                  if (!SEARCHABLE_ROUTES.includes(route)) router.push('/explore');
-                  setSearch(event.target.value);
-                }}
-              />
-              <kbd>⌘ K</kbd>
-            </div>
-            <Button icon="Gem" onClick={() => go('pricing')}>
-              Upgrade
-            </Button>
-            {!session.email && (
+            {session.email ? (
               <>
+                <div className="searchbox">
+                  <Icon name="Search" size={15} />
+                  <input
+                    id="global-search"
+                    aria-label="Search creations"
+                    placeholder="Search"
+                    value={search}
+                    onChange={(event) => {
+                      if (!SEARCHABLE_ROUTES.includes(route)) router.push('/explore');
+                      setSearch(event.target.value);
+                    }}
+                  />
+                  <kbd>⌘ K</kbd>
+                </div>
+                <Button icon="Rocket" className="upgrade-pill" onClick={() => go('pricing')}>
+                  Upgrade
+                </Button>
+                <Button icon="FolderOpen" className="assets-pill" onClick={() => go('assets')}>
+                  Assets
+                </Button>
+                <button
+                  className="avatar"
+                  aria-label="Account menu"
+                  aria-expanded={menu}
+                  onClick={() => setMenu(!menu)}
+                >
+                  {session.name.slice(0, 1).toUpperCase()}
+                </button>
+              </>
+            ) : (
+              <>
+                <Button icon="Gem" className="pricing-pill" onClick={() => go('pricing')}>
+                  Pricing
+                </Button>
                 <Button className="auth-login" onClick={() => setDialog('signin')}>
                   Login
                 </Button>
@@ -276,39 +279,34 @@ export function StudioShell({ children }: { children: ReactNode }) {
                 </Button>
               </>
             )}
-            <button className="avatar" aria-label="Account menu" onClick={() => setMenu(!menu)}>
-              {session.name.slice(0, 1).toUpperCase()}
-            </button>
           </div>
-          {menu && (
-            <div className="account-menu">
-              <b>{session.name}</b>
-              <small>{session.email ?? 'Guest workspace · saved on this browser'}</small>
-              <Button icon="User" onClick={() => go('settings')}>
-                Your profile
-              </Button>
-              <Button icon="KeyRound" onClick={() => setDialog('key')}>
+          {menu && session.email && (
+            <div className="account-menu" role="menu">
+              <div className="account-head">
+                <span className="avatar">{session.name.slice(0, 1).toUpperCase()}</span>
+                <span>
+                  <b>{session.name}</b>
+                  <small>{session.email}</small>
+                </span>
+              </div>
+              <hr />
+              <button role="menuitem" onClick={() => go('settings')}>
+                <Icon name="User" size={16} /> View profile
+              </button>
+              <button role="menuitem" onClick={() => setDialog('key')}>
+                <Icon name="KeyRound" size={16} />
                 {session.connected ? 'Manage API key' : 'Connect API key'}
-              </Button>
-              <Button icon="Gem" onClick={() => go('pricing')}>
-                View plans
-              </Button>
-              {session.email ? (
-                <Button icon="LogOut" onClick={signOut}>
-                  Sign out
-                </Button>
-              ) : (
-                <Button
-                  primary
-                  icon="User"
-                  onClick={() => {
-                    setMenu(false);
-                    setDialog('signup');
-                  }}
-                >
-                  Sign up or log in
-                </Button>
-              )}
+              </button>
+              <button role="menuitem" onClick={() => go('pricing')}>
+                <Icon name="Gem" size={16} /> Plans
+              </button>
+              <button role="menuitem" onClick={() => go('community')}>
+                <Icon name="Users" size={16} /> Join community
+              </button>
+              <hr />
+              <button role="menuitem" onClick={signOut}>
+                <Icon name="LogOut" size={16} /> Sign out
+              </button>
             </div>
           )}
         </header>
@@ -363,6 +361,15 @@ export function StudioShell({ children }: { children: ReactNode }) {
           </div>
         )}
         {detail && <AssetDetail detail={detail} />}
+        {session.onboarding && (
+          <Onboarding
+            done={async () => {
+              await refresh();
+              notify('Welcome to Xfield. Your studio is ready.');
+              go('explore');
+            }}
+          />
+        )}
         {dialog === 'key' && (
           <KeyDialog
             session={session}

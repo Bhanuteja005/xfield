@@ -1,8 +1,9 @@
-import { profileUpdate, providerKeyInput, type Workspace } from '@xfield/shared';
+import { onboardingInput, profileUpdate, providerKeyInput, type Workspace } from '@xfield/shared';
 import { PROVIDER_KEY_COOKIE } from '../config.ts';
 import { getWorkspaceName, renameWorkspace } from '../services/account.service.ts';
+import { saveOnboarding } from '../services/auth.service.ts';
 import type { Controller } from '../shared/context.ts';
-import { isSecure, json, readCookie, serializeCookie } from '../shared/http.ts';
+import { HttpError, isSecure, json, readCookie, serializeCookie } from '../shared/http.ts';
 
 /** The caller's own provider key, held only in an HTTP-only cookie. */
 export function providerKey(request: Request): string {
@@ -25,8 +26,16 @@ export const getSession: Controller = async (context) => {
     name: await getWorkspaceName(context, context.workspaceId),
     connected: providerKey(context.request) !== '',
     email: context.email,
+    onboarding: context.needsOnboarding,
   };
   return json(session);
+};
+
+export const completeOnboarding: Controller = async (context) => {
+  if (!context.email) throw new HttpError(401, 'Sign in to continue.');
+  const { answers } = onboardingInput.parse(await context.request.json());
+  await saveOnboarding(context, context.email, answers);
+  return json({ ok: true });
 };
 
 export const updateProfile: Controller = async (context) => {

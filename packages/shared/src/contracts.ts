@@ -46,6 +46,13 @@ export const signUpInput = credentialsInput.extend({
   }),
 });
 export const emailInput = z.object({ email });
+const answer = z.union([z.string().max(80), z.array(z.string().max(80)).max(12)]);
+/** Onboarding answers keyed by question id; an empty object records a skip. */
+export const onboardingInput = z.object({
+  answers: z
+    .record(z.string().regex(/^[a-z_]{1,40}$/), answer)
+    .refine((answers) => Object.keys(answers).length <= 10, 'Too many answers.'),
+});
 export const verifyInput = z.object({
   email,
   code: z
@@ -121,6 +128,8 @@ export interface Workspace {
   connected: boolean;
   /** The signed-in account, or null for a guest workspace. */
   email: string | null;
+  /** True for a signed-in account that has not finished onboarding. */
+  onboarding: boolean;
 }
 export type JobStatus = 'processing' | 'completed' | 'failed' | 'nsfw' | 'canceled';
 export interface Job {

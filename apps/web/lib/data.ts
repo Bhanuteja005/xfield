@@ -154,3 +154,5 @@ export const videoModels = [
   'Wan 3.0',
   'MiniMax H3',
 ];
+/** The only models wired to the live provider, per output kind. */
+export const LIVE_MODELS = { image: 'Soul 2', video: 'Seedance 2.0' } as const;

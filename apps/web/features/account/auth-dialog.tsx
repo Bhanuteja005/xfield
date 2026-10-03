@@ -1,6 +1,6 @@
 'use client';
-import { useEffect, useState, type FormEvent } from 'react';
-import type { AuthProviders, SignUpResult } from '@xfield/shared';
+import { useEffect, useRef, useState, type FormEvent } from 'react';
+import type { AuthProviders, SignUpResult, Workspace } from '@xfield/shared';
 import { Button, Icon, Modal } from '../../components/ui';
 import { ApiError, api, post } from '../../lib/api';
 import { messageOf, type StudioApi } from '../../lib/types';
@@ -9,6 +9,7 @@ export type AuthMode = 'signin' | 'signup';
 type Step = 'welcome' | 'email' | 'verify' | 'forgot' | 'sent';
 
 const RESEND_SECONDS = 30;
+const VERIFY_POLL_MS = 3000;
 const NO_PROVIDERS: AuthProviders = { verification: false, recovery: false, google: false };
 
 interface AuthDialogProps extends Pick<StudioApi, 'refresh' | 'notify'> {
@@ -78,6 +79,24 @@ export function AuthDialog({ initial, close, refresh, notify }: AuthDialogProps)
     notify(message);
     close();
   };
+
+  // Opening the emailed link in another tab signs this browser in; notice it here.
+  const finishRef = useRef(finish);
+  useEffect(() => {
+    finishRef.current = finish;
+  });
+  useEffect(() => {
+    if (step !== 'verify') return;
+    const timer = setInterval(() => {
+      api<Workspace>('/session').then(
+        (session) => {
+          if (session.email) void finishRef.current('Email verified. You are signed in.');
+        },
+        () => undefined,
+      );
+    }, VERIFY_POLL_MS);
+    return () => clearInterval(timer);
+  }, [step]);
 
   const goTo = (next: Step) => {
     setError('');
@@ -271,10 +290,10 @@ export function AuthDialog({ initial, close, refresh, notify }: AuthDialogProps)
         {step === 'verify' && (
           <form onSubmit={submitCode}>
             <p>
-              We sent a verification code to <b>{email}</b>. Enter it below, or open the link in
-              that email.
+              We sent an email to <b>{email}</b>. Click the link in it to verify. This window signs
+              you in automatically once you do.
             </p>
-            <label htmlFor="auth-code">Verification code</label>
+            <label htmlFor="auth-code">Or enter the code from the email</label>
             <input
               id="auth-code"
               className="auth-code"

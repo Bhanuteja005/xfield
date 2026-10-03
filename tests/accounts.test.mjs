@@ -59,3 +59,18 @@ test(
     assert.equal(wrongPassword.data.error, unknownEmail.data.error);
   },
 );
+
+test('new accounts are onboarded once and guests cannot submit onboarding', local, async () => {
+  const guest = client();
+  assert.equal((await guest('/session')).data.onboarding, false);
+  assert.equal((await guest('/onboarding', 'POST', { answers: {} })).status, 401);
+
+  const browser = client();
+  assert.equal((await browser('/auth/signup', 'POST', credentials())).status, 201);
+  assert.equal((await browser('/session')).data.onboarding, true);
+  const bad = await browser('/onboarding', 'POST', { answers: { 'Bad Key': 'x' } });
+  assert.equal(bad.status, 400);
+  const answers = { use: 'personal', experience: 'expert', create: ['video', 'image'] };
+  assert.equal((await browser('/onboarding', 'POST', { answers })).status, 200);
+  assert.equal((await browser('/session')).data.onboarding, false);
+});

@@ -1,6 +1,7 @@
 'use client';
 import { useState, type FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
+import { MainNav, PromoBanner, usePromoBanner } from '../../components/studio/nav';
 import { Icon } from '../../components/ui';
 import { media, tools } from '../../lib/data';
 import type { RouteTarget, Seed } from '../../lib/types';
@@ -62,12 +63,15 @@ const faqs: [string, string][] = [
 export function Landing() {
   const router = useRouter();
   // A prompt travels to the studio in the query string, where the shell picks it up.
-  const go = (target: RouteTarget, data?: Pick<Seed, 'prompt'> | null) =>
-    router.push(
-      target === 'home'
-        ? '/'
-        : `/${target}${data?.prompt ? `?prompt=${encodeURIComponent(data.prompt)}` : ''}`,
-    );
+  const go = (target: RouteTarget, data?: Pick<Seed, 'prompt' | 'model'> | null) => {
+    if (target === 'home') return router.push('/');
+    const query = new URLSearchParams();
+    if (data?.prompt) query.set('prompt', data.prompt);
+    if (data?.model) query.set('model', data.model);
+    const rest = query.toString();
+    router.push(`/${target}${rest ? `?${rest}` : ''}`);
+  };
+  const banner = usePromoBanner(true);
   const [prompt, setPrompt] = useState('');
   const [kind, setKind] = useState<Kind>('image');
   const start = (event: FormEvent) => {
@@ -75,7 +79,13 @@ export function Landing() {
     go(kind, prompt.trim() ? { prompt: prompt.trim() } : null);
   };
   return (
-    <div className="landing">
+    <div className={`landing ${banner.shown ? 'with-banner' : ''}`}>
+      {banner.shown && (
+        <PromoBanner
+          onSignUp={() => router.push('/explore?auth=signup')}
+          dismiss={banner.dismiss}
+        />
+      )}
       <header className="landing-nav">
         <button className="brand" onClick={() => go('home')}>
           <span className="brand-icon">×</span>
@@ -83,16 +93,14 @@ export function Landing() {
             xfield<span className="brand-dot">.</span>
           </span>
         </button>
-        <nav aria-label="Page sections">
-          <a href="#studios">Studios</a>
-          <a href="#how">How it works</a>
-          <a href="#plans">Plans</a>
-          <a href="#faq">FAQ</a>
-        </nav>
+        <MainNav active="" go={go} />
         <div className="landing-auth">
-          <a href="/explore?auth=signin">Log in</a>
+          <a className="landing-pricing" href="/pricing">
+            <Icon name="Gem" size={15} /> Pricing
+          </a>
+          <a href="/explore?auth=signin">Login</a>
           <a className="landing-cta small" href="/explore?auth=signup">
-            Sign up <Icon name="ArrowUpRight" size={15} />
+            Sign up
           </a>
         </div>
       </header>

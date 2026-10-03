@@ -9,6 +9,7 @@ import { route, type Route } from '../shared/router.ts';
 export const routes: Route[] = [
   route('GET', '/api/session', account.getSession),
   route('PATCH', '/api/profile', account.updateProfile),
+  route('POST', '/api/onboarding', account.completeOnboarding),
   route('POST', '/api/key', account.saveProviderKey),
   route('DELETE', '/api/key', account.clearProviderKey),
 

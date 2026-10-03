@@ -83,6 +83,8 @@ export const users = pgTable('users', {
   passwordHash: text('password_hash'),
   // The Supabase Auth user id, when Supabase is the identity provider.
   authId: text('auth_id').unique(),
+  // Onboarding answers; null until the account finishes or skips onboarding.
+  onboarding: jsonb('onboarding'),
   // The workspace this account owns. A guest workspace is adopted at sign-up.
   workspaceId: text('workspace_id').notNull().unique(),
   created: createdAt(),

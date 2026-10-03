@@ -22,6 +22,7 @@ export interface RequestContext extends AuthDependencies {
   /** The signed-in account's email, or null for a guest. */
   email: string | null;
   sessionToken: string | null;
+  needsOnboarding: boolean;
   /** Schedules work that should finish after the response has been sent. */
   defer: (task: () => Promise<unknown>) => void;
 }

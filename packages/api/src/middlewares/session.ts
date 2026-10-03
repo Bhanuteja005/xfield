@@ -14,6 +14,8 @@ export interface Session {
   workspaceId: string;
   /** The signed-in account, or null for a guest. */
   email: string | null;
+  /** True for a signed-in account that has not finished onboarding. */
+  needsOnboarding: boolean;
   /** The raw session token when signed in, used to sign out. */
   token: string | null;
   /** Adds the guest cookie to the response when a workspace was just minted. */
@@ -43,7 +45,13 @@ export async function resolveSession(request: Request, deps: Dependencies): Prom
   // signing out really ends access to that workspace.
   const guest = readCookie(request, WORKSPACE_COOKIE);
   if (guest && WORKSPACE_ID.test(guest) && !(await isClaimed(deps, guest)))
-    return { workspaceId: guest, email: null, token: null, commit: (response) => response };
+    return {
+      workspaceId: guest,
+      email: null,
+      needsOnboarding: false,
+      token: null,
+      commit: (response) => response,
+    };
 
   const workspaceId = `w_${crypto.randomUUID()}`;
   const cookie = serializeCookie(WORKSPACE_COOKIE, workspaceId, {
@@ -54,6 +62,7 @@ export async function resolveSession(request: Request, deps: Dependencies): Prom
   return {
     workspaceId,
     email: null,
+    needsOnboarding: false,
     token: null,
     commit: (response) => withCookie(response, cookie),
   };

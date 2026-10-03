@@ -80,6 +80,11 @@ test('verifying the emailed code signs in and keeps guest work', options, async 
   assert.equal((await browser('/session')).data.email, email);
   assert.equal(await owns(browser, upload.data.id), true);
 
+  assert.equal((await browser('/session')).data.onboarding, true);
+  const answers = { use: 'team', source: 'youtube', create: ['ads'] };
+  assert.equal((await browser('/onboarding', 'POST', { answers })).status, 200);
+  assert.equal((await browser('/session')).data.onboarding, false);
+
   const phone = client();
   assert.equal((await phone('/auth/signin', 'POST', { email, password })).status, 200);
   assert.equal(await owns(phone, upload.data.id), true);

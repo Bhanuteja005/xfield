@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button, Empty, Icon, Modal } from '../../components/ui';
 import { api, post } from '../../lib/api';
-import { imageModels, media, presets, videoModels } from '../../lib/data';
+import { LIVE_MODELS, imageModels, media, presets, videoModels } from '../../lib/data';
 import { messageOf, type Asset, type Job, type StudioApi } from '../../lib/types';
 
 type Kind = Job['kind'];
@@ -25,12 +25,6 @@ const TAB_ICONS: Record<Tab, string> = {
 };
 
 const KIND_ICONS: Record<Kind, string> = { image: 'Image', audio: 'AudioLines', video: 'Video' };
-
-/** The only models wired to the live provider, per kind. */
-const LIVE_MODELS: Record<Exclude<Kind, 'audio'>, string> = {
-  image: 'Soul 2',
-  video: 'Seedance 2.0',
-};
 
 const RATIOS = ['16:9', '9:16', '1:1', '4:3', '3:4'];
 const DURATIONS = [5, 8, 10];
@@ -61,6 +55,13 @@ const sampleFor = (presetIndex: number) => media[presetIndex % media.length];
 
 const defaultModel = (kind: Kind) => (kind === 'audio' ? 'Voice preview' : LIVE_MODELS[kind]);
 
+/** A model named in the link that opened the studio, when this studio offers it. */
+const initialModel = (kind: Kind, requested?: string) => {
+  const offered: readonly string[] =
+    kind === 'image' ? imageModels : kind === 'video' ? videoModels : [];
+  return requested && offered.includes(requested) ? requested : defaultModel(kind);
+};
+
 export function Studio({
   kind,
   cinema,
@@ -74,7 +75,7 @@ export function Studio({
   setDetail,
 }: Props) {
   const [prompt, setPrompt] = useState(seed?.prompt || '');
-  const [model, setModel] = useState(defaultModel(kind));
+  const [model, setModel] = useState(initialModel(kind, seed?.model));
   const [preset, setPreset] = useState(seed?.preset || 'General');
   const [ratio, setRatio] = useState(kind === 'image' ? '1:1' : '16:9');
   const [duration, setDuration] = useState(5);

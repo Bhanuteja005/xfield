@@ -45,11 +45,16 @@ async function startSession({ db }: Dependencies, userId: string): Promise<strin
 /** The account behind a session token, or null when it is unknown or expired. */
 export async function findSession({ db }: Pick<Dependencies, 'db'>, token: string) {
   const [row] = await db
-    .select({ workspaceId: users.workspaceId, email: users.email })
+    .select({ workspaceId: users.workspaceId, email: users.email, onboarding: users.onboarding })
     .from(sessions)
     .innerJoin(users, eq(users.id, sessions.userId))
     .where(and(eq(sessions.id, digest(token)), gt(sessions.expires, Date.now())));
-  return row ?? null;
+  if (!row) return null;
+  return {
+    workspaceId: row.workspaceId,
+    email: row.email,
+    needsOnboarding: row.onboarding === null,
+  };
 }
 
 /** True when a guest workspace id has been adopted by an account. */
@@ -215,6 +220,15 @@ export async function signIn(
   const valid = await verifyPassword(password, user?.passwordHash ?? (await decoyHash));
   if (!user || !valid) throw new HttpError(401, INVALID_CREDENTIALS);
   return startSession(deps, user.id);
+}
+
+/** Records onboarding answers; an empty object marks it as skipped. */
+export async function saveOnboarding(
+  { db }: Pick<Dependencies, 'db'>,
+  email: string,
+  answers: Record<string, string | string[]>,
+) {
+  await db.update(users).set({ onboarding: answers }).where(eq(users.email, email));
 }
 
 export const signOut = ({ db }: Dependencies, token: string) =>
