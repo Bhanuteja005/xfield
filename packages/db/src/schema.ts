@@ -79,7 +79,10 @@ export const folders = pgTable(
 export const users = pgTable('users', {
   id: text('id').primaryKey(),
   email: text('email').notNull().unique(),
-  passwordHash: text('password_hash').notNull(),
+  // Null for accounts whose identity lives in Supabase Auth.
+  passwordHash: text('password_hash'),
+  // The Supabase Auth user id, when Supabase is the identity provider.
+  authId: text('auth_id').unique(),
   // The workspace this account owns. A guest workspace is adopted at sign-up.
   workspaceId: text('workspace_id').notNull().unique(),
   created: createdAt(),

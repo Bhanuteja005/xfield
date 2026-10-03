@@ -119,10 +119,23 @@ export function StudioShell({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     // A prompt handed over from the landing page arrives in the query string.
-    const prompt = new URLSearchParams(window.location.search).get('prompt');
+    const query = new URLSearchParams(window.location.search);
+    const prompt = query.get('prompt');
     if (prompt) setSeed({ prompt });
+    // Sign-in links and the OAuth callback report back through the query string.
+    const auth = query.get('auth');
+    const authError = query.get('auth_error');
+    if (auth === 'signin' || auth === 'signup') setDialog(auth);
+    if (auth === 'signed-in') notify('You are signed in');
+    if (authError) notify(authError);
+    if (auth || authError) {
+      query.delete('auth');
+      query.delete('auth_error');
+      const rest = query.toString();
+      window.history.replaceState(null, '', window.location.pathname + (rest ? '?' + rest : ''));
+    }
     void refresh();
-  }, [refresh]);
+  }, [refresh, notify]);
 
   // Poll only while something is rendering.
   useEffect(() => {
@@ -253,6 +266,16 @@ export function StudioShell({ children }: { children: ReactNode }) {
             <Button icon="Gem" onClick={() => go('pricing')}>
               Upgrade
             </Button>
+            {!session.email && (
+              <>
+                <Button className="auth-login" onClick={() => setDialog('signin')}>
+                  Login
+                </Button>
+                <Button primary className="auth-signup" onClick={() => setDialog('signup')}>
+                  Sign up
+                </Button>
+              </>
+            )}
             <button className="avatar" aria-label="Account menu" onClick={() => setMenu(!menu)}>
               {session.name.slice(0, 1).toUpperCase()}
             </button>
@@ -280,10 +303,10 @@ export function StudioShell({ children }: { children: ReactNode }) {
                   icon="User"
                   onClick={() => {
                     setMenu(false);
-                    setDialog('auth');
+                    setDialog('signup');
                   }}
                 >
-                  Create account or sign in
+                  Sign up or log in
                 </Button>
               )}
             </div>
@@ -348,8 +371,13 @@ export function StudioShell({ children }: { children: ReactNode }) {
             notify={notify}
           />
         )}
-        {dialog === 'auth' && (
-          <AuthDialog close={() => setDialog(null)} refresh={refresh} notify={notify} />
+        {(dialog === 'signin' || dialog === 'signup') && (
+          <AuthDialog
+            initial={dialog}
+            close={() => setDialog(null)}
+            refresh={refresh}
+            notify={notify}
+          />
         )}
       </div>
     </StudioContext.Provider>

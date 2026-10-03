@@ -33,7 +33,7 @@ export interface Seed {
   project?: Project;
 }
 
-export type DialogName = 'key' | 'auth';
+export type DialogName = 'key' | 'signin' | 'signup';
 export type RouteTarget = SectionName | 'home';
 
 /** Workspace data and actions shared by every studio page. */

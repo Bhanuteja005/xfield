@@ -1,4 +1,5 @@
 import { useState, type FormEvent } from 'react';
+export { AuthDialog } from './auth-dialog';
 import { Button, Heading, Icon, Modal } from '../../components/ui';
 import { api, patch, post } from '../../lib/api';
 import { messageOf, type StudioApi, type Workspace } from '../../lib/types';
@@ -199,7 +200,7 @@ export function Settings({ session, refresh, notify, setDialog, mutate }: Settin
                 You are using a guest workspace tied to this browser. Create an account to keep
                 everything you have made and reach it from other devices.
               </p>
-              <Button primary icon="User" onClick={() => setDialog('auth')}>
+              <Button primary icon="User" onClick={() => setDialog('signup')}>
                 Create account or sign in
               </Button>
             </>
@@ -212,74 +213,6 @@ export function Settings({ session, refresh, notify, setDialog, mutate }: Settin
 
 interface DialogProps extends Pick<StudioApi, 'refresh' | 'notify'> {
   close: () => void;
-}
-
-export function AuthDialog({ close, refresh, notify }: DialogProps) {
-  const [mode, setMode] = useState<'signup' | 'signin'>('signup');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [busy, setBusy] = useState(false);
-  const [error, setError] = useState('');
-  const creating = mode === 'signup';
-
-  const submit = async (event: FormEvent) => {
-    event.preventDefault();
-    setBusy(true);
-    setError('');
-    try {
-      await post(`/auth/${mode}`, { email, password });
-      await refresh();
-      notify(creating ? 'Account created. Your work is saved to it.' : 'Welcome back');
-      close();
-    } catch (failure) {
-      setError(messageOf(failure));
-    } finally {
-      setBusy(false);
-    }
-  };
-
-  return (
-    <Modal title={creating ? 'Create your account' : 'Sign in'} close={close}>
-      <p>
-        {creating
-          ? 'Everything in this guest workspace moves into your new account.'
-          : 'Signing in opens the workspace saved to your account.'}
-      </p>
-      <form onSubmit={submit}>
-        <label htmlFor="auth-email">Email</label>
-        <input
-          id="auth-email"
-          type="email"
-          autoComplete="email"
-          value={email}
-          onChange={(event) => setEmail(event.target.value)}
-          required
-          maxLength={254}
-        />
-        <label htmlFor="auth-password">Password</label>
-        <input
-          id="auth-password"
-          type="password"
-          autoComplete={creating ? 'new-password' : 'current-password'}
-          value={password}
-          onChange={(event) => setPassword(event.target.value)}
-          required
-          minLength={8}
-          maxLength={200}
-        />
-        {creating && <small>At least 8 characters.</small>}
-        {error && <p className="form-error">{error}</p>}
-        <div className="modal-actions">
-          <Button onClick={() => setMode(creating ? 'signin' : 'signup')}>
-            {creating ? 'I already have an account' : 'Create a new account'}
-          </Button>
-          <Button primary type="submit" disabled={busy}>
-            {busy ? 'One moment…' : creating ? 'Create account' : 'Sign in'}
-          </Button>
-        </div>
-      </form>
-    </Modal>
-  );
 }
 
 interface KeyDialogProps extends DialogProps {

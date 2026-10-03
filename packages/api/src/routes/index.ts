@@ -12,8 +12,16 @@ export const routes: Route[] = [
   route('POST', '/api/key', account.saveProviderKey),
   route('DELETE', '/api/key', account.clearProviderKey),
 
+  route('GET', '/api/auth/providers', auth.providers),
   route('POST', '/api/auth/signup', auth.signUp),
+  route('POST', '/api/auth/verify', auth.verify),
+  route('POST', '/api/auth/resend', auth.resend),
   route('POST', '/api/auth/signin', auth.signIn),
+  route('POST', '/api/auth/recover', auth.recover),
+  route('POST', '/api/auth/link', auth.signInWithLink),
+  route('POST', '/api/auth/reset', auth.resetPassword),
+  route('GET', '/api/auth/oauth/:provider', auth.startOAuth),
+  route('GET', '/api/auth/callback', auth.finishOAuth),
   route('POST', '/api/auth/signout', auth.signOut),
 
   route('GET', '/api/assets', asset.listAssets),

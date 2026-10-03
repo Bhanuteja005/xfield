@@ -3,6 +3,9 @@ export const PROVIDER_KEY_COOKIE = 'hf_key';
 export const WORKSPACE_COOKIE_MAX_AGE_SECONDS = 365 * 24 * 60 * 60;
 export const SESSION_COOKIE = 'xf_session';
 export const SESSION_TTL_MS = 30 * 24 * 60 * 60 * 1000;
+/** Holds the PKCE verifier while the browser is away at the OAuth provider. */
+export const OAUTH_COOKIE = 'xf_oauth';
+export const OAUTH_COOKIE_MAX_AGE_SECONDS = 10 * 60;
 
 /** Serverless request bodies are capped at 4.5 MB on Vercel; stay safely below it. */
 export const MAX_UPLOAD_BYTES = 4 * 1024 * 1024;

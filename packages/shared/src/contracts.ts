@@ -32,11 +32,42 @@ export const providerKeyInput = z.object({
     .max(512)
     .regex(/^[^\r\n;]+$/, 'Paste the complete provider key.'),
 });
-export const credentialsInput = z.object({
-  email: z.string().trim().toLowerCase().pipe(z.email('Enter a valid email address.').max(254)),
-  password: z.string().min(8, 'Use at least 8 characters.').max(200),
-});
+const email = z
+  .string()
+  .trim()
+  .toLowerCase()
+  .pipe(z.email('Enter a valid email address.').max(254));
+const password = z.string().min(8, 'Use at least 8 characters.').max(200);
+export const credentialsInput = z.object({ email, password });
 export type CredentialsInput = z.infer<typeof credentialsInput>;
+export const signUpInput = credentialsInput.extend({
+  acceptTerms: z.literal(true, {
+    error: 'Agree to the Terms and Privacy Policy and confirm you are 18 or older.',
+  }),
+});
+export const emailInput = z.object({ email });
+export const verifyInput = z.object({
+  email,
+  code: z
+    .string()
+    .trim()
+    // Supabase lets each project choose a code length between 6 and 10 digits.
+    .regex(/^\d{6,10}$/, 'Enter the code from the email.'),
+});
+export const accessTokenInput = z.object({ accessToken: z.string().min(20).max(4096) });
+export const passwordResetInput = accessTokenInput.extend({ password });
+/** The sign-in methods this deployment offers. */
+export interface AuthProviders {
+  /** Email sign-up needs a verification code before the first sign-in. */
+  verification: boolean;
+  recovery: boolean;
+  google: boolean;
+}
+export interface SignUpResult {
+  email: string;
+  /** True when the account exists but must be verified before signing in. */
+  pending: boolean;
+}
 export const bulkAssetInput = z.discriminatedUnion('action', [
   z.object({ action: z.literal('delete'), ids: z.array(z.uuid()).min(1).max(100) }),
   z.object({

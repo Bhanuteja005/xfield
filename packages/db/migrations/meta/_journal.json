@@ -15,6 +15,13 @@
       "when": 1790974833903,
       "tag": "0001_accounts",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1791032233400,
+      "tag": "0002_supabase_auth",
+      "breakpoints": true
     }
   ]
 }

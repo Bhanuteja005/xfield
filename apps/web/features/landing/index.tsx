@@ -89,9 +89,12 @@ export function Landing() {
           <a href="#plans">Plans</a>
           <a href="#faq">FAQ</a>
         </nav>
-        <button className="landing-cta small" onClick={() => go('explore')}>
-          Open studio <Icon name="ArrowUpRight" size={15} />
-        </button>
+        <div className="landing-auth">
+          <a href="/explore?auth=signin">Log in</a>
+          <a className="landing-cta small" href="/explore?auth=signup">
+            Sign up <Icon name="ArrowUpRight" size={15} />
+          </a>
+        </div>
       </header>
 
       <section className="landing-hero">

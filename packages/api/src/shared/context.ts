@@ -1,4 +1,5 @@
 import type { Database } from '@xfield/db';
+import type { Identity } from '../infrastructure/identity/types.ts';
 import type { MediaStorage } from '../infrastructure/storage/types.ts';
 
 /** Infrastructure a service may use. Passed in so services stay free of globals. */
@@ -7,7 +8,12 @@ export interface Dependencies {
   storage: MediaStorage;
 }
 
-export interface RequestContext extends Dependencies {
+export interface AuthDependencies extends Dependencies {
+  /** Null when accounts are verified locally against stored password hashes. */
+  identity: Identity | null;
+}
+
+export interface RequestContext extends AuthDependencies {
   request: Request;
   url: URL;
   params: Record<string, string>;

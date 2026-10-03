@@ -397,3 +397,16 @@
     transition: none;
   }
 }
+
+.landing-auth {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 14px;
+}
+.landing-auth > a:first-child {
+  color: #d6d8d8;
+}
+.landing-auth > a:first-child:hover {
+  color: #fff;
+}

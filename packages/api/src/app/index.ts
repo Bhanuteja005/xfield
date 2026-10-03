@@ -1,4 +1,5 @@
 import { getDatabase } from '@xfield/db';
+import { getIdentity } from '../infrastructure/identity/index.ts';
 import { getStorage } from '../infrastructure/storage/index.ts';
 import { toErrorResponse } from '../middlewares/error.ts';
 import { assertTrustedOrigin } from '../middlewares/origin.ts';
@@ -19,7 +20,7 @@ async function respond(request: Request, runtime: Runtime): Promise<Response> {
   if (url.pathname === '/api/health') return json({ ok: true });
   assertTrustedOrigin(request);
   const { controller, params } = matchRoute(request.method, url.pathname);
-  const dependencies = { db: await getDatabase(), storage: getStorage() };
+  const dependencies = { db: await getDatabase(), storage: getStorage(), identity: getIdentity() };
   const session = await resolveSession(request, dependencies);
   const response = await controller({
     ...dependencies,
